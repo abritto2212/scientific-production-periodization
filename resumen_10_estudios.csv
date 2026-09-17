@@ -1,0 +1,11 @@
+﻿Caso,Hoja,Año Inicio,Año Fin,Periodo (Años),Total Pubs,Pico Máx (Año),Máx Pubs/Año,Promedio Anual
+Caso 1,1_Emprendi-innovador,2000,2023,24,1787,2021,206,74.5
+Caso 2,2_TopicModeling,2004,2021,18,1694,2020,273,94.1
+Caso 3,3_VirtualTeaching,2000,2022,23,368,2022,83,16.0
+Caso 4,4_ProduccionCafe,2000,2023,24,358,2023,36,14.9
+Caso 5,5_IA-ID,2003,2024,22,663,2024,142,30.1
+Caso 6,6_PotMicrobiano,2003,2024,22,796,2023,114,36.2
+Caso 7,7_PerspCiencio,2000,2022,23,273,2019,38,11.9
+Caso 8,8_TenTurismoSos,2000,2022,23,1004,2021,175,43.7
+Caso 9,9_AnaCiencLiderazgo,2000,2022,23,483,2022,94,21.0
+Caso 10,10_HumanGut,2000,2023,24,2165,2022,482,90.2
