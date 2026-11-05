@@ -1,0 +1,22 @@
+[
+  {
+    "path": "src/ruptures/detection/dynp.py",
+    "blob": "8afa935d88d51dd80ecc315fa07ca6e6eaf252ea"
+  },
+  {
+    "path": "src/ruptures/costs/costl2.py",
+    "blob": "f1d81f5215ea1ec70739629c9010af31a4e0e2ea"
+  },
+  {
+    "path": "src/ruptures/base.py",
+    "blob": "5becb9db64a4afd5682c4cac50356b7d4b0edc12"
+  },
+  {
+    "path": "src/ruptures/utils/utils.py",
+    "blob": "6db4fc7bcc846861d4b41070c9d937f92ff7f0a2"
+  },
+  {
+    "path": "src/ruptures/exceptions.py",
+    "blob": "1b98b3192b0ad0e3a9d82cb4eeb29fd242fd2ea3"
+  }
+]

@@ -1,0 +1,26 @@
+Commands: python -m unittest discover -s istl -p test_periodization.py -v; python istl/run.py
+
+test_all_segments_and_original_regression_bug (test_periodization.ValidationTests.test_all_segments_and_original_regression_bug) ... ok
+test_boundary_convention (test_periodization.ValidationTests.test_boundary_convention) ... ok
+test_derivative_length_filter_is_explicit (test_periodization.ValidationTests.test_derivative_length_filter_is_explicit) ... ok
+test_dynp_annual_candidates_and_global_optimum (test_periodization.ValidationTests.test_dynp_annual_candidates_and_global_optimum) ... ok
+test_impossible_segmentation (test_periodization.ValidationTests.test_impossible_segmentation) ... ok
+test_invalid_data (test_periodization.ValidationTests.test_invalid_data) ... ok
+test_regression_global_optimum (test_periodization.ValidationTests.test_regression_global_optimum) ... ok
+test_smoothing_keeps_decimals (test_periodization.ValidationTests.test_smoothing_keeps_decimals) ... ok
+test_xlsx_reader_rejects_missing_cells_and_duplicate_years (test_periodization.ValidationTests.test_xlsx_reader_rejects_missing_cells_and_duplicate_years) ... ok
+test_zero_breaks_and_constant_series (test_periodization.ValidationTests.test_zero_breaks_and_constant_series) ... ok
+test_zero_is_observed (test_periodization.ValidationTests.test_zero_is_observed) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.201s
+
+OK
+
+30 case-method results; 226 annual observations; total 9591
+Integer-to-float candidate changes: [3, 4, 7, 9]
+Case 9: {'case': 9, 'derivatives_integer_candidates': [2017], 'derivatives_float_candidates': [2018, 2021], 'derivatives_constrained_cuts': [2018], 'smoothing_changes_candidates': True, 'piecewise_legacy_indices': [18, 20], 'piecewise_legacy_labels': [2017, 2019], 'piecewise_legacy_labels_common_convention': [2018, 2020], 'piecewise_legacy_lengths': [18, 2, 3], 'piecewise_corrected_cuts': [2015, 2020], 'piecewise_legacy_sse': 184.2380460956312, 'piecewise_corrected_sse': 275.52500000000003, 'dynamic_legacy_jump5_cuts': [2010, 2020], 'dynamic_corrected_jump1_cuts': [2012, 2019], 'dynamic_legacy_sse': 2537.5666666666666, 'dynamic_corrected_sse': 2281.2738095238096}
+
+Repeated JSON/CSV/SVG SHA256 identical: True
+Drive workbook: all 226 year/count pairs match GitHub input.
+Vendored upstream source: all five Git blob IDs match upstream.json.

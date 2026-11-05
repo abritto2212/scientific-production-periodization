@@ -1,0 +1,13 @@
+{
+  "base_commit": "81da0fb072ed46ce0d64b6bea1eb55edc186873c",
+  "source": "data_articles/data_articles.xlsx",
+  "sha256": "9393791479dcf9b5e276b817ec20d8931eefea40d6eb8d76558eaf5b5ea8f97a",
+  "python": "3.13.2",
+  "numpy": "2.2.4",
+  "scipy": "1.16.3",
+  "matplotlib": "3.10.7",
+  "total_publications": 9591,
+  "total_year_observations": 226,
+  "mean_series_length": 22.6,
+  "expert_reference_status": "not verified; no accuracy metrics computed"
+}
