@@ -1,0 +1,12 @@
+{
+  "conditioned_cuts.csv": "84adca6ca1009b6837b7c27c8a46d2ed1a601645bb4e9b678da1845ea4944cf6",
+  "conditioned_results.json": "062793fb03f6a2b5de38b0790e0b3bbfed3e2eb06f68b8f5b61d61aa387502e0",
+  "figures/conditioned_min2.svg": "75c6f35da31c6773acf7af4160a06abb3f633fd08aea5a3ec4c34ccfc7bde9a4",
+  "figures/conditioned_min3.svg": "952cd119b0baf2a60091262313697a23c04872e12f6aa0e57b6d8825784fdbc3",
+  "native_derivative_diagnostic.json": "42c5b300c6a9aa300a97cbbbafd029fbf20e352d06f7f6a79cf7789ff02c2c74",
+  "paired_boundaries.csv": "b53d966ddc5c94f006ca51c91e9844f1201f8227e3361cbd880a6b41add3b3b5",
+  "provenance.json": "945e76aa735b4bd9da2bce19c3545a4e1f39f6d8bd53fc2608a003c991a9ae7d",
+  "references_normalized.json": "86e563105b62ab97f14c3c1925001664282037b0246c6164ef4fb35d8d53f6ae",
+  "summary.csv": "ff0c30080e7c5b6ff477016eb08dcff57c903256b0586fc5d1afda0288f4dceb",
+  "summary.json": "c57e40c5edec2f84aeb1bc83b3cdc44cf8b4c6368dd6bf06a1a5ef1bc563c2a0"
+}

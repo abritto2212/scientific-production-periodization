@@ -1,0 +1,692 @@
+[
+  {
+    "case": 1,
+    "published_phases": 4,
+    "cut_years": [
+      2015,
+      2020
+    ],
+    "n_phases": 3,
+    "candidate_years": [
+      2015,
+      2020
+    ],
+    "min_len": 2,
+    "sigma": 2.0,
+    "height": 2.4000216987534326,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2014,
+        "length": 15
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "length": 5
+      },
+      {
+        "start": 2020,
+        "end": 2023,
+        "length": 4
+      }
+    ],
+    "phases_input": null,
+    "interpretation": "automatic-count diagnostic, no concordance score"
+  },
+  {
+    "case": 1,
+    "published_phases": 4,
+    "cut_years": [
+      2015,
+      2020
+    ],
+    "n_phases": 3,
+    "candidate_years": [
+      2015,
+      2020
+    ],
+    "min_len": 3,
+    "sigma": 2.0,
+    "height": 2.4000216987534326,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2014,
+        "length": 15
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "length": 5
+      },
+      {
+        "start": 2020,
+        "end": 2023,
+        "length": 4
+      }
+    ],
+    "phases_input": null,
+    "interpretation": "automatic-count diagnostic, no concordance score"
+  },
+  {
+    "case": 2,
+    "published_phases": 3,
+    "cut_years": [
+      2014,
+      2019
+    ],
+    "n_phases": 3,
+    "candidate_years": [
+      2014,
+      2019
+    ],
+    "min_len": 2,
+    "sigma": 2.0,
+    "height": 3.6759329260823477,
+    "intervals": [
+      {
+        "start": 2004,
+        "end": 2013,
+        "length": 10
+      },
+      {
+        "start": 2014,
+        "end": 2018,
+        "length": 5
+      },
+      {
+        "start": 2019,
+        "end": 2021,
+        "length": 3
+      }
+    ],
+    "phases_input": null,
+    "interpretation": "automatic-count diagnostic, no concordance score"
+  },
+  {
+    "case": 2,
+    "published_phases": 3,
+    "cut_years": [
+      2014,
+      2019
+    ],
+    "n_phases": 3,
+    "candidate_years": [
+      2014,
+      2019
+    ],
+    "min_len": 3,
+    "sigma": 2.0,
+    "height": 3.6759329260823477,
+    "intervals": [
+      {
+        "start": 2004,
+        "end": 2013,
+        "length": 10
+      },
+      {
+        "start": 2014,
+        "end": 2018,
+        "length": 5
+      },
+      {
+        "start": 2019,
+        "end": 2021,
+        "length": 3
+      }
+    ],
+    "phases_input": null,
+    "interpretation": "automatic-count diagnostic, no concordance score"
+  },
+  {
+    "case": 3,
+    "published_phases": 3,
+    "cut_years": [
+      2017,
+      2021
+    ],
+    "n_phases": 3,
+    "candidate_years": [
+      2017,
+      2021
+    ],
+    "min_len": 2,
+    "sigma": 2.0,
+    "height": 1.1551919661313501,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2016,
+        "length": 17
+      },
+      {
+        "start": 2017,
+        "end": 2020,
+        "length": 4
+      },
+      {
+        "start": 2021,
+        "end": 2022,
+        "length": 2
+      }
+    ],
+    "phases_input": null,
+    "interpretation": "automatic-count diagnostic, no concordance score"
+  },
+  {
+    "case": 3,
+    "published_phases": 3,
+    "cut_years": [
+      2017
+    ],
+    "n_phases": 2,
+    "candidate_years": [
+      2017,
+      2021
+    ],
+    "min_len": 3,
+    "sigma": 2.0,
+    "height": 1.1551919661313501,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2016,
+        "length": 17
+      },
+      {
+        "start": 2017,
+        "end": 2022,
+        "length": 6
+      }
+    ],
+    "phases_input": null,
+    "interpretation": "automatic-count diagnostic, no concordance score"
+  },
+  {
+    "case": 4,
+    "published_phases": 3,
+    "cut_years": [
+      2009,
+      2017,
+      2021
+    ],
+    "n_phases": 4,
+    "candidate_years": [
+      2009,
+      2017,
+      2021
+    ],
+    "min_len": 2,
+    "sigma": 2.0,
+    "height": 0.43536966972399627,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2008,
+        "length": 9
+      },
+      {
+        "start": 2009,
+        "end": 2016,
+        "length": 8
+      },
+      {
+        "start": 2017,
+        "end": 2020,
+        "length": 4
+      },
+      {
+        "start": 2021,
+        "end": 2023,
+        "length": 3
+      }
+    ],
+    "phases_input": null,
+    "interpretation": "automatic-count diagnostic, no concordance score"
+  },
+  {
+    "case": 4,
+    "published_phases": 3,
+    "cut_years": [
+      2009,
+      2017,
+      2021
+    ],
+    "n_phases": 4,
+    "candidate_years": [
+      2009,
+      2017,
+      2021
+    ],
+    "min_len": 3,
+    "sigma": 2.0,
+    "height": 0.43536966972399627,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2008,
+        "length": 9
+      },
+      {
+        "start": 2009,
+        "end": 2016,
+        "length": 8
+      },
+      {
+        "start": 2017,
+        "end": 2020,
+        "length": 4
+      },
+      {
+        "start": 2021,
+        "end": 2023,
+        "length": 3
+      }
+    ],
+    "phases_input": null,
+    "interpretation": "automatic-count diagnostic, no concordance score"
+  },
+  {
+    "case": 5,
+    "published_phases": 3,
+    "cut_years": [
+      2017,
+      2023
+    ],
+    "n_phases": 3,
+    "candidate_years": [
+      2017,
+      2023
+    ],
+    "min_len": 2,
+    "sigma": 2.0,
+    "height": 2.039418619105377,
+    "intervals": [
+      {
+        "start": 2003,
+        "end": 2016,
+        "length": 14
+      },
+      {
+        "start": 2017,
+        "end": 2022,
+        "length": 6
+      },
+      {
+        "start": 2023,
+        "end": 2024,
+        "length": 2
+      }
+    ],
+    "phases_input": null,
+    "interpretation": "automatic-count diagnostic, no concordance score"
+  },
+  {
+    "case": 5,
+    "published_phases": 3,
+    "cut_years": [
+      2017
+    ],
+    "n_phases": 2,
+    "candidate_years": [
+      2017,
+      2023
+    ],
+    "min_len": 3,
+    "sigma": 2.0,
+    "height": 2.039418619105377,
+    "intervals": [
+      {
+        "start": 2003,
+        "end": 2016,
+        "length": 14
+      },
+      {
+        "start": 2017,
+        "end": 2024,
+        "length": 8
+      }
+    ],
+    "phases_input": null,
+    "interpretation": "automatic-count diagnostic, no concordance score"
+  },
+  {
+    "case": 6,
+    "published_phases": 3,
+    "cut_years": [
+      2017,
+      2022
+    ],
+    "n_phases": 3,
+    "candidate_years": [
+      2017,
+      2022
+    ],
+    "min_len": 2,
+    "sigma": 2.0,
+    "height": 1.0753572634724164,
+    "intervals": [
+      {
+        "start": 2003,
+        "end": 2016,
+        "length": 14
+      },
+      {
+        "start": 2017,
+        "end": 2021,
+        "length": 5
+      },
+      {
+        "start": 2022,
+        "end": 2024,
+        "length": 3
+      }
+    ],
+    "phases_input": null,
+    "interpretation": "automatic-count diagnostic, no concordance score"
+  },
+  {
+    "case": 6,
+    "published_phases": 3,
+    "cut_years": [
+      2017,
+      2022
+    ],
+    "n_phases": 3,
+    "candidate_years": [
+      2017,
+      2022
+    ],
+    "min_len": 3,
+    "sigma": 2.0,
+    "height": 1.0753572634724164,
+    "intervals": [
+      {
+        "start": 2003,
+        "end": 2016,
+        "length": 14
+      },
+      {
+        "start": 2017,
+        "end": 2021,
+        "length": 5
+      },
+      {
+        "start": 2022,
+        "end": 2024,
+        "length": 3
+      }
+    ],
+    "phases_input": null,
+    "interpretation": "automatic-count diagnostic, no concordance score"
+  },
+  {
+    "case": 7,
+    "published_phases": null,
+    "cut_years": [
+      2015,
+      2020
+    ],
+    "n_phases": 3,
+    "candidate_years": [
+      2015,
+      2020
+    ],
+    "min_len": 2,
+    "sigma": 2.0,
+    "height": 0.5648805769258423,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2014,
+        "length": 15
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "length": 5
+      },
+      {
+        "start": 2020,
+        "end": 2022,
+        "length": 3
+      }
+    ],
+    "phases_input": null,
+    "interpretation": "automatic-count diagnostic, no concordance score"
+  },
+  {
+    "case": 7,
+    "published_phases": null,
+    "cut_years": [
+      2015,
+      2020
+    ],
+    "n_phases": 3,
+    "candidate_years": [
+      2015,
+      2020
+    ],
+    "min_len": 3,
+    "sigma": 2.0,
+    "height": 0.5648805769258423,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2014,
+        "length": 15
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "length": 5
+      },
+      {
+        "start": 2020,
+        "end": 2022,
+        "length": 3
+      }
+    ],
+    "phases_input": null,
+    "interpretation": "automatic-count diagnostic, no concordance score"
+  },
+  {
+    "case": 8,
+    "published_phases": 3,
+    "cut_years": [
+      2016,
+      2020
+    ],
+    "n_phases": 3,
+    "candidate_years": [
+      2016,
+      2020
+    ],
+    "min_len": 2,
+    "sigma": 2.0,
+    "height": 2.337727433327219,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2015,
+        "length": 16
+      },
+      {
+        "start": 2016,
+        "end": 2019,
+        "length": 4
+      },
+      {
+        "start": 2020,
+        "end": 2022,
+        "length": 3
+      }
+    ],
+    "phases_input": null,
+    "interpretation": "automatic-count diagnostic, no concordance score"
+  },
+  {
+    "case": 8,
+    "published_phases": 3,
+    "cut_years": [
+      2016,
+      2020
+    ],
+    "n_phases": 3,
+    "candidate_years": [
+      2016,
+      2020
+    ],
+    "min_len": 3,
+    "sigma": 2.0,
+    "height": 2.337727433327219,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2015,
+        "length": 16
+      },
+      {
+        "start": 2016,
+        "end": 2019,
+        "length": 4
+      },
+      {
+        "start": 2020,
+        "end": 2022,
+        "length": 3
+      }
+    ],
+    "phases_input": null,
+    "interpretation": "automatic-count diagnostic, no concordance score"
+  },
+  {
+    "case": 9,
+    "published_phases": 2,
+    "cut_years": [
+      2018,
+      2021
+    ],
+    "n_phases": 3,
+    "candidate_years": [
+      2018,
+      2021
+    ],
+    "min_len": 2,
+    "sigma": 2.0,
+    "height": 0.8417043611560249,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2017,
+        "length": 18
+      },
+      {
+        "start": 2018,
+        "end": 2020,
+        "length": 3
+      },
+      {
+        "start": 2021,
+        "end": 2022,
+        "length": 2
+      }
+    ],
+    "phases_input": null,
+    "interpretation": "automatic-count diagnostic, no concordance score"
+  },
+  {
+    "case": 9,
+    "published_phases": 2,
+    "cut_years": [
+      2018
+    ],
+    "n_phases": 2,
+    "candidate_years": [
+      2018,
+      2021
+    ],
+    "min_len": 3,
+    "sigma": 2.0,
+    "height": 0.8417043611560249,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2017,
+        "length": 18
+      },
+      {
+        "start": 2018,
+        "end": 2022,
+        "length": 5
+      }
+    ],
+    "phases_input": null,
+    "interpretation": "automatic-count diagnostic, no concordance score"
+  },
+  {
+    "case": 10,
+    "published_phases": null,
+    "cut_years": [
+      2018,
+      2022
+    ],
+    "n_phases": 3,
+    "candidate_years": [
+      2018,
+      2022
+    ],
+    "min_len": 2,
+    "sigma": 2.0,
+    "height": 5.756016181581976,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2017,
+        "length": 18
+      },
+      {
+        "start": 2018,
+        "end": 2021,
+        "length": 4
+      },
+      {
+        "start": 2022,
+        "end": 2023,
+        "length": 2
+      }
+    ],
+    "phases_input": null,
+    "interpretation": "automatic-count diagnostic, no concordance score"
+  },
+  {
+    "case": 10,
+    "published_phases": null,
+    "cut_years": [
+      2018
+    ],
+    "n_phases": 2,
+    "candidate_years": [
+      2018,
+      2022
+    ],
+    "min_len": 3,
+    "sigma": 2.0,
+    "height": 5.756016181581976,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2017,
+        "length": 18
+      },
+      {
+        "start": 2018,
+        "end": 2023,
+        "length": 6
+      }
+    ],
+    "phases_input": null,
+    "interpretation": "automatic-count diagnostic, no concordance score"
+  }
+]

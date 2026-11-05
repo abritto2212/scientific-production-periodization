@@ -13,3 +13,8 @@ outputs of the corrected pipeline.
 
 This revision provides diagnostic results only. Published expert boundaries
 and Table 2 accuracy metrics are not verified. No winning method is identified.
+
+## Second delivery
+
+The provisional published-K comparison is in [istl/v2](istl/v2/README.md).
+Read the [director review and updated evidence status](istl/integration/REVIEW_ENTREGA02.md) before interpreting its results.

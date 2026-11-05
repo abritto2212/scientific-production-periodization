@@ -1,0 +1,35 @@
+{
+  "version": "entrega02",
+  "base_remote_commit": "81da0fb072ed46ce0d64b6bea1eb55edc186873c",
+  "first_package_sha256": "d64e43eee4ba4e6f922e9f2ef38e6907bd16588572bd12be2e13bc109c0fe96d",
+  "input_sha256": "9393791479dcf9b5e276b817ec20d8931eefea40d6eb8d76558eaf5b5ea8f97a",
+  "reference_snapshots": {
+    "02_Cortes_publicados_v0.1.csv": "a1c02226ec6a1670e97a751d5a422adcfb1dbc056e7097f59f975232ccbec49f",
+    "02_Informe_literatura_v0.1.html": "b55d59000b2491f42a7baa82ac2d4e6cbb9e9b9b7c39556e4ca56593b02c7733",
+    "02_Matriz_evidencia_snapshot.txt": "8bc2f982bfab3120b9124419ffc8fd22f612dec12eab3c25123d3e117541efc3",
+    "sources.json": "78bd982612b2f00b152794897e68effc9ffcba886ad9fc1f0ba595ab2bc60e17"
+  },
+  "implementation_sha256": {
+    "conditioned.py": "7c918a8bfa634a900458ca032b8d5994c7bdc548bbc831281045213133078c12",
+    "references.py": "e1d98e1c0aa4889ed0a7b190a5dc500cd896a3b42881f84ca010fe5de85de025",
+    "run_conditioned.py": "bc2eb96305a919408ef09c525c3c358139522546988e1cb2530712b1856d3568",
+    "test_conditioned.py": "3e5b9f64a7a7b6e63d1e95529ea27f8022d93a9f15dec33aed3545f1333e9845"
+  },
+  "python": "3.13.2",
+  "numpy": "2.2.4",
+  "scipy": "1.16.3",
+  "matplotlib": "3.10.7",
+  "methods": [
+    "derivative_k_provisional",
+    "piecewise_linear_k",
+    "dynamic_l2_k"
+  ],
+  "minimums": [
+    2,
+    3
+  ],
+  "n_full_records": 60,
+  "n_case6_sensitivity_records": 6,
+  "publication_attempted": false,
+  "reference_series_pointwise_verified": false
+}

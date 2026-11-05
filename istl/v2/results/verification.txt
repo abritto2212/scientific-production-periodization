@@ -1,0 +1,71 @@
+Initial ZIP SHA256: d64e43eee4ba4e6f922e9f2ef38e6907bd16588572bd12be2e13bc109c0fe96d
+Initial patch SHA256: 79b65c3a24f6c9d0b3c70dbfe9530375ebbbd3d71e6577d61a096afbc1f5d9fe
+Initial ZIP members preserved byte-for-byte: 35/35
+
+$ python -m unittest discover -s istl -p test_periodization.py -v
+test_all_segments_and_original_regression_bug (test_periodization.ValidationTests.test_all_segments_and_original_regression_bug) ... ok
+test_boundary_convention (test_periodization.ValidationTests.test_boundary_convention) ... ok
+test_derivative_length_filter_is_explicit (test_periodization.ValidationTests.test_derivative_length_filter_is_explicit) ... ok
+test_dynp_annual_candidates_and_global_optimum (test_periodization.ValidationTests.test_dynp_annual_candidates_and_global_optimum) ... ok
+test_impossible_segmentation (test_periodization.ValidationTests.test_impossible_segmentation) ... ok
+test_invalid_data (test_periodization.ValidationTests.test_invalid_data) ... ok
+test_regression_global_optimum (test_periodization.ValidationTests.test_regression_global_optimum) ... ok
+test_smoothing_keeps_decimals (test_periodization.ValidationTests.test_smoothing_keeps_decimals) ... ok
+test_xlsx_reader_rejects_missing_cells_and_duplicate_years (test_periodization.ValidationTests.test_xlsx_reader_rejects_missing_cells_and_duplicate_years) ... ok
+test_zero_breaks_and_constant_series (test_periodization.ValidationTests.test_zero_breaks_and_constant_series) ... ok
+test_zero_is_observed (test_periodization.ValidationTests.test_zero_is_observed) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.223s
+
+OK
+
+$ python -m unittest discover -s istl/v2 -p test_conditioned.py -v
+test_case6_no_silent_extension (test_conditioned.ConditionedTests.test_case6_no_silent_extension) ... ok
+test_chronological_matching_and_unequal_K_guard (test_conditioned.ConditionedTests.test_chronological_matching_and_unequal_K_guard) ... ok
+test_common_sample_across_minima_is_fixed (test_conditioned.ConditionedTests.test_common_sample_across_minima_is_fixed) ... ok
+test_derivative_K_subsets_use_original_peaks_and_objective (test_conditioned.ConditionedTests.test_derivative_K_subsets_use_original_peaks_and_objective) ... ok
+test_fixed_K_length_and_coverage (test_conditioned.ConditionedTests.test_fixed_K_length_and_coverage) ... ok
+test_global_SSE_optima_minimum_two (test_conditioned.ConditionedTests.test_global_SSE_optima_minimum_two) ... ok
+test_invalid_conditions_and_insufficient_data (test_conditioned.ConditionedTests.test_invalid_conditions_and_insufficient_data) ... ok
+test_reference_number_and_convention (test_conditioned.ConditionedTests.test_reference_number_and_convention) ... ok
+test_summary_denominators_and_common_set (test_conditioned.ConditionedTests.test_summary_denominators_and_common_set) ... ok
+test_two_year_phase_is_reference_conflict_not_algorithm_failure (test_conditioned.ConditionedTests.test_two_year_phase_is_reference_conflict_not_algorithm_failure) ... ok
+test_unknown_K_never_becomes_two_cuts_or_zero_error (test_conditioned.ConditionedTests.test_unknown_K_never_becomes_two_cuts_or_zero_error) ... ok
+test_v1_equivalence_when_K_and_minimum_match (test_conditioned.ConditionedTests.test_v1_equivalence_when_K_and_minimum_match) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 1.288s
+
+OK
+
+$ python istl/v2/run_conditioned.py
+Conditioned records: 66 | native diagnostics: 20
+case6_truncated_2023 2 available_by_method derivative_k_provisional [6] 2 5.0 0.0
+case6_truncated_2023 2 available_by_method piecewise_linear_k [6] 2 2.5 0.5
+case6_truncated_2023 2 available_by_method dynamic_l2_k [6] 2 3.5 0.0
+case6_truncated_2023 2 common_all_methods derivative_k_provisional [6] 2 5.0 0.0
+case6_truncated_2023 2 common_all_methods piecewise_linear_k [6] 2 2.5 0.5
+case6_truncated_2023 2 common_all_methods dynamic_l2_k [6] 2 3.5 0.0
+case6_truncated_2023 3 available_by_method derivative_k_provisional [] 0 None None
+case6_truncated_2023 3 available_by_method piecewise_linear_k [6] 2 5.0 0.0
+case6_truncated_2023 3 available_by_method dynamic_l2_k [6] 2 3.5 0.0
+case6_truncated_2023 3 common_all_methods derivative_k_provisional [] 0 None None
+case6_truncated_2023 3 common_all_methods piecewise_linear_k [] 0 None None
+case6_truncated_2023 3 common_all_methods dynamic_l2_k [] 0 None None
+full_window 2 available_by_method derivative_k_provisional [2, 3, 4, 5, 8, 9] 11 3.9166666666666665 0.18181818181818182
+full_window 2 available_by_method piecewise_linear_k [1, 2, 3, 4, 5, 8, 9] 14 3.595238095238095 0.07142857142857142
+full_window 2 available_by_method dynamic_l2_k [1, 2, 3, 4, 5, 8, 9] 14 4.428571428571429 0.07142857142857142
+full_window 2 common_all_methods derivative_k_provisional [2, 3, 4, 5, 8, 9] 11 3.9166666666666665 0.18181818181818182
+full_window 2 common_all_methods piecewise_linear_k [2, 3, 4, 5, 8, 9] 11 3.75 0.09090909090909091
+full_window 2 common_all_methods dynamic_l2_k [2, 3, 4, 5, 8, 9] 11 4.833333333333333 0.0
+full_window 3 available_by_method derivative_k_provisional [4, 8, 9] 5 4.0 0.2
+full_window 3 available_by_method piecewise_linear_k [1, 3, 4, 5, 8, 9] 12 3.8611111111111107 0.0
+full_window 3 available_by_method dynamic_l2_k [1, 3, 4, 5, 8, 9] 12 3.777777777777778 0.08333333333333333
+full_window 3 common_all_methods derivative_k_provisional [4, 8, 9] 5 4.0 0.2
+full_window 3 common_all_methods piecewise_linear_k [4, 8, 9] 5 4.666666666666667 0.0
+full_window 3 common_all_methods dynamic_l2_k [4, 8, 9] 5 4.666666666666667 0.0
+
+Repeated JSON/CSV/SVG deterministic: 10 files match.
+V1 files still unchanged after tests and runs.
+No GitHub publication attempted in v2.

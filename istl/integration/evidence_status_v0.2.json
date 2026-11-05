@@ -1,0 +1,76 @@
+{
+  "source": "02_Informe_literatura_y_evidencia_v0.2.html",
+  "scope": "Director transcription of chat 02 report; not an independent source audit",
+  "cases": [
+    {
+      "case": 1,
+      "annual_labels_matched": 24,
+      "complete_label_match": true,
+      "primary_bibliographic_data_verified": false,
+      "comparison_status": "published_figure_comparison_with_total_conflict"
+    },
+    {
+      "case": 2,
+      "annual_labels_matched": null,
+      "complete_label_match": false,
+      "primary_bibliographic_data_verified": false,
+      "comparison_status": "exploratory_annual_verification_pending"
+    },
+    {
+      "case": 3,
+      "annual_labels_matched": null,
+      "complete_label_match": false,
+      "primary_bibliographic_data_verified": false,
+      "comparison_status": "exploratory_annual_verification_pending"
+    },
+    {
+      "case": 4,
+      "annual_labels_matched": 24,
+      "complete_label_match": true,
+      "primary_bibliographic_data_verified": false,
+      "comparison_status": "published_figure_comparison_with_total_conflict"
+    },
+    {
+      "case": 5,
+      "annual_labels_matched": 22,
+      "complete_label_match": true,
+      "primary_bibliographic_data_verified": false,
+      "comparison_status": "published_figure_comparison_partial_final_year"
+    },
+    {
+      "case": 6,
+      "annual_labels_matched": 21,
+      "complete_label_match": false,
+      "primary_bibliographic_data_verified": false,
+      "comparison_status": "excluded_ambiguous_coverage"
+    },
+    {
+      "case": 7,
+      "annual_labels_matched": null,
+      "complete_label_match": false,
+      "primary_bibliographic_data_verified": false,
+      "comparison_status": "excluded_sheet_identity_pending"
+    },
+    {
+      "case": 8,
+      "annual_labels_matched": null,
+      "complete_label_match": false,
+      "primary_bibliographic_data_verified": false,
+      "comparison_status": "exploratory_annual_verification_pending"
+    },
+    {
+      "case": 9,
+      "annual_labels_matched": null,
+      "complete_label_match": false,
+      "primary_bibliographic_data_verified": false,
+      "comparison_status": "exploratory_annual_verification_pending"
+    },
+    {
+      "case": 10,
+      "annual_labels_matched": 24,
+      "complete_label_match": true,
+      "primary_bibliographic_data_verified": false,
+      "comparison_status": "excluded_no_complete_partition"
+    }
+  ]
+}
