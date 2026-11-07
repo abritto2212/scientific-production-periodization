@@ -1,0 +1,234 @@
+[
+  {
+    "case": 10,
+    "configuration": "separate two-cut diagnostic, no published K",
+    "min_len": 2,
+    "derivative_automatic": {
+      "cut_years": [
+        2018,
+        2022
+      ],
+      "n_phases": 3,
+      "candidate_years": [
+        2018,
+        2022
+      ],
+      "min_len": 2,
+      "sigma": 2.0,
+      "height": 5.756016181581974,
+      "intervals": [
+        {
+          "start": 2000,
+          "end": 2017,
+          "length": 18
+        },
+        {
+          "start": 2018,
+          "end": 2021,
+          "length": 4
+        },
+        {
+          "start": 2022,
+          "end": 2023,
+          "length": 2
+        }
+      ],
+      "phases_input": null,
+      "interpretation": "automatic-count diagnostic, no concordance score"
+    },
+    "piecewise_two_cut_diagnostic": {
+      "algorithm_feasible": true,
+      "reason": null,
+      "parameters": {
+        "phases_input": 3,
+        "n_cuts_input": 2,
+        "min_len": 2,
+        "data": "original annual counts, float64; no normalization",
+        "objective": "independent linear SSE",
+        "sse": 3083.072549019607,
+        "continuity_constraint": false,
+        "tie_rule": "first lexicographic combination"
+      },
+      "cut_indices": [
+        17,
+        22
+      ],
+      "cut_years": [
+        2017,
+        2022
+      ],
+      "intervals": [
+        {
+          "start": 2000,
+          "end": 2016,
+          "length": 17
+        },
+        {
+          "start": 2017,
+          "end": 2021,
+          "length": 5
+        },
+        {
+          "start": 2022,
+          "end": 2023,
+          "length": 2
+        }
+      ]
+    },
+    "dynp_two_cut_diagnostic": {
+      "algorithm_feasible": true,
+      "reason": null,
+      "parameters": {
+        "phases_input": 3,
+        "n_cuts_input": 2,
+        "min_len": 2,
+        "data": "original annual counts, float64; no normalization",
+        "objective": "within-segment mean SSE",
+        "jump": 1,
+        "min_size": 2,
+        "model": "l2",
+        "backend": "frozen ruptures v1.1.10 Dynp/CostL2 subset",
+        "sse": 24758.5
+      },
+      "cut_indices": [
+        18,
+        22
+      ],
+      "cut_years": [
+        2018,
+        2022
+      ],
+      "intervals": [
+        {
+          "start": 2000,
+          "end": 2017,
+          "length": 18
+        },
+        {
+          "start": 2018,
+          "end": 2021,
+          "length": 4
+        },
+        {
+          "start": 2022,
+          "end": 2023,
+          "length": 2
+        }
+      ]
+    },
+    "metrics": null
+  },
+  {
+    "case": 10,
+    "configuration": "separate two-cut diagnostic, no published K",
+    "min_len": 3,
+    "derivative_automatic": {
+      "cut_years": [
+        2018
+      ],
+      "n_phases": 2,
+      "candidate_years": [
+        2018,
+        2022
+      ],
+      "min_len": 3,
+      "sigma": 2.0,
+      "height": 5.756016181581974,
+      "intervals": [
+        {
+          "start": 2000,
+          "end": 2017,
+          "length": 18
+        },
+        {
+          "start": 2018,
+          "end": 2023,
+          "length": 6
+        }
+      ],
+      "phases_input": null,
+      "interpretation": "automatic-count diagnostic, no concordance score"
+    },
+    "piecewise_two_cut_diagnostic": {
+      "algorithm_feasible": true,
+      "reason": null,
+      "parameters": {
+        "phases_input": 3,
+        "n_cuts_input": 2,
+        "min_len": 3,
+        "data": "original annual counts, float64; no normalization",
+        "objective": "independent linear SSE",
+        "sse": 8255.844047619048,
+        "continuity_constraint": false,
+        "tie_rule": "first lexicographic combination"
+      },
+      "cut_indices": [
+        15,
+        20
+      ],
+      "cut_years": [
+        2015,
+        2020
+      ],
+      "intervals": [
+        {
+          "start": 2000,
+          "end": 2014,
+          "length": 15
+        },
+        {
+          "start": 2015,
+          "end": 2019,
+          "length": 5
+        },
+        {
+          "start": 2020,
+          "end": 2023,
+          "length": 4
+        }
+      ]
+    },
+    "dynp_two_cut_diagnostic": {
+      "algorithm_feasible": true,
+      "reason": null,
+      "parameters": {
+        "phases_input": 3,
+        "n_cuts_input": 2,
+        "min_len": 3,
+        "data": "original annual counts, float64; no normalization",
+        "objective": "within-segment mean SSE",
+        "jump": 1,
+        "min_size": 3,
+        "model": "l2",
+        "backend": "frozen ruptures v1.1.10 Dynp/CostL2 subset",
+        "sse": 39601.33333333333
+      },
+      "cut_indices": [
+        18,
+        21
+      ],
+      "cut_years": [
+        2018,
+        2021
+      ],
+      "intervals": [
+        {
+          "start": 2000,
+          "end": 2017,
+          "length": 18
+        },
+        {
+          "start": 2018,
+          "end": 2020,
+          "length": 3
+        },
+        {
+          "start": 2021,
+          "end": 2023,
+          "length": 3
+        }
+      ]
+    },
+    "metrics": null
+  }
+]

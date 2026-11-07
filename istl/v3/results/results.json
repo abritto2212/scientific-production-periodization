@@ -1,0 +1,4424 @@
+[
+  {
+    "case": 1,
+    "sheet": "1_Emprendi-innovador",
+    "version": "entrega03",
+    "method": "derivative_k_provisional",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2000,
+      2023
+    ],
+    "n_years": 24,
+    "total": 1787,
+    "phases_input": 4,
+    "reference_cut_years": [
+      2007,
+      2013,
+      2019
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": null,
+    "eligible": false,
+    "metric_exclusion_reasons": [
+      "no feasible K-1 subset of original peaks"
+    ],
+    "algorithm_feasible": false,
+    "reason": "no feasible K-1 subset of original peaks",
+    "parameters": {
+      "phases_input": 4,
+      "n_cuts_input": 3,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 2.400021698753431,
+      "candidate_indices": [
+        15,
+        20
+      ],
+      "candidate_years": [
+        2015,
+        2020
+      ],
+      "candidate_heights": [
+        3.794596260457123,
+        5.879761039412095
+      ],
+      "feasible_subset_count": 0,
+      "adaptation": "provisional fixed-K subset of unchanged thresholded peaks",
+      "objective": "maximize sum(abs(d2)) over feasible K-1 peak subsets",
+      "tie_rule": "first lexicographic combination",
+      "selected_strength": null
+    },
+    "cut_indices": null,
+    "cut_years": null,
+    "intervals": null
+  },
+  {
+    "case": 1,
+    "sheet": "1_Emprendi-innovador",
+    "version": "entrega03",
+    "method": "piecewise_linear_k",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2000,
+      2023
+    ],
+    "n_years": 24,
+    "total": 1787,
+    "phases_input": 4,
+    "reference_cut_years": [
+      2007,
+      2013,
+      2019
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 3,
+      "signed_errors_years": [
+        2,
+        4,
+        2
+      ],
+      "absolute_errors_years": [
+        2,
+        4,
+        2
+      ],
+      "mae_years": 2.6666666666666665,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 4,
+      "n_cuts_input": 3,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "independent linear SSE",
+      "sse": 567.3984126984127,
+      "continuity_constraint": false,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      9,
+      17,
+      21
+    ],
+    "cut_years": [
+      2009,
+      2017,
+      2021
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2008,
+        "length": 9
+      },
+      {
+        "start": 2009,
+        "end": 2016,
+        "length": 8
+      },
+      {
+        "start": 2017,
+        "end": 2020,
+        "length": 4
+      },
+      {
+        "start": 2021,
+        "end": 2023,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "case": 1,
+    "sheet": "1_Emprendi-innovador",
+    "version": "entrega03",
+    "method": "dynamic_l2_k",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2000,
+      2023
+    ],
+    "n_years": 24,
+    "total": 1787,
+    "phases_input": 4,
+    "reference_cut_years": [
+      2007,
+      2013,
+      2019
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 3,
+      "signed_errors_years": [
+        2,
+        4,
+        0
+      ],
+      "absolute_errors_years": [
+        2,
+        4,
+        0
+      ],
+      "mae_years": 2.0,
+      "exact_count": 1,
+      "exact_rate": 0.3333333333333333
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 4,
+      "n_cuts_input": 3,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "within-segment mean SSE",
+      "jump": 1,
+      "min_size": 2,
+      "model": "l2",
+      "backend": "frozen ruptures v1.1.10 Dynp/CostL2 subset",
+      "sse": 2658.563888888889
+    },
+    "cut_indices": [
+      9,
+      17,
+      19
+    ],
+    "cut_years": [
+      2009,
+      2017,
+      2019
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2008,
+        "length": 9
+      },
+      {
+        "start": 2009,
+        "end": 2016,
+        "length": 8
+      },
+      {
+        "start": 2017,
+        "end": 2018,
+        "length": 2
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "case": 1,
+    "sheet": "1_Emprendi-innovador",
+    "version": "entrega03",
+    "method": "derivative_k_provisional",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2000,
+      2023
+    ],
+    "n_years": 24,
+    "total": 1787,
+    "phases_input": 4,
+    "reference_cut_years": [
+      2007,
+      2013,
+      2019
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": null,
+    "eligible": false,
+    "metric_exclusion_reasons": [
+      "no feasible K-1 subset of original peaks"
+    ],
+    "algorithm_feasible": false,
+    "reason": "no feasible K-1 subset of original peaks",
+    "parameters": {
+      "phases_input": 4,
+      "n_cuts_input": 3,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 2.400021698753431,
+      "candidate_indices": [
+        15,
+        20
+      ],
+      "candidate_years": [
+        2015,
+        2020
+      ],
+      "candidate_heights": [
+        3.794596260457123,
+        5.879761039412095
+      ],
+      "feasible_subset_count": 0,
+      "adaptation": "provisional fixed-K subset of unchanged thresholded peaks",
+      "objective": "maximize sum(abs(d2)) over feasible K-1 peak subsets",
+      "tie_rule": "first lexicographic combination",
+      "selected_strength": null
+    },
+    "cut_indices": null,
+    "cut_years": null,
+    "intervals": null
+  },
+  {
+    "case": 1,
+    "sheet": "1_Emprendi-innovador",
+    "version": "entrega03",
+    "method": "piecewise_linear_k",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2000,
+      2023
+    ],
+    "n_years": 24,
+    "total": 1787,
+    "phases_input": 4,
+    "reference_cut_years": [
+      2007,
+      2013,
+      2019
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 3,
+      "signed_errors_years": [
+        2,
+        4,
+        2
+      ],
+      "absolute_errors_years": [
+        2,
+        4,
+        2
+      ],
+      "mae_years": 2.6666666666666665,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 4,
+      "n_cuts_input": 3,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "independent linear SSE",
+      "sse": 567.3984126984127,
+      "continuity_constraint": false,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      9,
+      17,
+      21
+    ],
+    "cut_years": [
+      2009,
+      2017,
+      2021
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2008,
+        "length": 9
+      },
+      {
+        "start": 2009,
+        "end": 2016,
+        "length": 8
+      },
+      {
+        "start": 2017,
+        "end": 2020,
+        "length": 4
+      },
+      {
+        "start": 2021,
+        "end": 2023,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "case": 1,
+    "sheet": "1_Emprendi-innovador",
+    "version": "entrega03",
+    "method": "dynamic_l2_k",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2000,
+      2023
+    ],
+    "n_years": 24,
+    "total": 1787,
+    "phases_input": 4,
+    "reference_cut_years": [
+      2007,
+      2013,
+      2019
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 3,
+      "signed_errors_years": [
+        2,
+        3,
+        0
+      ],
+      "absolute_errors_years": [
+        2,
+        3,
+        0
+      ],
+      "mae_years": 1.6666666666666667,
+      "exact_count": 1,
+      "exact_rate": 0.3333333333333333
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 4,
+      "n_cuts_input": 3,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "within-segment mean SSE",
+      "jump": 1,
+      "min_size": 3,
+      "model": "l2",
+      "backend": "frozen ruptures v1.1.10 Dynp/CostL2 subset",
+      "sse": 3673.7841269841274
+    },
+    "cut_indices": [
+      9,
+      16,
+      19
+    ],
+    "cut_years": [
+      2009,
+      2016,
+      2019
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2008,
+        "length": 9
+      },
+      {
+        "start": 2009,
+        "end": 2015,
+        "length": 7
+      },
+      {
+        "start": 2016,
+        "end": 2018,
+        "length": 3
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "case": 2,
+    "sheet": "2_TopicModeling",
+    "version": "entrega03",
+    "method": "derivative_k_provisional",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2004,
+      2021
+    ],
+    "n_years": 18,
+    "total": 1693,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2014,
+      2020
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        0,
+        -1
+      ],
+      "absolute_errors_years": [
+        0,
+        1
+      ],
+      "mae_years": 0.5,
+      "exact_count": 1,
+      "exact_rate": 0.5
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 3.674052096676695,
+      "candidate_indices": [
+        10,
+        15
+      ],
+      "candidate_years": [
+        2014,
+        2019
+      ],
+      "candidate_heights": [
+        4.790673127789455,
+        7.658616155215981
+      ],
+      "feasible_subset_count": 1,
+      "adaptation": "provisional fixed-K subset of unchanged thresholded peaks",
+      "objective": "maximize sum(abs(d2)) over feasible K-1 peak subsets",
+      "tie_rule": "first lexicographic combination",
+      "selected_strength": 12.449289283005436
+    },
+    "cut_indices": [
+      10,
+      15
+    ],
+    "cut_years": [
+      2014,
+      2019
+    ],
+    "intervals": [
+      {
+        "start": 2004,
+        "end": 2013,
+        "length": 10
+      },
+      {
+        "start": 2014,
+        "end": 2018,
+        "length": 5
+      },
+      {
+        "start": 2019,
+        "end": 2021,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "case": 2,
+    "sheet": "2_TopicModeling",
+    "version": "entrega03",
+    "method": "piecewise_linear_k",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2004,
+      2021
+    ],
+    "n_years": 18,
+    "total": 1693,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2014,
+      2020
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        0,
+        -1
+      ],
+      "absolute_errors_years": [
+        0,
+        1
+      ],
+      "mae_years": 0.5,
+      "exact_count": 1,
+      "exact_rate": 0.5
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "independent linear SSE",
+      "sse": 786.5212121212129,
+      "continuity_constraint": false,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      10,
+      15
+    ],
+    "cut_years": [
+      2014,
+      2019
+    ],
+    "intervals": [
+      {
+        "start": 2004,
+        "end": 2013,
+        "length": 10
+      },
+      {
+        "start": 2014,
+        "end": 2018,
+        "length": 5
+      },
+      {
+        "start": 2019,
+        "end": 2021,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "case": 2,
+    "sheet": "2_TopicModeling",
+    "version": "entrega03",
+    "method": "dynamic_l2_k",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2004,
+      2021
+    ],
+    "n_years": 18,
+    "total": 1693,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2014,
+      2020
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        0,
+        -2
+      ],
+      "absolute_errors_years": [
+        0,
+        2
+      ],
+      "mae_years": 1.0,
+      "exact_count": 1,
+      "exact_rate": 0.5
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "within-segment mean SSE",
+      "jump": 1,
+      "min_size": 2,
+      "model": "l2",
+      "backend": "frozen ruptures v1.1.10 Dynp/CostL2 subset",
+      "sse": 10634.1
+    },
+    "cut_indices": [
+      10,
+      14
+    ],
+    "cut_years": [
+      2014,
+      2018
+    ],
+    "intervals": [
+      {
+        "start": 2004,
+        "end": 2013,
+        "length": 10
+      },
+      {
+        "start": 2014,
+        "end": 2017,
+        "length": 4
+      },
+      {
+        "start": 2018,
+        "end": 2021,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "case": 2,
+    "sheet": "2_TopicModeling",
+    "version": "entrega03",
+    "method": "derivative_k_provisional",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2004,
+      2021
+    ],
+    "n_years": 18,
+    "total": 1693,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2014,
+      2020
+    ],
+    "reference_satisfies_minimum": false,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": null,
+    "eligible": false,
+    "metric_exclusion_reasons": [
+      "reference missing or incompatible with minimum"
+    ],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 3.674052096676695,
+      "candidate_indices": [
+        10,
+        15
+      ],
+      "candidate_years": [
+        2014,
+        2019
+      ],
+      "candidate_heights": [
+        4.790673127789455,
+        7.658616155215981
+      ],
+      "feasible_subset_count": 1,
+      "adaptation": "provisional fixed-K subset of unchanged thresholded peaks",
+      "objective": "maximize sum(abs(d2)) over feasible K-1 peak subsets",
+      "tie_rule": "first lexicographic combination",
+      "selected_strength": 12.449289283005436
+    },
+    "cut_indices": [
+      10,
+      15
+    ],
+    "cut_years": [
+      2014,
+      2019
+    ],
+    "intervals": [
+      {
+        "start": 2004,
+        "end": 2013,
+        "length": 10
+      },
+      {
+        "start": 2014,
+        "end": 2018,
+        "length": 5
+      },
+      {
+        "start": 2019,
+        "end": 2021,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "case": 2,
+    "sheet": "2_TopicModeling",
+    "version": "entrega03",
+    "method": "piecewise_linear_k",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2004,
+      2021
+    ],
+    "n_years": 18,
+    "total": 1693,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2014,
+      2020
+    ],
+    "reference_satisfies_minimum": false,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": null,
+    "eligible": false,
+    "metric_exclusion_reasons": [
+      "reference missing or incompatible with minimum"
+    ],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "independent linear SSE",
+      "sse": 786.5212121212129,
+      "continuity_constraint": false,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      10,
+      15
+    ],
+    "cut_years": [
+      2014,
+      2019
+    ],
+    "intervals": [
+      {
+        "start": 2004,
+        "end": 2013,
+        "length": 10
+      },
+      {
+        "start": 2014,
+        "end": 2018,
+        "length": 5
+      },
+      {
+        "start": 2019,
+        "end": 2021,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "case": 2,
+    "sheet": "2_TopicModeling",
+    "version": "entrega03",
+    "method": "dynamic_l2_k",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2004,
+      2021
+    ],
+    "n_years": 18,
+    "total": 1693,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2014,
+      2020
+    ],
+    "reference_satisfies_minimum": false,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": null,
+    "eligible": false,
+    "metric_exclusion_reasons": [
+      "reference missing or incompatible with minimum"
+    ],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "within-segment mean SSE",
+      "jump": 1,
+      "min_size": 3,
+      "model": "l2",
+      "backend": "frozen ruptures v1.1.10 Dynp/CostL2 subset",
+      "sse": 10634.1
+    },
+    "cut_indices": [
+      10,
+      14
+    ],
+    "cut_years": [
+      2014,
+      2018
+    ],
+    "intervals": [
+      {
+        "start": 2004,
+        "end": 2013,
+        "length": 10
+      },
+      {
+        "start": 2014,
+        "end": 2017,
+        "length": 4
+      },
+      {
+        "start": 2018,
+        "end": 2021,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "case": 3,
+    "sheet": "3_VirtualTeaching",
+    "version": "entrega03",
+    "method": "derivative_k_provisional",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2000,
+      2022
+    ],
+    "n_years": 23,
+    "total": 368,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2009,
+      2017
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        8,
+        4
+      ],
+      "absolute_errors_years": [
+        8,
+        4
+      ],
+      "mae_years": 6.0,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 1.1551919661313506,
+      "candidate_indices": [
+        17,
+        21
+      ],
+      "candidate_years": [
+        2017,
+        2021
+      ],
+      "candidate_heights": [
+        2.405311918203343,
+        2.276914408404842
+      ],
+      "feasible_subset_count": 1,
+      "adaptation": "provisional fixed-K subset of unchanged thresholded peaks",
+      "objective": "maximize sum(abs(d2)) over feasible K-1 peak subsets",
+      "tie_rule": "first lexicographic combination",
+      "selected_strength": 4.682226326608185
+    },
+    "cut_indices": [
+      17,
+      21
+    ],
+    "cut_years": [
+      2017,
+      2021
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2016,
+        "length": 17
+      },
+      {
+        "start": 2017,
+        "end": 2020,
+        "length": 4
+      },
+      {
+        "start": 2021,
+        "end": 2022,
+        "length": 2
+      }
+    ]
+  },
+  {
+    "case": 3,
+    "sheet": "3_VirtualTeaching",
+    "version": "entrega03",
+    "method": "piecewise_linear_k",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2000,
+      2022
+    ],
+    "n_years": 23,
+    "total": 368,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2009,
+      2017
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        3,
+        1
+      ],
+      "absolute_errors_years": [
+        3,
+        1
+      ],
+      "mae_years": 2.0,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "independent linear SSE",
+      "sse": 225.20569430569427,
+      "continuity_constraint": false,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      12,
+      18
+    ],
+    "cut_years": [
+      2012,
+      2018
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2011,
+        "length": 12
+      },
+      {
+        "start": 2012,
+        "end": 2017,
+        "length": 6
+      },
+      {
+        "start": 2018,
+        "end": 2022,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "case": 3,
+    "sheet": "3_VirtualTeaching",
+    "version": "entrega03",
+    "method": "dynamic_l2_k",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2000,
+      2022
+    ],
+    "n_years": 23,
+    "total": 368,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2009,
+      2017
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        9,
+        4
+      ],
+      "absolute_errors_years": [
+        9,
+        4
+      ],
+      "mae_years": 6.5,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "within-segment mean SSE",
+      "jump": 1,
+      "min_size": 2,
+      "model": "l2",
+      "backend": "frozen ruptures v1.1.10 Dynp/CostL2 subset",
+      "sse": 1002.4444444444445
+    },
+    "cut_indices": [
+      18,
+      21
+    ],
+    "cut_years": [
+      2018,
+      2021
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2017,
+        "length": 18
+      },
+      {
+        "start": 2018,
+        "end": 2020,
+        "length": 3
+      },
+      {
+        "start": 2021,
+        "end": 2022,
+        "length": 2
+      }
+    ]
+  },
+  {
+    "case": 3,
+    "sheet": "3_VirtualTeaching",
+    "version": "entrega03",
+    "method": "derivative_k_provisional",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2000,
+      2022
+    ],
+    "n_years": 23,
+    "total": 368,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2009,
+      2017
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": null,
+    "eligible": false,
+    "metric_exclusion_reasons": [
+      "no feasible K-1 subset of original peaks"
+    ],
+    "algorithm_feasible": false,
+    "reason": "no feasible K-1 subset of original peaks",
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 1.1551919661313506,
+      "candidate_indices": [
+        17,
+        21
+      ],
+      "candidate_years": [
+        2017,
+        2021
+      ],
+      "candidate_heights": [
+        2.405311918203343,
+        2.276914408404842
+      ],
+      "feasible_subset_count": 0,
+      "adaptation": "provisional fixed-K subset of unchanged thresholded peaks",
+      "objective": "maximize sum(abs(d2)) over feasible K-1 peak subsets",
+      "tie_rule": "first lexicographic combination",
+      "selected_strength": null
+    },
+    "cut_indices": null,
+    "cut_years": null,
+    "intervals": null
+  },
+  {
+    "case": 3,
+    "sheet": "3_VirtualTeaching",
+    "version": "entrega03",
+    "method": "piecewise_linear_k",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2000,
+      2022
+    ],
+    "n_years": 23,
+    "total": 368,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2009,
+      2017
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        3,
+        1
+      ],
+      "absolute_errors_years": [
+        3,
+        1
+      ],
+      "mae_years": 2.0,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "independent linear SSE",
+      "sse": 225.20569430569427,
+      "continuity_constraint": false,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      12,
+      18
+    ],
+    "cut_years": [
+      2012,
+      2018
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2011,
+        "length": 12
+      },
+      {
+        "start": 2012,
+        "end": 2017,
+        "length": 6
+      },
+      {
+        "start": 2018,
+        "end": 2022,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "case": 3,
+    "sheet": "3_VirtualTeaching",
+    "version": "entrega03",
+    "method": "dynamic_l2_k",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2000,
+      2022
+    ],
+    "n_years": 23,
+    "total": 368,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2009,
+      2017
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        1,
+        3
+      ],
+      "absolute_errors_years": [
+        1,
+        3
+      ],
+      "mae_years": 2.0,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "within-segment mean SSE",
+      "jump": 1,
+      "min_size": 3,
+      "model": "l2",
+      "backend": "frozen ruptures v1.1.10 Dynp/CostL2 subset",
+      "sse": 1328.2666666666667
+    },
+    "cut_indices": [
+      10,
+      20
+    ],
+    "cut_years": [
+      2010,
+      2020
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2009,
+        "length": 10
+      },
+      {
+        "start": 2010,
+        "end": 2019,
+        "length": 10
+      },
+      {
+        "start": 2020,
+        "end": 2022,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "case": 4,
+    "sheet": "4_ProduccionCafe",
+    "version": "entrega03",
+    "method": "derivative_k_provisional",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2000,
+      2023
+    ],
+    "n_years": 24,
+    "total": 358,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2011,
+      2017
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        -2,
+        0
+      ],
+      "absolute_errors_years": [
+        2,
+        0
+      ],
+      "mae_years": 1.0,
+      "exact_count": 1,
+      "exact_rate": 0.5
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 0.4353696697239964,
+      "candidate_indices": [
+        9,
+        17,
+        21
+      ],
+      "candidate_years": [
+        2009,
+        2017,
+        2021
+      ],
+      "candidate_heights": [
+        0.6604564654350438,
+        0.9691976808130156,
+        0.5462909128621662
+      ],
+      "feasible_subset_count": 3,
+      "adaptation": "provisional fixed-K subset of unchanged thresholded peaks",
+      "objective": "maximize sum(abs(d2)) over feasible K-1 peak subsets",
+      "tie_rule": "first lexicographic combination",
+      "selected_strength": 1.6296541462480594
+    },
+    "cut_indices": [
+      9,
+      17
+    ],
+    "cut_years": [
+      2009,
+      2017
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2008,
+        "length": 9
+      },
+      {
+        "start": 2009,
+        "end": 2016,
+        "length": 8
+      },
+      {
+        "start": 2017,
+        "end": 2023,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "case": 4,
+    "sheet": "4_ProduccionCafe",
+    "version": "entrega03",
+    "method": "piecewise_linear_k",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2000,
+      2023
+    ],
+    "n_years": 24,
+    "total": 358,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2011,
+      2017
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        1,
+        -2
+      ],
+      "absolute_errors_years": [
+        1,
+        2
+      ],
+      "mae_years": 1.5,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "independent linear SSE",
+      "sse": 190.10007770007775,
+      "continuity_constraint": false,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      12,
+      15
+    ],
+    "cut_years": [
+      2012,
+      2015
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2011,
+        "length": 12
+      },
+      {
+        "start": 2012,
+        "end": 2014,
+        "length": 3
+      },
+      {
+        "start": 2015,
+        "end": 2023,
+        "length": 9
+      }
+    ]
+  },
+  {
+    "case": 4,
+    "sheet": "4_ProduccionCafe",
+    "version": "entrega03",
+    "method": "dynamic_l2_k",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2000,
+      2023
+    ],
+    "n_years": 24,
+    "total": 358,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2011,
+      2017
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        -4,
+        2
+      ],
+      "absolute_errors_years": [
+        4,
+        2
+      ],
+      "mae_years": 3.0,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "within-segment mean SSE",
+      "jump": 1,
+      "min_size": 2,
+      "model": "l2",
+      "backend": "frozen ruptures v1.1.10 Dynp/CostL2 subset",
+      "sse": 458.11666666666673
+    },
+    "cut_indices": [
+      7,
+      19
+    ],
+    "cut_years": [
+      2007,
+      2019
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2006,
+        "length": 7
+      },
+      {
+        "start": 2007,
+        "end": 2018,
+        "length": 12
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "case": 4,
+    "sheet": "4_ProduccionCafe",
+    "version": "entrega03",
+    "method": "derivative_k_provisional",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2000,
+      2023
+    ],
+    "n_years": 24,
+    "total": 358,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2011,
+      2017
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        -2,
+        0
+      ],
+      "absolute_errors_years": [
+        2,
+        0
+      ],
+      "mae_years": 1.0,
+      "exact_count": 1,
+      "exact_rate": 0.5
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 0.4353696697239964,
+      "candidate_indices": [
+        9,
+        17,
+        21
+      ],
+      "candidate_years": [
+        2009,
+        2017,
+        2021
+      ],
+      "candidate_heights": [
+        0.6604564654350438,
+        0.9691976808130156,
+        0.5462909128621662
+      ],
+      "feasible_subset_count": 3,
+      "adaptation": "provisional fixed-K subset of unchanged thresholded peaks",
+      "objective": "maximize sum(abs(d2)) over feasible K-1 peak subsets",
+      "tie_rule": "first lexicographic combination",
+      "selected_strength": 1.6296541462480594
+    },
+    "cut_indices": [
+      9,
+      17
+    ],
+    "cut_years": [
+      2009,
+      2017
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2008,
+        "length": 9
+      },
+      {
+        "start": 2009,
+        "end": 2016,
+        "length": 8
+      },
+      {
+        "start": 2017,
+        "end": 2023,
+        "length": 7
+      }
+    ]
+  },
+  {
+    "case": 4,
+    "sheet": "4_ProduccionCafe",
+    "version": "entrega03",
+    "method": "piecewise_linear_k",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2000,
+      2023
+    ],
+    "n_years": 24,
+    "total": 358,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2011,
+      2017
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        1,
+        -2
+      ],
+      "absolute_errors_years": [
+        1,
+        2
+      ],
+      "mae_years": 1.5,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "independent linear SSE",
+      "sse": 190.10007770007775,
+      "continuity_constraint": false,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      12,
+      15
+    ],
+    "cut_years": [
+      2012,
+      2015
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2011,
+        "length": 12
+      },
+      {
+        "start": 2012,
+        "end": 2014,
+        "length": 3
+      },
+      {
+        "start": 2015,
+        "end": 2023,
+        "length": 9
+      }
+    ]
+  },
+  {
+    "case": 4,
+    "sheet": "4_ProduccionCafe",
+    "version": "entrega03",
+    "method": "dynamic_l2_k",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2000,
+      2023
+    ],
+    "n_years": 24,
+    "total": 358,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2011,
+      2017
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        -4,
+        2
+      ],
+      "absolute_errors_years": [
+        4,
+        2
+      ],
+      "mae_years": 3.0,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "within-segment mean SSE",
+      "jump": 1,
+      "min_size": 3,
+      "model": "l2",
+      "backend": "frozen ruptures v1.1.10 Dynp/CostL2 subset",
+      "sse": 458.11666666666673
+    },
+    "cut_indices": [
+      7,
+      19
+    ],
+    "cut_years": [
+      2007,
+      2019
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2006,
+        "length": 7
+      },
+      {
+        "start": 2007,
+        "end": 2018,
+        "length": 12
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "case": 5,
+    "sheet": "5_IA-ID",
+    "version": "entrega03",
+    "method": "derivative_k_provisional",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2003,
+      2024
+    ],
+    "n_years": 22,
+    "total": 663,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2012,
+      2018
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        5,
+        5
+      ],
+      "absolute_errors_years": [
+        5,
+        5
+      ],
+      "mae_years": 5.0,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 2.039418619105375,
+      "candidate_indices": [
+        14,
+        20
+      ],
+      "candidate_years": [
+        2017,
+        2023
+      ],
+      "candidate_heights": [
+        3.1055983677494914,
+        4.376295173499418
+      ],
+      "feasible_subset_count": 1,
+      "adaptation": "provisional fixed-K subset of unchanged thresholded peaks",
+      "objective": "maximize sum(abs(d2)) over feasible K-1 peak subsets",
+      "tie_rule": "first lexicographic combination",
+      "selected_strength": 7.48189354124891
+    },
+    "cut_indices": [
+      14,
+      20
+    ],
+    "cut_years": [
+      2017,
+      2023
+    ],
+    "intervals": [
+      {
+        "start": 2003,
+        "end": 2016,
+        "length": 14
+      },
+      {
+        "start": 2017,
+        "end": 2022,
+        "length": 6
+      },
+      {
+        "start": 2023,
+        "end": 2024,
+        "length": 2
+      }
+    ]
+  },
+  {
+    "case": 5,
+    "sheet": "5_IA-ID",
+    "version": "entrega03",
+    "method": "piecewise_linear_k",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2003,
+      2024
+    ],
+    "n_years": 22,
+    "total": 663,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2012,
+      2018
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        5,
+        4
+      ],
+      "absolute_errors_years": [
+        5,
+        4
+      ],
+      "mae_years": 4.5,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "independent linear SSE",
+      "sse": 260.42710622710626,
+      "continuity_constraint": false,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      14,
+      19
+    ],
+    "cut_years": [
+      2017,
+      2022
+    ],
+    "intervals": [
+      {
+        "start": 2003,
+        "end": 2016,
+        "length": 14
+      },
+      {
+        "start": 2017,
+        "end": 2021,
+        "length": 5
+      },
+      {
+        "start": 2022,
+        "end": 2024,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "case": 5,
+    "sheet": "5_IA-ID",
+    "version": "entrega03",
+    "method": "dynamic_l2_k",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2003,
+      2024
+    ],
+    "n_years": 22,
+    "total": 663,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2012,
+      2018
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        6,
+        4
+      ],
+      "absolute_errors_years": [
+        6,
+        4
+      ],
+      "mae_years": 5.0,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "within-segment mean SSE",
+      "jump": 1,
+      "min_size": 2,
+      "model": "l2",
+      "backend": "frozen ruptures v1.1.10 Dynp/CostL2 subset",
+      "sse": 1892.4
+    },
+    "cut_indices": [
+      15,
+      19
+    ],
+    "cut_years": [
+      2018,
+      2022
+    ],
+    "intervals": [
+      {
+        "start": 2003,
+        "end": 2017,
+        "length": 15
+      },
+      {
+        "start": 2018,
+        "end": 2021,
+        "length": 4
+      },
+      {
+        "start": 2022,
+        "end": 2024,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "case": 5,
+    "sheet": "5_IA-ID",
+    "version": "entrega03",
+    "method": "derivative_k_provisional",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2003,
+      2024
+    ],
+    "n_years": 22,
+    "total": 663,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2012,
+      2018
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": null,
+    "eligible": false,
+    "metric_exclusion_reasons": [
+      "no feasible K-1 subset of original peaks"
+    ],
+    "algorithm_feasible": false,
+    "reason": "no feasible K-1 subset of original peaks",
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 2.039418619105375,
+      "candidate_indices": [
+        14,
+        20
+      ],
+      "candidate_years": [
+        2017,
+        2023
+      ],
+      "candidate_heights": [
+        3.1055983677494914,
+        4.376295173499418
+      ],
+      "feasible_subset_count": 0,
+      "adaptation": "provisional fixed-K subset of unchanged thresholded peaks",
+      "objective": "maximize sum(abs(d2)) over feasible K-1 peak subsets",
+      "tie_rule": "first lexicographic combination",
+      "selected_strength": null
+    },
+    "cut_indices": null,
+    "cut_years": null,
+    "intervals": null
+  },
+  {
+    "case": 5,
+    "sheet": "5_IA-ID",
+    "version": "entrega03",
+    "method": "piecewise_linear_k",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2003,
+      2024
+    ],
+    "n_years": 22,
+    "total": 663,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2012,
+      2018
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        5,
+        4
+      ],
+      "absolute_errors_years": [
+        5,
+        4
+      ],
+      "mae_years": 4.5,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "independent linear SSE",
+      "sse": 260.42710622710626,
+      "continuity_constraint": false,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      14,
+      19
+    ],
+    "cut_years": [
+      2017,
+      2022
+    ],
+    "intervals": [
+      {
+        "start": 2003,
+        "end": 2016,
+        "length": 14
+      },
+      {
+        "start": 2017,
+        "end": 2021,
+        "length": 5
+      },
+      {
+        "start": 2022,
+        "end": 2024,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "case": 5,
+    "sheet": "5_IA-ID",
+    "version": "entrega03",
+    "method": "dynamic_l2_k",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2003,
+      2024
+    ],
+    "n_years": 22,
+    "total": 663,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2012,
+      2018
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        6,
+        4
+      ],
+      "absolute_errors_years": [
+        6,
+        4
+      ],
+      "mae_years": 5.0,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "within-segment mean SSE",
+      "jump": 1,
+      "min_size": 3,
+      "model": "l2",
+      "backend": "frozen ruptures v1.1.10 Dynp/CostL2 subset",
+      "sse": 1892.4
+    },
+    "cut_indices": [
+      15,
+      19
+    ],
+    "cut_years": [
+      2018,
+      2022
+    ],
+    "intervals": [
+      {
+        "start": 2003,
+        "end": 2017,
+        "length": 15
+      },
+      {
+        "start": 2018,
+        "end": 2021,
+        "length": 4
+      },
+      {
+        "start": 2022,
+        "end": 2024,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "case": 6,
+    "sheet": "6_PotMicrobiano",
+    "version": "entrega03",
+    "method": "derivative_k_provisional",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2003,
+      2023
+    ],
+    "n_years": 21,
+    "total": 712,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2011,
+      2018
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        6,
+        4
+      ],
+      "absolute_errors_years": [
+        6,
+        4
+      ],
+      "mae_years": 5.0,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 1.029652196493663,
+      "candidate_indices": [
+        14,
+        19
+      ],
+      "candidate_years": [
+        2017,
+        2022
+      ],
+      "candidate_heights": [
+        1.5842722139714542,
+        2.302359803298014
+      ],
+      "feasible_subset_count": 1,
+      "adaptation": "provisional fixed-K subset of unchanged thresholded peaks",
+      "objective": "maximize sum(abs(d2)) over feasible K-1 peak subsets",
+      "tie_rule": "first lexicographic combination",
+      "selected_strength": 3.886632017269468
+    },
+    "cut_indices": [
+      14,
+      19
+    ],
+    "cut_years": [
+      2017,
+      2022
+    ],
+    "intervals": [
+      {
+        "start": 2003,
+        "end": 2016,
+        "length": 14
+      },
+      {
+        "start": 2017,
+        "end": 2021,
+        "length": 5
+      },
+      {
+        "start": 2022,
+        "end": 2023,
+        "length": 2
+      }
+    ]
+  },
+  {
+    "case": 6,
+    "sheet": "6_PotMicrobiano",
+    "version": "entrega03",
+    "method": "piecewise_linear_k",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2003,
+      2023
+    ],
+    "n_years": 21,
+    "total": 712,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2011,
+      2018
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        5,
+        0
+      ],
+      "absolute_errors_years": [
+        5,
+        0
+      ],
+      "mae_years": 2.5,
+      "exact_count": 1,
+      "exact_rate": 0.5
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "independent linear SSE",
+      "sse": 331.78937728937706,
+      "continuity_constraint": false,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      13,
+      15
+    ],
+    "cut_years": [
+      2016,
+      2018
+    ],
+    "intervals": [
+      {
+        "start": 2003,
+        "end": 2015,
+        "length": 13
+      },
+      {
+        "start": 2016,
+        "end": 2017,
+        "length": 2
+      },
+      {
+        "start": 2018,
+        "end": 2023,
+        "length": 6
+      }
+    ]
+  },
+  {
+    "case": 6,
+    "sheet": "6_PotMicrobiano",
+    "version": "entrega03",
+    "method": "dynamic_l2_k",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2003,
+      2023
+    ],
+    "n_years": 21,
+    "total": 712,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2011,
+      2018
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        5,
+        2
+      ],
+      "absolute_errors_years": [
+        5,
+        2
+      ],
+      "mae_years": 3.5,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "within-segment mean SSE",
+      "jump": 1,
+      "min_size": 2,
+      "model": "l2",
+      "backend": "frozen ruptures v1.1.10 Dynp/CostL2 subset",
+      "sse": 1977.6923076923076
+    },
+    "cut_indices": [
+      13,
+      17
+    ],
+    "cut_years": [
+      2016,
+      2020
+    ],
+    "intervals": [
+      {
+        "start": 2003,
+        "end": 2015,
+        "length": 13
+      },
+      {
+        "start": 2016,
+        "end": 2019,
+        "length": 4
+      },
+      {
+        "start": 2020,
+        "end": 2023,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "case": 6,
+    "sheet": "6_PotMicrobiano",
+    "version": "entrega03",
+    "method": "derivative_k_provisional",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2003,
+      2023
+    ],
+    "n_years": 21,
+    "total": 712,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2011,
+      2018
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": null,
+    "eligible": false,
+    "metric_exclusion_reasons": [
+      "no feasible K-1 subset of original peaks"
+    ],
+    "algorithm_feasible": false,
+    "reason": "no feasible K-1 subset of original peaks",
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 1.029652196493663,
+      "candidate_indices": [
+        14,
+        19
+      ],
+      "candidate_years": [
+        2017,
+        2022
+      ],
+      "candidate_heights": [
+        1.5842722139714542,
+        2.302359803298014
+      ],
+      "feasible_subset_count": 0,
+      "adaptation": "provisional fixed-K subset of unchanged thresholded peaks",
+      "objective": "maximize sum(abs(d2)) over feasible K-1 peak subsets",
+      "tie_rule": "first lexicographic combination",
+      "selected_strength": null
+    },
+    "cut_indices": null,
+    "cut_years": null,
+    "intervals": null
+  },
+  {
+    "case": 6,
+    "sheet": "6_PotMicrobiano",
+    "version": "entrega03",
+    "method": "piecewise_linear_k",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2003,
+      2023
+    ],
+    "n_years": 21,
+    "total": 712,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2011,
+      2018
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        7,
+        3
+      ],
+      "absolute_errors_years": [
+        7,
+        3
+      ],
+      "mae_years": 5.0,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "independent linear SSE",
+      "sse": 362.43809523809506,
+      "continuity_constraint": false,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      15,
+      18
+    ],
+    "cut_years": [
+      2018,
+      2021
+    ],
+    "intervals": [
+      {
+        "start": 2003,
+        "end": 2017,
+        "length": 15
+      },
+      {
+        "start": 2018,
+        "end": 2020,
+        "length": 3
+      },
+      {
+        "start": 2021,
+        "end": 2023,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "case": 6,
+    "sheet": "6_PotMicrobiano",
+    "version": "entrega03",
+    "method": "dynamic_l2_k",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2003,
+      2023
+    ],
+    "n_years": 21,
+    "total": 712,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2011,
+      2018
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        5,
+        2
+      ],
+      "absolute_errors_years": [
+        5,
+        2
+      ],
+      "mae_years": 3.5,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "within-segment mean SSE",
+      "jump": 1,
+      "min_size": 3,
+      "model": "l2",
+      "backend": "frozen ruptures v1.1.10 Dynp/CostL2 subset",
+      "sse": 1977.6923076923076
+    },
+    "cut_indices": [
+      13,
+      17
+    ],
+    "cut_years": [
+      2016,
+      2020
+    ],
+    "intervals": [
+      {
+        "start": 2003,
+        "end": 2015,
+        "length": 13
+      },
+      {
+        "start": 2016,
+        "end": 2019,
+        "length": 4
+      },
+      {
+        "start": 2020,
+        "end": 2023,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "case": 7,
+    "sheet": "7_PerspCiencio",
+    "version": "entrega03",
+    "method": "derivative_k_provisional",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2000,
+      2022
+    ],
+    "n_years": 23,
+    "total": 273,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2013,
+      2020
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        2,
+        0
+      ],
+      "absolute_errors_years": [
+        2,
+        0
+      ],
+      "mae_years": 1.0,
+      "exact_count": 1,
+      "exact_rate": 0.5
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 0.5648805769258418,
+      "candidate_indices": [
+        15,
+        20
+      ],
+      "candidate_years": [
+        2015,
+        2020
+      ],
+      "candidate_heights": [
+        1.0375471429725946,
+        1.1448630722985556
+      ],
+      "feasible_subset_count": 1,
+      "adaptation": "provisional fixed-K subset of unchanged thresholded peaks",
+      "objective": "maximize sum(abs(d2)) over feasible K-1 peak subsets",
+      "tie_rule": "first lexicographic combination",
+      "selected_strength": 2.18241021527115
+    },
+    "cut_indices": [
+      15,
+      20
+    ],
+    "cut_years": [
+      2015,
+      2020
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2014,
+        "length": 15
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "length": 5
+      },
+      {
+        "start": 2020,
+        "end": 2022,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "case": 7,
+    "sheet": "7_PerspCiencio",
+    "version": "entrega03",
+    "method": "piecewise_linear_k",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2000,
+      2022
+    ],
+    "n_years": 23,
+    "total": 273,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2013,
+      2020
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        0,
+        -1
+      ],
+      "absolute_errors_years": [
+        0,
+        1
+      ],
+      "mae_years": 0.5,
+      "exact_count": 1,
+      "exact_rate": 0.5
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "independent linear SSE",
+      "sse": 71.92673992673993,
+      "continuity_constraint": false,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      13,
+      19
+    ],
+    "cut_years": [
+      2013,
+      2019
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2012,
+        "length": 13
+      },
+      {
+        "start": 2013,
+        "end": 2018,
+        "length": 6
+      },
+      {
+        "start": 2019,
+        "end": 2022,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "case": 7,
+    "sheet": "7_PerspCiencio",
+    "version": "entrega03",
+    "method": "dynamic_l2_k",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2000,
+      2022
+    ],
+    "n_years": 23,
+    "total": 273,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2013,
+      2020
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        -4,
+        -1
+      ],
+      "absolute_errors_years": [
+        4,
+        1
+      ],
+      "mae_years": 2.5,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "within-segment mean SSE",
+      "jump": 1,
+      "min_size": 2,
+      "model": "l2",
+      "backend": "frozen ruptures v1.1.10 Dynp/CostL2 subset",
+      "sse": 229.59999999999997
+    },
+    "cut_indices": [
+      9,
+      19
+    ],
+    "cut_years": [
+      2009,
+      2019
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2008,
+        "length": 9
+      },
+      {
+        "start": 2009,
+        "end": 2018,
+        "length": 10
+      },
+      {
+        "start": 2019,
+        "end": 2022,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "case": 7,
+    "sheet": "7_PerspCiencio",
+    "version": "entrega03",
+    "method": "derivative_k_provisional",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2000,
+      2022
+    ],
+    "n_years": 23,
+    "total": 273,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2013,
+      2020
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        2,
+        0
+      ],
+      "absolute_errors_years": [
+        2,
+        0
+      ],
+      "mae_years": 1.0,
+      "exact_count": 1,
+      "exact_rate": 0.5
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 0.5648805769258418,
+      "candidate_indices": [
+        15,
+        20
+      ],
+      "candidate_years": [
+        2015,
+        2020
+      ],
+      "candidate_heights": [
+        1.0375471429725946,
+        1.1448630722985556
+      ],
+      "feasible_subset_count": 1,
+      "adaptation": "provisional fixed-K subset of unchanged thresholded peaks",
+      "objective": "maximize sum(abs(d2)) over feasible K-1 peak subsets",
+      "tie_rule": "first lexicographic combination",
+      "selected_strength": 2.18241021527115
+    },
+    "cut_indices": [
+      15,
+      20
+    ],
+    "cut_years": [
+      2015,
+      2020
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2014,
+        "length": 15
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "length": 5
+      },
+      {
+        "start": 2020,
+        "end": 2022,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "case": 7,
+    "sheet": "7_PerspCiencio",
+    "version": "entrega03",
+    "method": "piecewise_linear_k",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2000,
+      2022
+    ],
+    "n_years": 23,
+    "total": 273,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2013,
+      2020
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        0,
+        -1
+      ],
+      "absolute_errors_years": [
+        0,
+        1
+      ],
+      "mae_years": 0.5,
+      "exact_count": 1,
+      "exact_rate": 0.5
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "independent linear SSE",
+      "sse": 71.92673992673993,
+      "continuity_constraint": false,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      13,
+      19
+    ],
+    "cut_years": [
+      2013,
+      2019
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2012,
+        "length": 13
+      },
+      {
+        "start": 2013,
+        "end": 2018,
+        "length": 6
+      },
+      {
+        "start": 2019,
+        "end": 2022,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "case": 7,
+    "sheet": "7_PerspCiencio",
+    "version": "entrega03",
+    "method": "dynamic_l2_k",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2000,
+      2022
+    ],
+    "n_years": 23,
+    "total": 273,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2013,
+      2020
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        -4,
+        -1
+      ],
+      "absolute_errors_years": [
+        4,
+        1
+      ],
+      "mae_years": 2.5,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "within-segment mean SSE",
+      "jump": 1,
+      "min_size": 3,
+      "model": "l2",
+      "backend": "frozen ruptures v1.1.10 Dynp/CostL2 subset",
+      "sse": 229.59999999999997
+    },
+    "cut_indices": [
+      9,
+      19
+    ],
+    "cut_years": [
+      2009,
+      2019
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2008,
+        "length": 9
+      },
+      {
+        "start": 2009,
+        "end": 2018,
+        "length": 10
+      },
+      {
+        "start": 2019,
+        "end": 2022,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "case": 8,
+    "sheet": "8_TenTurismoSos",
+    "version": "entrega03",
+    "method": "derivative_k_provisional",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2000,
+      2022
+    ],
+    "n_years": 23,
+    "total": 1004,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2009,
+      2017
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        7,
+        3
+      ],
+      "absolute_errors_years": [
+        7,
+        3
+      ],
+      "mae_years": 5.0,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 2.3377274333272187,
+      "candidate_indices": [
+        16,
+        20
+      ],
+      "candidate_years": [
+        2016,
+        2020
+      ],
+      "candidate_heights": [
+        4.2503389735874215,
+        5.329331266685408
+      ],
+      "feasible_subset_count": 1,
+      "adaptation": "provisional fixed-K subset of unchanged thresholded peaks",
+      "objective": "maximize sum(abs(d2)) over feasible K-1 peak subsets",
+      "tie_rule": "first lexicographic combination",
+      "selected_strength": 9.57967024027283
+    },
+    "cut_indices": [
+      16,
+      20
+    ],
+    "cut_years": [
+      2016,
+      2020
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2015,
+        "length": 16
+      },
+      {
+        "start": 2016,
+        "end": 2019,
+        "length": 4
+      },
+      {
+        "start": 2020,
+        "end": 2022,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "case": 8,
+    "sheet": "8_TenTurismoSos",
+    "version": "entrega03",
+    "method": "piecewise_linear_k",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2000,
+      2022
+    ],
+    "n_years": 23,
+    "total": 1004,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2009,
+      2017
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        8,
+        4
+      ],
+      "absolute_errors_years": [
+        8,
+        4
+      ],
+      "mae_years": 6.0,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "independent linear SSE",
+      "sse": 953.0137254901964,
+      "continuity_constraint": false,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      17,
+      21
+    ],
+    "cut_years": [
+      2017,
+      2021
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2016,
+        "length": 17
+      },
+      {
+        "start": 2017,
+        "end": 2020,
+        "length": 4
+      },
+      {
+        "start": 2021,
+        "end": 2022,
+        "length": 2
+      }
+    ]
+  },
+  {
+    "case": 8,
+    "sheet": "8_TenTurismoSos",
+    "version": "entrega03",
+    "method": "dynamic_l2_k",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2000,
+      2022
+    ],
+    "n_years": 23,
+    "total": 1004,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2009,
+      2017
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        6,
+        2
+      ],
+      "absolute_errors_years": [
+        6,
+        2
+      ],
+      "mae_years": 4.0,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "within-segment mean SSE",
+      "jump": 1,
+      "min_size": 2,
+      "model": "l2",
+      "backend": "frozen ruptures v1.1.10 Dynp/CostL2 subset",
+      "sse": 3701.4833333333336
+    },
+    "cut_indices": [
+      15,
+      19
+    ],
+    "cut_years": [
+      2015,
+      2019
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2014,
+        "length": 15
+      },
+      {
+        "start": 2015,
+        "end": 2018,
+        "length": 4
+      },
+      {
+        "start": 2019,
+        "end": 2022,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "case": 8,
+    "sheet": "8_TenTurismoSos",
+    "version": "entrega03",
+    "method": "derivative_k_provisional",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2000,
+      2022
+    ],
+    "n_years": 23,
+    "total": 1004,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2009,
+      2017
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        7,
+        3
+      ],
+      "absolute_errors_years": [
+        7,
+        3
+      ],
+      "mae_years": 5.0,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 2.3377274333272187,
+      "candidate_indices": [
+        16,
+        20
+      ],
+      "candidate_years": [
+        2016,
+        2020
+      ],
+      "candidate_heights": [
+        4.2503389735874215,
+        5.329331266685408
+      ],
+      "feasible_subset_count": 1,
+      "adaptation": "provisional fixed-K subset of unchanged thresholded peaks",
+      "objective": "maximize sum(abs(d2)) over feasible K-1 peak subsets",
+      "tie_rule": "first lexicographic combination",
+      "selected_strength": 9.57967024027283
+    },
+    "cut_indices": [
+      16,
+      20
+    ],
+    "cut_years": [
+      2016,
+      2020
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2015,
+        "length": 16
+      },
+      {
+        "start": 2016,
+        "end": 2019,
+        "length": 4
+      },
+      {
+        "start": 2020,
+        "end": 2022,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "case": 8,
+    "sheet": "8_TenTurismoSos",
+    "version": "entrega03",
+    "method": "piecewise_linear_k",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2000,
+      2022
+    ],
+    "n_years": 23,
+    "total": 1004,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2009,
+      2017
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        7,
+        2
+      ],
+      "absolute_errors_years": [
+        7,
+        2
+      ],
+      "mae_years": 4.5,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "independent linear SSE",
+      "sse": 1156.0034313725494,
+      "continuity_constraint": false,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      16,
+      19
+    ],
+    "cut_years": [
+      2016,
+      2019
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2015,
+        "length": 16
+      },
+      {
+        "start": 2016,
+        "end": 2018,
+        "length": 3
+      },
+      {
+        "start": 2019,
+        "end": 2022,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "case": 8,
+    "sheet": "8_TenTurismoSos",
+    "version": "entrega03",
+    "method": "dynamic_l2_k",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2000,
+      2022
+    ],
+    "n_years": 23,
+    "total": 1004,
+    "phases_input": 3,
+    "reference_cut_years": [
+      2009,
+      2017
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 2,
+      "signed_errors_years": [
+        6,
+        2
+      ],
+      "absolute_errors_years": [
+        6,
+        2
+      ],
+      "mae_years": 4.0,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 3,
+      "n_cuts_input": 2,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "within-segment mean SSE",
+      "jump": 1,
+      "min_size": 3,
+      "model": "l2",
+      "backend": "frozen ruptures v1.1.10 Dynp/CostL2 subset",
+      "sse": 3701.4833333333336
+    },
+    "cut_indices": [
+      15,
+      19
+    ],
+    "cut_years": [
+      2015,
+      2019
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2014,
+        "length": 15
+      },
+      {
+        "start": 2015,
+        "end": 2018,
+        "length": 4
+      },
+      {
+        "start": 2019,
+        "end": 2022,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "case": 9,
+    "sheet": "9_AnaCiencLiderazgo",
+    "version": "entrega03",
+    "method": "derivative_k_provisional",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2000,
+      2022
+    ],
+    "n_years": 23,
+    "total": 483,
+    "phases_input": 2,
+    "reference_cut_years": [
+      2012
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 1,
+      "signed_errors_years": [
+        6
+      ],
+      "absolute_errors_years": [
+        6
+      ],
+      "mae_years": 6.0,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 2,
+      "n_cuts_input": 1,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 0.8417043611560239,
+      "candidate_indices": [
+        18,
+        21
+      ],
+      "candidate_years": [
+        2018,
+        2021
+      ],
+      "candidate_heights": [
+        1.9146086187161568,
+        1.7590929716336259
+      ],
+      "feasible_subset_count": 2,
+      "adaptation": "provisional fixed-K subset of unchanged thresholded peaks",
+      "objective": "maximize sum(abs(d2)) over feasible K-1 peak subsets",
+      "tie_rule": "first lexicographic combination",
+      "selected_strength": 1.9146086187161568
+    },
+    "cut_indices": [
+      18
+    ],
+    "cut_years": [
+      2018
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2017,
+        "length": 18
+      },
+      {
+        "start": 2018,
+        "end": 2022,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "case": 9,
+    "sheet": "9_AnaCiencLiderazgo",
+    "version": "entrega03",
+    "method": "piecewise_linear_k",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2000,
+      2022
+    ],
+    "n_years": 23,
+    "total": 483,
+    "phases_input": 2,
+    "reference_cut_years": [
+      2012
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 1,
+      "signed_errors_years": [
+        8
+      ],
+      "absolute_errors_years": [
+        8
+      ],
+      "mae_years": 8.0,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 2,
+      "n_cuts_input": 1,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "independent linear SSE",
+      "sse": 437.21629072681696,
+      "continuity_constraint": false,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      20
+    ],
+    "cut_years": [
+      2020
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2019,
+        "length": 20
+      },
+      {
+        "start": 2020,
+        "end": 2022,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "case": 9,
+    "sheet": "9_AnaCiencLiderazgo",
+    "version": "entrega03",
+    "method": "dynamic_l2_k",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2000,
+      2022
+    ],
+    "n_years": 23,
+    "total": 483,
+    "phases_input": 2,
+    "reference_cut_years": [
+      2012
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 1,
+      "signed_errors_years": [
+        9
+      ],
+      "absolute_errors_years": [
+        9
+      ],
+      "mae_years": 9.0,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 2,
+      "n_cuts_input": 1,
+      "min_len": 2,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "within-segment mean SSE",
+      "jump": 1,
+      "min_size": 2,
+      "model": "l2",
+      "backend": "frozen ruptures v1.1.10 Dynp/CostL2 subset",
+      "sse": 2993.1428571428573
+    },
+    "cut_indices": [
+      21
+    ],
+    "cut_years": [
+      2021
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2020,
+        "length": 21
+      },
+      {
+        "start": 2021,
+        "end": 2022,
+        "length": 2
+      }
+    ]
+  },
+  {
+    "case": 9,
+    "sheet": "9_AnaCiencLiderazgo",
+    "version": "entrega03",
+    "method": "derivative_k_provisional",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2000,
+      2022
+    ],
+    "n_years": 23,
+    "total": 483,
+    "phases_input": 2,
+    "reference_cut_years": [
+      2012
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 1,
+      "signed_errors_years": [
+        6
+      ],
+      "absolute_errors_years": [
+        6
+      ],
+      "mae_years": 6.0,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 2,
+      "n_cuts_input": 1,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 0.8417043611560239,
+      "candidate_indices": [
+        18,
+        21
+      ],
+      "candidate_years": [
+        2018,
+        2021
+      ],
+      "candidate_heights": [
+        1.9146086187161568,
+        1.7590929716336259
+      ],
+      "feasible_subset_count": 1,
+      "adaptation": "provisional fixed-K subset of unchanged thresholded peaks",
+      "objective": "maximize sum(abs(d2)) over feasible K-1 peak subsets",
+      "tie_rule": "first lexicographic combination",
+      "selected_strength": 1.9146086187161568
+    },
+    "cut_indices": [
+      18
+    ],
+    "cut_years": [
+      2018
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2017,
+        "length": 18
+      },
+      {
+        "start": 2018,
+        "end": 2022,
+        "length": 5
+      }
+    ]
+  },
+  {
+    "case": 9,
+    "sheet": "9_AnaCiencLiderazgo",
+    "version": "entrega03",
+    "method": "piecewise_linear_k",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2000,
+      2022
+    ],
+    "n_years": 23,
+    "total": 483,
+    "phases_input": 2,
+    "reference_cut_years": [
+      2012
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 1,
+      "signed_errors_years": [
+        8
+      ],
+      "absolute_errors_years": [
+        8
+      ],
+      "mae_years": 8.0,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 2,
+      "n_cuts_input": 1,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "independent linear SSE",
+      "sse": 437.21629072681696,
+      "continuity_constraint": false,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      20
+    ],
+    "cut_years": [
+      2020
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2019,
+        "length": 20
+      },
+      {
+        "start": 2020,
+        "end": 2022,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "case": 9,
+    "sheet": "9_AnaCiencLiderazgo",
+    "version": "entrega03",
+    "method": "dynamic_l2_k",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2000,
+      2022
+    ],
+    "n_years": 23,
+    "total": 483,
+    "phases_input": 2,
+    "reference_cut_years": [
+      2012
+    ],
+    "reference_satisfies_minimum": true,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": {
+      "n_cuts": 1,
+      "signed_errors_years": [
+        7
+      ],
+      "absolute_errors_years": [
+        7
+      ],
+      "mae_years": 7.0,
+      "exact_count": 0,
+      "exact_rate": 0.0
+    },
+    "eligible": true,
+    "metric_exclusion_reasons": [],
+    "algorithm_feasible": true,
+    "reason": null,
+    "parameters": {
+      "phases_input": 2,
+      "n_cuts_input": 1,
+      "min_len": 3,
+      "data": "original annual counts, float64; no normalization",
+      "objective": "within-segment mean SSE",
+      "jump": 1,
+      "min_size": 3,
+      "model": "l2",
+      "backend": "frozen ruptures v1.1.10 Dynp/CostL2 subset",
+      "sse": 3025.6973684210525
+    },
+    "cut_indices": [
+      19
+    ],
+    "cut_years": [
+      2019
+    ],
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2018,
+        "length": 19
+      },
+      {
+        "start": 2019,
+        "end": 2022,
+        "length": 4
+      }
+    ]
+  },
+  {
+    "case": 10,
+    "sheet": "10_HumanGut",
+    "version": "entrega03",
+    "method": "derivative_k_provisional",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2000,
+      2023
+    ],
+    "n_years": 24,
+    "total": 2165,
+    "phases_input": null,
+    "reference_cut_years": null,
+    "reference_satisfies_minimum": null,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": null,
+    "eligible": false,
+    "metric_exclusion_reasons": [
+      "reference missing or incompatible with minimum",
+      "no complete published partition; K unknown"
+    ],
+    "algorithm_feasible": null,
+    "reason": "no complete published partition; K unknown",
+    "cut_indices": null,
+    "cut_years": null,
+    "intervals": null,
+    "parameters": null
+  },
+  {
+    "case": 10,
+    "sheet": "10_HumanGut",
+    "version": "entrega03",
+    "method": "piecewise_linear_k",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2000,
+      2023
+    ],
+    "n_years": 24,
+    "total": 2165,
+    "phases_input": null,
+    "reference_cut_years": null,
+    "reference_satisfies_minimum": null,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": null,
+    "eligible": false,
+    "metric_exclusion_reasons": [
+      "reference missing or incompatible with minimum",
+      "no complete published partition; K unknown"
+    ],
+    "algorithm_feasible": null,
+    "reason": "no complete published partition; K unknown",
+    "cut_indices": null,
+    "cut_years": null,
+    "intervals": null,
+    "parameters": null
+  },
+  {
+    "case": 10,
+    "sheet": "10_HumanGut",
+    "version": "entrega03",
+    "method": "dynamic_l2_k",
+    "min_len": 2,
+    "configuration": "published_K_min2",
+    "window": [
+      2000,
+      2023
+    ],
+    "n_years": 24,
+    "total": 2165,
+    "phases_input": null,
+    "reference_cut_years": null,
+    "reference_satisfies_minimum": null,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": null,
+    "eligible": false,
+    "metric_exclusion_reasons": [
+      "reference missing or incompatible with minimum",
+      "no complete published partition; K unknown"
+    ],
+    "algorithm_feasible": null,
+    "reason": "no complete published partition; K unknown",
+    "cut_indices": null,
+    "cut_years": null,
+    "intervals": null,
+    "parameters": null
+  },
+  {
+    "case": 10,
+    "sheet": "10_HumanGut",
+    "version": "entrega03",
+    "method": "derivative_k_provisional",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2000,
+      2023
+    ],
+    "n_years": 24,
+    "total": 2165,
+    "phases_input": null,
+    "reference_cut_years": null,
+    "reference_satisfies_minimum": null,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": null,
+    "eligible": false,
+    "metric_exclusion_reasons": [
+      "reference missing or incompatible with minimum",
+      "no complete published partition; K unknown"
+    ],
+    "algorithm_feasible": null,
+    "reason": "no complete published partition; K unknown",
+    "cut_indices": null,
+    "cut_years": null,
+    "intervals": null,
+    "parameters": null
+  },
+  {
+    "case": 10,
+    "sheet": "10_HumanGut",
+    "version": "entrega03",
+    "method": "piecewise_linear_k",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2000,
+      2023
+    ],
+    "n_years": 24,
+    "total": 2165,
+    "phases_input": null,
+    "reference_cut_years": null,
+    "reference_satisfies_minimum": null,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": null,
+    "eligible": false,
+    "metric_exclusion_reasons": [
+      "reference missing or incompatible with minimum",
+      "no complete published partition; K unknown"
+    ],
+    "algorithm_feasible": null,
+    "reason": "no complete published partition; K unknown",
+    "cut_indices": null,
+    "cut_years": null,
+    "intervals": null,
+    "parameters": null
+  },
+  {
+    "case": 10,
+    "sheet": "10_HumanGut",
+    "version": "entrega03",
+    "method": "dynamic_l2_k",
+    "min_len": 3,
+    "configuration": "published_K_min3",
+    "window": [
+      2000,
+      2023
+    ],
+    "n_years": 24,
+    "total": 2165,
+    "phases_input": null,
+    "reference_cut_years": null,
+    "reference_satisfies_minimum": null,
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "metrics": null,
+    "eligible": false,
+    "metric_exclusion_reasons": [
+      "reference missing or incompatible with minimum",
+      "no complete published partition; K unknown"
+    ],
+    "algorithm_feasible": null,
+    "reason": "no complete published partition; K unknown",
+    "cut_indices": null,
+    "cut_years": null,
+    "intervals": null,
+    "parameters": null
+  }
+]

@@ -1,0 +1,1477 @@
+[
+  {
+    "case": 1,
+    "method": "derivative_k_provisional",
+    "min_len": 2,
+    "old_window": [
+      2000,
+      2023
+    ],
+    "new_window": [
+      2000,
+      2023
+    ],
+    "old_K": 4,
+    "new_K": 4,
+    "old_cuts": null,
+    "new_cuts": null,
+    "old_metric_eligible": false,
+    "new_metric_eligible": false,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 1,
+    "method": "piecewise_linear_k",
+    "min_len": 2,
+    "old_window": [
+      2000,
+      2023
+    ],
+    "new_window": [
+      2000,
+      2023
+    ],
+    "old_K": 4,
+    "new_K": 4,
+    "old_cuts": [
+      2009,
+      2017,
+      2021
+    ],
+    "new_cuts": [
+      2009,
+      2017,
+      2021
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 1,
+    "method": "dynamic_l2_k",
+    "min_len": 2,
+    "old_window": [
+      2000,
+      2023
+    ],
+    "new_window": [
+      2000,
+      2023
+    ],
+    "old_K": 4,
+    "new_K": 4,
+    "old_cuts": [
+      2009,
+      2017,
+      2019
+    ],
+    "new_cuts": [
+      2009,
+      2017,
+      2019
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 1,
+    "method": "derivative_k_provisional",
+    "min_len": 3,
+    "old_window": [
+      2000,
+      2023
+    ],
+    "new_window": [
+      2000,
+      2023
+    ],
+    "old_K": 4,
+    "new_K": 4,
+    "old_cuts": null,
+    "new_cuts": null,
+    "old_metric_eligible": false,
+    "new_metric_eligible": false,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 1,
+    "method": "piecewise_linear_k",
+    "min_len": 3,
+    "old_window": [
+      2000,
+      2023
+    ],
+    "new_window": [
+      2000,
+      2023
+    ],
+    "old_K": 4,
+    "new_K": 4,
+    "old_cuts": [
+      2009,
+      2017,
+      2021
+    ],
+    "new_cuts": [
+      2009,
+      2017,
+      2021
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 1,
+    "method": "dynamic_l2_k",
+    "min_len": 3,
+    "old_window": [
+      2000,
+      2023
+    ],
+    "new_window": [
+      2000,
+      2023
+    ],
+    "old_K": 4,
+    "new_K": 4,
+    "old_cuts": [
+      2009,
+      2016,
+      2019
+    ],
+    "new_cuts": [
+      2009,
+      2016,
+      2019
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 2,
+    "method": "derivative_k_provisional",
+    "min_len": 2,
+    "old_window": [
+      2004,
+      2021
+    ],
+    "new_window": [
+      2004,
+      2021
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2014,
+      2019
+    ],
+    "new_cuts": [
+      2014,
+      2019
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "one count corrected"
+  },
+  {
+    "case": 2,
+    "method": "piecewise_linear_k",
+    "min_len": 2,
+    "old_window": [
+      2004,
+      2021
+    ],
+    "new_window": [
+      2004,
+      2021
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2014,
+      2019
+    ],
+    "new_cuts": [
+      2014,
+      2019
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "one count corrected"
+  },
+  {
+    "case": 2,
+    "method": "dynamic_l2_k",
+    "min_len": 2,
+    "old_window": [
+      2004,
+      2021
+    ],
+    "new_window": [
+      2004,
+      2021
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2015,
+      2018
+    ],
+    "new_cuts": [
+      2014,
+      2018
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "one count corrected"
+  },
+  {
+    "case": 2,
+    "method": "derivative_k_provisional",
+    "min_len": 3,
+    "old_window": [
+      2004,
+      2021
+    ],
+    "new_window": [
+      2004,
+      2021
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2014,
+      2019
+    ],
+    "new_cuts": [
+      2014,
+      2019
+    ],
+    "old_metric_eligible": false,
+    "new_metric_eligible": false,
+    "change_context": "one count corrected"
+  },
+  {
+    "case": 2,
+    "method": "piecewise_linear_k",
+    "min_len": 3,
+    "old_window": [
+      2004,
+      2021
+    ],
+    "new_window": [
+      2004,
+      2021
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2014,
+      2019
+    ],
+    "new_cuts": [
+      2014,
+      2019
+    ],
+    "old_metric_eligible": false,
+    "new_metric_eligible": false,
+    "change_context": "one count corrected"
+  },
+  {
+    "case": 2,
+    "method": "dynamic_l2_k",
+    "min_len": 3,
+    "old_window": [
+      2004,
+      2021
+    ],
+    "new_window": [
+      2004,
+      2021
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2015,
+      2018
+    ],
+    "new_cuts": [
+      2014,
+      2018
+    ],
+    "old_metric_eligible": false,
+    "new_metric_eligible": false,
+    "change_context": "one count corrected"
+  },
+  {
+    "case": 3,
+    "method": "derivative_k_provisional",
+    "min_len": 2,
+    "old_window": [
+      2000,
+      2022
+    ],
+    "new_window": [
+      2000,
+      2022
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2017,
+      2021
+    ],
+    "new_cuts": [
+      2017,
+      2021
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 3,
+    "method": "piecewise_linear_k",
+    "min_len": 2,
+    "old_window": [
+      2000,
+      2022
+    ],
+    "new_window": [
+      2000,
+      2022
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2012,
+      2018
+    ],
+    "new_cuts": [
+      2012,
+      2018
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 3,
+    "method": "dynamic_l2_k",
+    "min_len": 2,
+    "old_window": [
+      2000,
+      2022
+    ],
+    "new_window": [
+      2000,
+      2022
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2018,
+      2021
+    ],
+    "new_cuts": [
+      2018,
+      2021
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 3,
+    "method": "derivative_k_provisional",
+    "min_len": 3,
+    "old_window": [
+      2000,
+      2022
+    ],
+    "new_window": [
+      2000,
+      2022
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": null,
+    "new_cuts": null,
+    "old_metric_eligible": false,
+    "new_metric_eligible": false,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 3,
+    "method": "piecewise_linear_k",
+    "min_len": 3,
+    "old_window": [
+      2000,
+      2022
+    ],
+    "new_window": [
+      2000,
+      2022
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2012,
+      2018
+    ],
+    "new_cuts": [
+      2012,
+      2018
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 3,
+    "method": "dynamic_l2_k",
+    "min_len": 3,
+    "old_window": [
+      2000,
+      2022
+    ],
+    "new_window": [
+      2000,
+      2022
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2010,
+      2020
+    ],
+    "new_cuts": [
+      2010,
+      2020
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 4,
+    "method": "derivative_k_provisional",
+    "min_len": 2,
+    "old_window": [
+      2000,
+      2023
+    ],
+    "new_window": [
+      2000,
+      2023
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2009,
+      2017
+    ],
+    "new_cuts": [
+      2009,
+      2017
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 4,
+    "method": "piecewise_linear_k",
+    "min_len": 2,
+    "old_window": [
+      2000,
+      2023
+    ],
+    "new_window": [
+      2000,
+      2023
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2012,
+      2015
+    ],
+    "new_cuts": [
+      2012,
+      2015
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 4,
+    "method": "dynamic_l2_k",
+    "min_len": 2,
+    "old_window": [
+      2000,
+      2023
+    ],
+    "new_window": [
+      2000,
+      2023
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2007,
+      2019
+    ],
+    "new_cuts": [
+      2007,
+      2019
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 4,
+    "method": "derivative_k_provisional",
+    "min_len": 3,
+    "old_window": [
+      2000,
+      2023
+    ],
+    "new_window": [
+      2000,
+      2023
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2009,
+      2017
+    ],
+    "new_cuts": [
+      2009,
+      2017
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 4,
+    "method": "piecewise_linear_k",
+    "min_len": 3,
+    "old_window": [
+      2000,
+      2023
+    ],
+    "new_window": [
+      2000,
+      2023
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2012,
+      2015
+    ],
+    "new_cuts": [
+      2012,
+      2015
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 4,
+    "method": "dynamic_l2_k",
+    "min_len": 3,
+    "old_window": [
+      2000,
+      2023
+    ],
+    "new_window": [
+      2000,
+      2023
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2007,
+      2019
+    ],
+    "new_cuts": [
+      2007,
+      2019
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 5,
+    "method": "derivative_k_provisional",
+    "min_len": 2,
+    "old_window": [
+      2003,
+      2024
+    ],
+    "new_window": [
+      2003,
+      2024
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2017,
+      2023
+    ],
+    "new_cuts": [
+      2017,
+      2023
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 5,
+    "method": "piecewise_linear_k",
+    "min_len": 2,
+    "old_window": [
+      2003,
+      2024
+    ],
+    "new_window": [
+      2003,
+      2024
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2017,
+      2022
+    ],
+    "new_cuts": [
+      2017,
+      2022
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 5,
+    "method": "dynamic_l2_k",
+    "min_len": 2,
+    "old_window": [
+      2003,
+      2024
+    ],
+    "new_window": [
+      2003,
+      2024
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2018,
+      2022
+    ],
+    "new_cuts": [
+      2018,
+      2022
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 5,
+    "method": "derivative_k_provisional",
+    "min_len": 3,
+    "old_window": [
+      2003,
+      2024
+    ],
+    "new_window": [
+      2003,
+      2024
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": null,
+    "new_cuts": null,
+    "old_metric_eligible": false,
+    "new_metric_eligible": false,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 5,
+    "method": "piecewise_linear_k",
+    "min_len": 3,
+    "old_window": [
+      2003,
+      2024
+    ],
+    "new_window": [
+      2003,
+      2024
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2017,
+      2022
+    ],
+    "new_cuts": [
+      2017,
+      2022
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 5,
+    "method": "dynamic_l2_k",
+    "min_len": 3,
+    "old_window": [
+      2003,
+      2024
+    ],
+    "new_window": [
+      2003,
+      2024
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2018,
+      2022
+    ],
+    "new_cuts": [
+      2018,
+      2022
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 6,
+    "method": "derivative_k_provisional",
+    "min_len": 2,
+    "old_window": [
+      2003,
+      2024
+    ],
+    "new_window": [
+      2003,
+      2023
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2017,
+      2022
+    ],
+    "new_cuts": [
+      2017,
+      2022
+    ],
+    "old_metric_eligible": false,
+    "new_metric_eligible": true,
+    "change_context": "window changed; not a pure algorithm comparison"
+  },
+  {
+    "case": 6,
+    "method": "piecewise_linear_k",
+    "min_len": 2,
+    "old_window": [
+      2003,
+      2024
+    ],
+    "new_window": [
+      2003,
+      2023
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2018,
+      2023
+    ],
+    "new_cuts": [
+      2016,
+      2018
+    ],
+    "old_metric_eligible": false,
+    "new_metric_eligible": true,
+    "change_context": "window changed; not a pure algorithm comparison"
+  },
+  {
+    "case": 6,
+    "method": "dynamic_l2_k",
+    "min_len": 2,
+    "old_window": [
+      2003,
+      2024
+    ],
+    "new_window": [
+      2003,
+      2023
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2016,
+      2020
+    ],
+    "new_cuts": [
+      2016,
+      2020
+    ],
+    "old_metric_eligible": false,
+    "new_metric_eligible": true,
+    "change_context": "window changed; not a pure algorithm comparison"
+  },
+  {
+    "case": 6,
+    "method": "derivative_k_provisional",
+    "min_len": 3,
+    "old_window": [
+      2003,
+      2024
+    ],
+    "new_window": [
+      2003,
+      2023
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2017,
+      2022
+    ],
+    "new_cuts": null,
+    "old_metric_eligible": false,
+    "new_metric_eligible": false,
+    "change_context": "window changed; not a pure algorithm comparison"
+  },
+  {
+    "case": 6,
+    "method": "piecewise_linear_k",
+    "min_len": 3,
+    "old_window": [
+      2003,
+      2024
+    ],
+    "new_window": [
+      2003,
+      2023
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2017,
+      2022
+    ],
+    "new_cuts": [
+      2018,
+      2021
+    ],
+    "old_metric_eligible": false,
+    "new_metric_eligible": true,
+    "change_context": "window changed; not a pure algorithm comparison"
+  },
+  {
+    "case": 6,
+    "method": "dynamic_l2_k",
+    "min_len": 3,
+    "old_window": [
+      2003,
+      2024
+    ],
+    "new_window": [
+      2003,
+      2023
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2016,
+      2020
+    ],
+    "new_cuts": [
+      2016,
+      2020
+    ],
+    "old_metric_eligible": false,
+    "new_metric_eligible": true,
+    "change_context": "window changed; not a pure algorithm comparison"
+  },
+  {
+    "case": 7,
+    "method": "derivative_k_provisional",
+    "min_len": 2,
+    "old_window": [
+      2000,
+      2022
+    ],
+    "new_window": [
+      2000,
+      2022
+    ],
+    "old_K": null,
+    "new_K": 3,
+    "old_cuts": null,
+    "new_cuts": [
+      2015,
+      2020
+    ],
+    "old_metric_eligible": false,
+    "new_metric_eligible": true,
+    "change_context": "new published reference and eligibility"
+  },
+  {
+    "case": 7,
+    "method": "piecewise_linear_k",
+    "min_len": 2,
+    "old_window": [
+      2000,
+      2022
+    ],
+    "new_window": [
+      2000,
+      2022
+    ],
+    "old_K": null,
+    "new_K": 3,
+    "old_cuts": null,
+    "new_cuts": [
+      2013,
+      2019
+    ],
+    "old_metric_eligible": false,
+    "new_metric_eligible": true,
+    "change_context": "new published reference and eligibility"
+  },
+  {
+    "case": 7,
+    "method": "dynamic_l2_k",
+    "min_len": 2,
+    "old_window": [
+      2000,
+      2022
+    ],
+    "new_window": [
+      2000,
+      2022
+    ],
+    "old_K": null,
+    "new_K": 3,
+    "old_cuts": null,
+    "new_cuts": [
+      2009,
+      2019
+    ],
+    "old_metric_eligible": false,
+    "new_metric_eligible": true,
+    "change_context": "new published reference and eligibility"
+  },
+  {
+    "case": 7,
+    "method": "derivative_k_provisional",
+    "min_len": 3,
+    "old_window": [
+      2000,
+      2022
+    ],
+    "new_window": [
+      2000,
+      2022
+    ],
+    "old_K": null,
+    "new_K": 3,
+    "old_cuts": null,
+    "new_cuts": [
+      2015,
+      2020
+    ],
+    "old_metric_eligible": false,
+    "new_metric_eligible": true,
+    "change_context": "new published reference and eligibility"
+  },
+  {
+    "case": 7,
+    "method": "piecewise_linear_k",
+    "min_len": 3,
+    "old_window": [
+      2000,
+      2022
+    ],
+    "new_window": [
+      2000,
+      2022
+    ],
+    "old_K": null,
+    "new_K": 3,
+    "old_cuts": null,
+    "new_cuts": [
+      2013,
+      2019
+    ],
+    "old_metric_eligible": false,
+    "new_metric_eligible": true,
+    "change_context": "new published reference and eligibility"
+  },
+  {
+    "case": 7,
+    "method": "dynamic_l2_k",
+    "min_len": 3,
+    "old_window": [
+      2000,
+      2022
+    ],
+    "new_window": [
+      2000,
+      2022
+    ],
+    "old_K": null,
+    "new_K": 3,
+    "old_cuts": null,
+    "new_cuts": [
+      2009,
+      2019
+    ],
+    "old_metric_eligible": false,
+    "new_metric_eligible": true,
+    "change_context": "new published reference and eligibility"
+  },
+  {
+    "case": 8,
+    "method": "derivative_k_provisional",
+    "min_len": 2,
+    "old_window": [
+      2000,
+      2022
+    ],
+    "new_window": [
+      2000,
+      2022
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2016,
+      2020
+    ],
+    "new_cuts": [
+      2016,
+      2020
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 8,
+    "method": "piecewise_linear_k",
+    "min_len": 2,
+    "old_window": [
+      2000,
+      2022
+    ],
+    "new_window": [
+      2000,
+      2022
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2017,
+      2021
+    ],
+    "new_cuts": [
+      2017,
+      2021
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 8,
+    "method": "dynamic_l2_k",
+    "min_len": 2,
+    "old_window": [
+      2000,
+      2022
+    ],
+    "new_window": [
+      2000,
+      2022
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2015,
+      2019
+    ],
+    "new_cuts": [
+      2015,
+      2019
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 8,
+    "method": "derivative_k_provisional",
+    "min_len": 3,
+    "old_window": [
+      2000,
+      2022
+    ],
+    "new_window": [
+      2000,
+      2022
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2016,
+      2020
+    ],
+    "new_cuts": [
+      2016,
+      2020
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 8,
+    "method": "piecewise_linear_k",
+    "min_len": 3,
+    "old_window": [
+      2000,
+      2022
+    ],
+    "new_window": [
+      2000,
+      2022
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2016,
+      2019
+    ],
+    "new_cuts": [
+      2016,
+      2019
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 8,
+    "method": "dynamic_l2_k",
+    "min_len": 3,
+    "old_window": [
+      2000,
+      2022
+    ],
+    "new_window": [
+      2000,
+      2022
+    ],
+    "old_K": 3,
+    "new_K": 3,
+    "old_cuts": [
+      2015,
+      2019
+    ],
+    "new_cuts": [
+      2015,
+      2019
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 9,
+    "method": "derivative_k_provisional",
+    "min_len": 2,
+    "old_window": [
+      2000,
+      2022
+    ],
+    "new_window": [
+      2000,
+      2022
+    ],
+    "old_K": 2,
+    "new_K": 2,
+    "old_cuts": [
+      2018
+    ],
+    "new_cuts": [
+      2018
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 9,
+    "method": "piecewise_linear_k",
+    "min_len": 2,
+    "old_window": [
+      2000,
+      2022
+    ],
+    "new_window": [
+      2000,
+      2022
+    ],
+    "old_K": 2,
+    "new_K": 2,
+    "old_cuts": [
+      2020
+    ],
+    "new_cuts": [
+      2020
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 9,
+    "method": "dynamic_l2_k",
+    "min_len": 2,
+    "old_window": [
+      2000,
+      2022
+    ],
+    "new_window": [
+      2000,
+      2022
+    ],
+    "old_K": 2,
+    "new_K": 2,
+    "old_cuts": [
+      2021
+    ],
+    "new_cuts": [
+      2021
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 9,
+    "method": "derivative_k_provisional",
+    "min_len": 3,
+    "old_window": [
+      2000,
+      2022
+    ],
+    "new_window": [
+      2000,
+      2022
+    ],
+    "old_K": 2,
+    "new_K": 2,
+    "old_cuts": [
+      2018
+    ],
+    "new_cuts": [
+      2018
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 9,
+    "method": "piecewise_linear_k",
+    "min_len": 3,
+    "old_window": [
+      2000,
+      2022
+    ],
+    "new_window": [
+      2000,
+      2022
+    ],
+    "old_K": 2,
+    "new_K": 2,
+    "old_cuts": [
+      2020
+    ],
+    "new_cuts": [
+      2020
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 9,
+    "method": "dynamic_l2_k",
+    "min_len": 3,
+    "old_window": [
+      2000,
+      2022
+    ],
+    "new_window": [
+      2000,
+      2022
+    ],
+    "old_K": 2,
+    "new_K": 2,
+    "old_cuts": [
+      2019
+    ],
+    "new_cuts": [
+      2019
+    ],
+    "old_metric_eligible": true,
+    "new_metric_eligible": true,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 10,
+    "method": "derivative_k_provisional",
+    "min_len": 2,
+    "old_window": [
+      2000,
+      2023
+    ],
+    "new_window": [
+      2000,
+      2023
+    ],
+    "old_K": null,
+    "new_K": null,
+    "old_cuts": null,
+    "new_cuts": null,
+    "old_metric_eligible": false,
+    "new_metric_eligible": false,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 10,
+    "method": "piecewise_linear_k",
+    "min_len": 2,
+    "old_window": [
+      2000,
+      2023
+    ],
+    "new_window": [
+      2000,
+      2023
+    ],
+    "old_K": null,
+    "new_K": null,
+    "old_cuts": null,
+    "new_cuts": null,
+    "old_metric_eligible": false,
+    "new_metric_eligible": false,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 10,
+    "method": "dynamic_l2_k",
+    "min_len": 2,
+    "old_window": [
+      2000,
+      2023
+    ],
+    "new_window": [
+      2000,
+      2023
+    ],
+    "old_K": null,
+    "new_K": null,
+    "old_cuts": null,
+    "new_cuts": null,
+    "old_metric_eligible": false,
+    "new_metric_eligible": false,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 10,
+    "method": "derivative_k_provisional",
+    "min_len": 3,
+    "old_window": [
+      2000,
+      2023
+    ],
+    "new_window": [
+      2000,
+      2023
+    ],
+    "old_K": null,
+    "new_K": null,
+    "old_cuts": null,
+    "new_cuts": null,
+    "old_metric_eligible": false,
+    "new_metric_eligible": false,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 10,
+    "method": "piecewise_linear_k",
+    "min_len": 3,
+    "old_window": [
+      2000,
+      2023
+    ],
+    "new_window": [
+      2000,
+      2023
+    ],
+    "old_K": null,
+    "new_K": null,
+    "old_cuts": null,
+    "new_cuts": null,
+    "old_metric_eligible": false,
+    "new_metric_eligible": false,
+    "change_context": "unchanged input and parameters"
+  },
+  {
+    "case": 10,
+    "method": "dynamic_l2_k",
+    "min_len": 3,
+    "old_window": [
+      2000,
+      2023
+    ],
+    "new_window": [
+      2000,
+      2023
+    ],
+    "old_K": null,
+    "new_K": null,
+    "old_cuts": null,
+    "new_cuts": null,
+    "old_metric_eligible": false,
+    "new_metric_eligible": false,
+    "change_context": "unchanged input and parameters"
+  }
+]

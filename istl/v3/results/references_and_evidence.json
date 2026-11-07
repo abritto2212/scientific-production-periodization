@@ -1,0 +1,480 @@
+[
+  {
+    "case": 1,
+    "sheet": "1_Emprendi-innovador",
+    "phases": 4,
+    "cut_years": [
+      2007,
+      2013,
+      2019
+    ],
+    "published_intervals": [
+      {
+        "start": 2000,
+        "end": 2006,
+        "length": 7
+      },
+      {
+        "start": 2007,
+        "end": 2012,
+        "length": 6
+      },
+      {
+        "start": 2013,
+        "end": 2018,
+        "length": 6
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "length": 5
+      }
+    ],
+    "source": "https://doi.org/10.21676/23897848.5658",
+    "reference": "Cano-Vargas, A. A., & Osorio-Toro, C. A. (2024). Exploring the evolution and trends of innovative entrepreneurship: A bibliometric analysis. Clío América, 18(35), 34–51.",
+    "evidence_location": "Resultados > Bibliometric Analysis > Scientific production; Figura 1 y cuatro subtítulos.",
+    "source_year_start": 2000,
+    "source_year_end": 2023,
+    "source_total": 1787,
+    "analysis_year_start": 2000,
+    "analysis_year_end": 2023,
+    "analysis_total": 1787,
+    "omitted_analysis_years": [],
+    "omitted_analysis_count": 0,
+    "published_declared_total": 1795,
+    "source_minus_published_declared": -8,
+    "total_difference_explanation": "unresolved; subtraction does not allocate the difference to omitted years",
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "annual_verification_basis": "inherited Direction integration status",
+    "verification_origin": "Direction integration evidence_status_v0.2, commit 60ea426",
+    "historical_evidence_class": "B",
+    "boundary_authority": "published phases; approved reference table",
+    "textual_vs_graphical_header_conflict": null,
+    "partial_last_year_note": null
+  },
+  {
+    "case": 2,
+    "sheet": "2_TopicModeling",
+    "phases": 3,
+    "cut_years": [
+      2014,
+      2020
+    ],
+    "published_intervals": [
+      {
+        "start": 2004,
+        "end": 2013,
+        "length": 10
+      },
+      {
+        "start": 2014,
+        "end": 2019,
+        "length": 6
+      },
+      {
+        "start": 2020,
+        "end": 2021,
+        "length": 2
+      }
+    ],
+    "source": "https://doi.org/10.1109/ACCESS.2022.3232939",
+    "reference": "Grisales A., A. M., Robledo, S., & Zuluaga, M. (2023). Topic modeling: Perspectives from a literature review. IEEE Access, 11, 4066–4078.",
+    "evidence_location": "III.A.1 Scientific production, p. 4068; Figura 1, p. 4069.",
+    "source_year_start": 2004,
+    "source_year_end": 2021,
+    "source_total": 1693,
+    "analysis_year_start": 2004,
+    "analysis_year_end": 2021,
+    "analysis_total": 1693,
+    "omitted_analysis_years": [],
+    "omitted_analysis_count": 0,
+    "published_declared_total": 1697,
+    "source_minus_published_declared": -4,
+    "total_difference_explanation": "unresolved; subtraction does not allocate the difference to omitted years",
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "annual_verification_basis": "18 annual counts reviewed by Sebastian; 2004 corrected to1, 2005=1 and later retained",
+    "verification_origin": "Sebastian and Direction, instruction for entrega03 (2026-11-06)",
+    "historical_evidence_class": "B",
+    "boundary_authority": "published phases; approved reference table",
+    "textual_vs_graphical_header_conflict": null,
+    "partial_last_year_note": null
+  },
+  {
+    "case": 3,
+    "sheet": "3_VirtualTeaching",
+    "phases": 3,
+    "cut_years": [
+      2009,
+      2017
+    ],
+    "published_intervals": [
+      {
+        "start": 2000,
+        "end": 2008,
+        "length": 9
+      },
+      {
+        "start": 2009,
+        "end": 2016,
+        "length": 8
+      },
+      {
+        "start": 2017,
+        "end": 2022,
+        "length": 6
+      }
+    ],
+    "source": "https://doi.org/10.5530/jscires.13.2.32",
+    "reference": "Vargas-Hernández, A., Robledo, S., & Rojas Quiceno, G. (2024). Virtual teaching for online learning from the perspective of higher education: A bibliometric analysis. Journal of Scientometric Research, 13(2), 406–418.",
+    "evidence_location": "Resultados > Scientific production, p. 409; Figura 2.",
+    "source_year_start": 2000,
+    "source_year_end": 2022,
+    "source_total": 368,
+    "analysis_year_start": 2000,
+    "analysis_year_end": 2022,
+    "analysis_total": 368,
+    "omitted_analysis_years": [],
+    "omitted_analysis_count": 0,
+    "published_declared_total": 376,
+    "source_minus_published_declared": -8,
+    "total_difference_explanation": "unresolved; subtraction does not allocate the difference to omitted years",
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "annual_verification_basis": "23 labels matched to repository Excel by Direction on 2026-11-07; Figure 2, p.409",
+    "verification_origin": "Direction direct figure verification, 2026-11-07",
+    "historical_evidence_class": "B",
+    "boundary_authority": "published phases; approved reference table",
+    "textual_vs_graphical_header_conflict": null,
+    "partial_last_year_note": null
+  },
+  {
+    "case": 4,
+    "sheet": "4_ProduccionCafe",
+    "phases": 3,
+    "cut_years": [
+      2011,
+      2017
+    ],
+    "published_intervals": [
+      {
+        "start": 2000,
+        "end": 2010,
+        "length": 11
+      },
+      {
+        "start": 2011,
+        "end": 2016,
+        "length": 6
+      },
+      {
+        "start": 2017,
+        "end": 2023,
+        "length": 7
+      }
+    ],
+    "source": "https://doi.org/10.21676/23897848.5650",
+    "reference": "Gómez-Ortiz, M. M., & Vivares-Vergara, J. A. (2024). Organic coffee production: Mapping trends through bibliometric analysis. Clío América, 18(35), 14–33.",
+    "evidence_location": "Discusión: tres subtítulos de períodos; Figura 1, p. 17 en PDF editorial. PDF Dialnet presenta paginación interna diferente.",
+    "source_year_start": 2000,
+    "source_year_end": 2023,
+    "source_total": 358,
+    "analysis_year_start": 2000,
+    "analysis_year_end": 2023,
+    "analysis_total": 358,
+    "omitted_analysis_years": [],
+    "omitted_analysis_count": 0,
+    "published_declared_total": 360,
+    "source_minus_published_declared": -2,
+    "total_difference_explanation": "unresolved; subtraction does not allocate the difference to omitted years",
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "annual_verification_basis": "inherited Direction integration status",
+    "verification_origin": "Direction integration evidence_status_v0.2, commit 60ea426",
+    "historical_evidence_class": "B",
+    "boundary_authority": "published phases; approved reference table",
+    "textual_vs_graphical_header_conflict": null,
+    "partial_last_year_note": null
+  },
+  {
+    "case": 5,
+    "sheet": "5_IA-ID",
+    "phases": 3,
+    "cut_years": [
+      2012,
+      2018
+    ],
+    "published_intervals": [
+      {
+        "start": 2003,
+        "end": 2011,
+        "length": 9
+      },
+      {
+        "start": 2012,
+        "end": 2017,
+        "length": 6
+      },
+      {
+        "start": 2018,
+        "end": 2024,
+        "length": 7
+      }
+    ],
+    "source": "https://revistas.unilibre.edu.co/index.php/interfaces/article/view/12714",
+    "reference": "Britto-Berrocal, A. J., & Cordoba-Rizo, D. M. (2024). Scientometric analysis of the relationship between artificial intelligence and data engineering: Trends, collaboration, and evolution. Revista de Ingenierías Interfaces, 7(2), 1–17.",
+    "evidence_location": "Resultados > Scientific production, pp. 5–6; Figura 2 y subtítulos Initiation / Early Growth / Consolidation.",
+    "source_year_start": 2003,
+    "source_year_end": 2024,
+    "source_total": 663,
+    "analysis_year_start": 2003,
+    "analysis_year_end": 2024,
+    "analysis_total": 663,
+    "omitted_analysis_years": [],
+    "omitted_analysis_count": 0,
+    "published_declared_total": 663,
+    "source_minus_published_declared": 0,
+    "total_difference_explanation": "unresolved; subtraction does not allocate the difference to omitted years",
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "annual_verification_basis": "inherited Direction integration status",
+    "verification_origin": "Direction integration evidence_status_v0.2, commit 60ea426",
+    "historical_evidence_class": "A",
+    "boundary_authority": "published phases; approved reference table",
+    "textual_vs_graphical_header_conflict": null,
+    "partial_last_year_note": "2024 partial; source query 2024-10-05"
+  },
+  {
+    "case": 6,
+    "sheet": "6_PotMicrobiano",
+    "phases": 3,
+    "cut_years": [
+      2011,
+      2018
+    ],
+    "published_intervals": [
+      {
+        "start": 2003,
+        "end": 2010,
+        "length": 8
+      },
+      {
+        "start": 2011,
+        "end": 2017,
+        "length": 7
+      },
+      {
+        "start": 2018,
+        "end": 2023,
+        "length": 6
+      }
+    ],
+    "source": "https://revistas.unilibre.edu.co/index.php/interfaces/article/view/12712",
+    "reference": "Romero-Villareal, K. M., & Moscote Murgas, M. C. (2024). Antimicrobial potential of secondary metabolites: A scientometric review. Revista de Ingenierías Interfaces, 7(2), 1–27.",
+    "evidence_location": "Resultados > Scientific production; Figura 2 y tres subtítulos, pp. 6–7.",
+    "source_year_start": 2003,
+    "source_year_end": 2024,
+    "source_total": 796,
+    "analysis_year_start": 2003,
+    "analysis_year_end": 2023,
+    "analysis_total": 712,
+    "omitted_analysis_years": [
+      2024
+    ],
+    "omitted_analysis_count": 84,
+    "published_declared_total": 797,
+    "source_minus_published_declared": -1,
+    "total_difference_explanation": "unresolved; subtraction does not allocate the difference to omitted years",
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "annual_verification_basis": "21 labels checked in chat02 v0.2 + 2004=7 confirmed by Sebastian/Direction",
+    "verification_origin": "Sebastian and Direction, instruction for entrega03 (2026-11-06)",
+    "historical_evidence_class": "B",
+    "boundary_authority": "published phases; approved reference table",
+    "textual_vs_graphical_header_conflict": null,
+    "partial_last_year_note": null
+  },
+  {
+    "case": 7,
+    "sheet": "7_PerspCiencio",
+    "phases": 3,
+    "cut_years": [
+      2013,
+      2020
+    ],
+    "published_intervals": [
+      {
+        "start": 2000,
+        "end": 2012,
+        "length": 13
+      },
+      {
+        "start": 2013,
+        "end": 2019,
+        "length": 7
+      },
+      {
+        "start": 2020,
+        "end": 2022,
+        "length": 3
+      }
+    ],
+    "source": "https://doi.org/10.21676/23897848.5816",
+    "reference": "Martínez-Pinzón, C. A., & Duque-Hurtado, P. L. (2024). Scientometric insights into dynamic capabilities: Measuring academic impact and trends. Clío América, 18(35), 106–125.",
+    "evidence_location": "Discussion p.116; Figure 1 p.109",
+    "source_year_start": 2000,
+    "source_year_end": 2022,
+    "source_total": 273,
+    "analysis_year_start": 2000,
+    "analysis_year_end": 2022,
+    "analysis_total": 273,
+    "omitted_analysis_years": [],
+    "omitted_analysis_count": 0,
+    "published_declared_total": 330,
+    "source_minus_published_declared": -57,
+    "total_difference_explanation": "unresolved; subtraction does not allocate the difference to omitted years",
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "annual_verification_basis": "23 annual figure counts confirmed in entrega03 instruction",
+    "verification_origin": "Sebastian and Direction, instruction for entrega03 (2026-11-06)",
+    "historical_evidence_class": "C",
+    "boundary_authority": "published textual phases; approved by Direction",
+    "textual_vs_graphical_header_conflict": {
+      "reported": true,
+      "decision": "use textual phases",
+      "verbatim_graphical_heading": null,
+      "transcription_status": "not supplied in this chat or integration record; do not reconstruct"
+    },
+    "partial_last_year_note": null
+  },
+  {
+    "case": 8,
+    "sheet": "8_TenTurismoSos",
+    "phases": 3,
+    "cut_years": [
+      2009,
+      2017
+    ],
+    "published_intervals": [
+      {
+        "start": 2000,
+        "end": 2008,
+        "length": 9
+      },
+      {
+        "start": 2009,
+        "end": 2016,
+        "length": 8
+      },
+      {
+        "start": 2017,
+        "end": 2022,
+        "length": 6
+      }
+    ],
+    "source": "https://doi.org/10.21676/23897848.5664",
+    "reference": "Carrillo-Acosta, N., Alarcón-Rivera, Z., & Valderrama-López, C. F. (2024). Sustainable tourism trends in heritage sites, a bibliometric analysis. Clío América, 18(35), 140–157.",
+    "evidence_location": "Resultados > Scientometric Analysis > Scientific production, pp. 142–143; Figura 1.",
+    "source_year_start": 2000,
+    "source_year_end": 2022,
+    "source_total": 1004,
+    "analysis_year_start": 2000,
+    "analysis_year_end": 2022,
+    "analysis_total": 1004,
+    "omitted_analysis_years": [],
+    "omitted_analysis_count": 0,
+    "published_declared_total": 1064,
+    "source_minus_published_declared": -60,
+    "total_difference_explanation": "unresolved; subtraction does not allocate the difference to omitted years",
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "annual_verification_basis": "23 annual figure counts confirmed in entrega03 instruction",
+    "verification_origin": "Sebastian and Direction, instruction for entrega03 (2026-11-06)",
+    "historical_evidence_class": "B",
+    "boundary_authority": "published textual phases; approved by Direction",
+    "textual_vs_graphical_header_conflict": {
+      "reported": true,
+      "decision": "use textual phases",
+      "verbatim_graphical_heading": null,
+      "transcription_status": "not supplied in this chat or integration record; do not reconstruct"
+    },
+    "partial_last_year_note": null
+  },
+  {
+    "case": 9,
+    "sheet": "9_AnaCiencLiderazgo",
+    "phases": 2,
+    "cut_years": [
+      2012
+    ],
+    "published_intervals": [
+      {
+        "start": 2000,
+        "end": 2011,
+        "length": 12
+      },
+      {
+        "start": 2012,
+        "end": 2022,
+        "length": 11
+      }
+    ],
+    "source": "https://doi.org/10.21676/23897848.5669",
+    "reference": "Molina-Morán, R. O., Castañeda-Betancur, S., Ardila-Niño, G., & Villao-Santos, F. (2024). Scientometric analysis in e-leadership and competencies for its development. Clío América, 18(35), 70–86.",
+    "evidence_location": "Resultados > Scientific Production, p. 73; Figura 1 y dos fases.",
+    "source_year_start": 2000,
+    "source_year_end": 2022,
+    "source_total": 483,
+    "analysis_year_start": 2000,
+    "analysis_year_end": 2022,
+    "analysis_total": 483,
+    "omitted_analysis_years": [],
+    "omitted_analysis_count": 0,
+    "published_declared_total": 511,
+    "source_minus_published_declared": -28,
+    "total_difference_explanation": "unresolved; subtraction does not allocate the difference to omitted years",
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "annual_verification_basis": "23 annual figure counts confirmed in entrega03 instruction",
+    "verification_origin": "Sebastian and Direction, instruction for entrega03 (2026-11-06)",
+    "historical_evidence_class": "A",
+    "boundary_authority": "published textual phases; approved by Direction",
+    "textual_vs_graphical_header_conflict": {
+      "reported": true,
+      "decision": "use textual phases",
+      "verbatim_graphical_heading": null,
+      "transcription_status": "not supplied in this chat or integration record; do not reconstruct"
+    },
+    "partial_last_year_note": null
+  },
+  {
+    "case": 10,
+    "sheet": "10_HumanGut",
+    "phases": null,
+    "cut_years": null,
+    "published_intervals": [],
+    "source": "https://doi.org/10.3390/ijms26094112",
+    "reference": "Valencia, S., Zuluaga, M., Florian Pérez, M. C., Montoya-Quintero, K. F., Candamil-Cortés, M. S., & Robledo, S. (2025). Human gut microbiome: A connecting organ between nutrition, metabolism, and health. International Journal of Molecular Sciences, 26(9), Article 4112.",
+    "evidence_location": "Sección 3.1 Scientometric Analysis, primer párrafo y Figura 2; metodología §2.",
+    "source_year_start": 2000,
+    "source_year_end": 2023,
+    "source_total": 2165,
+    "analysis_year_start": 2000,
+    "analysis_year_end": 2023,
+    "analysis_total": 2165,
+    "omitted_analysis_years": [],
+    "omitted_analysis_count": 0,
+    "published_declared_total": 2411,
+    "source_minus_published_declared": -246,
+    "total_difference_explanation": "unresolved; subtraction does not allocate the difference to omitted years",
+    "annual_figure_counts_verified": true,
+    "primary_bibliographic_records_audited": false,
+    "annual_verification_basis": "inherited Direction integration status",
+    "verification_origin": "Direction integration evidence_status_v0.2, commit 60ea426",
+    "historical_evidence_class": "C",
+    "boundary_authority": "published phases; approved reference table",
+    "textual_vs_graphical_header_conflict": null,
+    "partial_last_year_note": null
+  }
+]

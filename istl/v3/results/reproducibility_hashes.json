@@ -1,0 +1,14 @@
+{
+  "case10_separate_diagnostic.json": "e87be6dceb72be07992f915c6e410c3728d0d155442c6443fa67eb56f4ac3c98",
+  "common_set_summaries.csv": "4ff5eea48114c99be4bb96d75ec26b5c033cca1ebb5052a78b887bde22b04af2",
+  "common_set_summaries.json": "500bf098af5a17475aa70c618dfc693364a938cc2939319196a6c3fceedde3fd",
+  "delta_vs_entrega02.json": "06ae0d687160f08ff4b79f2a9ba838e3a5ecc9b5dadb6309ab323232cc9e86f7",
+  "figures/case10_diagnostic.svg": "4b240cbe866cb3367aa801dc45e563a2d3f33230f02fc76a932cd85bf2f7bb82",
+  "figures/comparison_min2.svg": "65a3becc675884d5f73b8d079658d06050bdbea9e00bd342e02d42fac2910b7e",
+  "figures/comparison_min3.svg": "60beb4da9485db3839b6120a3099e4890a349b84b27afdea5b0bacb176edb0de",
+  "paired_boundaries.csv": "98b916360b921de757a82ce711d34162d1d16fbf75cb6d62d68096ca71499fdc",
+  "provenance.json": "19812617eec132e1f9296d95676ec99f3b0be4170851fa4e957a15b17173c099",
+  "references_and_evidence.json": "f00cafd52c796eef3dbb20a62c0c5bdca87f36beb4699961c089790ca9eb439c",
+  "results.csv": "c43f075fdd4b536181e7218cfd719b99f0bdeb9dd1d8e1026830e57c700fdc74",
+  "results.json": "36dbacb46872567912a27b496eb573acf0d280afdc35a48295cd16136b390113"
+}

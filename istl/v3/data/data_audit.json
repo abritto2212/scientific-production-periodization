@@ -1,0 +1,30 @@
+{
+  "base_commit": "60ea426564f37622a8f7fc090ad3f9d8b63070ac",
+  "base_blob": "89381c887437869b465ed992cdd551afea07920c",
+  "base_sha256": "9393791479dcf9b5e276b817ec20d8931eefea40d6eb8d76558eaf5b5ea8f97a",
+  "corrected_sha256": "9fa37b95ea9384cf215349e0fa53fe1248a40e927dc0d77686d785a73ba04763",
+  "differences_base_vs_drive": [
+    {
+      "case": 2,
+      "year": 2004,
+      "base_count": 2,
+      "drive_count": 1,
+      "approved_count": 1
+    }
+  ],
+  "changed_xlsx_members": [
+    "xl/worksheets/sheet2.xml"
+  ],
+  "other_annual_observations_unchanged": 225,
+  "drive_matches_corrected_all_observations": true,
+  "source_observations": 226,
+  "source_total": 9590,
+  "analysis_observations_including_unscored_case10": 225,
+  "analysis_total_including_unscored_case10": 9506,
+  "case6_omitted_from_analysis": {
+    "year": 2024,
+    "count": 84,
+    "source_retained": true
+  },
+  "historical_archives_preserved": true
+}
