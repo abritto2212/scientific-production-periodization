@@ -1,0 +1,561 @@
+{
+  "base_commit": "e29e91254e0bb174e77ec00af725091697114620",
+  "cases": [
+    {
+      "case": 1,
+      "sheet": "1_Emprendi-innovador",
+      "source": "https://doi.org/10.21676/23897848.5658",
+      "source_window": [
+        2000,
+        2023
+      ],
+      "source_total": 1787,
+      "analysis_window": [
+        2000,
+        2023
+      ],
+      "analysis_total": 1787,
+      "K": 4,
+      "reference_cuts": [
+        2007,
+        2013,
+        2019
+      ],
+      "associations_match": true,
+      "annual_csv_and_frozen_drive_match": true
+    },
+    {
+      "case": 2,
+      "sheet": "2_TopicModeling",
+      "source": "https://doi.org/10.1109/ACCESS.2022.3232939",
+      "source_window": [
+        2004,
+        2021
+      ],
+      "source_total": 1693,
+      "analysis_window": [
+        2004,
+        2021
+      ],
+      "analysis_total": 1693,
+      "K": 3,
+      "reference_cuts": [
+        2014,
+        2020
+      ],
+      "associations_match": true,
+      "annual_csv_and_frozen_drive_match": true
+    },
+    {
+      "case": 3,
+      "sheet": "3_VirtualTeaching",
+      "source": "https://doi.org/10.5530/jscires.13.2.32",
+      "source_window": [
+        2000,
+        2022
+      ],
+      "source_total": 368,
+      "analysis_window": [
+        2000,
+        2022
+      ],
+      "analysis_total": 368,
+      "K": 3,
+      "reference_cuts": [
+        2009,
+        2017
+      ],
+      "associations_match": true,
+      "annual_csv_and_frozen_drive_match": true
+    },
+    {
+      "case": 4,
+      "sheet": "4_ProduccionCafe",
+      "source": "https://doi.org/10.21676/23897848.5650",
+      "source_window": [
+        2000,
+        2023
+      ],
+      "source_total": 358,
+      "analysis_window": [
+        2000,
+        2023
+      ],
+      "analysis_total": 358,
+      "K": 3,
+      "reference_cuts": [
+        2011,
+        2017
+      ],
+      "associations_match": true,
+      "annual_csv_and_frozen_drive_match": true
+    },
+    {
+      "case": 5,
+      "sheet": "5_IA-ID",
+      "source": "https://revistas.unilibre.edu.co/index.php/interfaces/article/view/12714",
+      "source_window": [
+        2003,
+        2024
+      ],
+      "source_total": 663,
+      "analysis_window": [
+        2003,
+        2024
+      ],
+      "analysis_total": 663,
+      "K": 3,
+      "reference_cuts": [
+        2012,
+        2018
+      ],
+      "associations_match": true,
+      "annual_csv_and_frozen_drive_match": true
+    },
+    {
+      "case": 6,
+      "sheet": "6_PotMicrobiano",
+      "source": "https://revistas.unilibre.edu.co/index.php/interfaces/article/view/12712",
+      "source_window": [
+        2003,
+        2024
+      ],
+      "source_total": 796,
+      "analysis_window": [
+        2003,
+        2023
+      ],
+      "analysis_total": 712,
+      "K": 3,
+      "reference_cuts": [
+        2011,
+        2018
+      ],
+      "associations_match": true,
+      "annual_csv_and_frozen_drive_match": true
+    },
+    {
+      "case": 7,
+      "sheet": "7_PerspCiencio",
+      "source": "https://doi.org/10.21676/23897848.5816",
+      "source_window": [
+        2000,
+        2022
+      ],
+      "source_total": 273,
+      "analysis_window": [
+        2000,
+        2022
+      ],
+      "analysis_total": 273,
+      "K": 3,
+      "reference_cuts": [
+        2013,
+        2020
+      ],
+      "associations_match": true,
+      "annual_csv_and_frozen_drive_match": true
+    },
+    {
+      "case": 8,
+      "sheet": "8_TenTurismoSos",
+      "source": "https://doi.org/10.21676/23897848.5664",
+      "source_window": [
+        2000,
+        2022
+      ],
+      "source_total": 1004,
+      "analysis_window": [
+        2000,
+        2022
+      ],
+      "analysis_total": 1004,
+      "K": 3,
+      "reference_cuts": [
+        2009,
+        2017
+      ],
+      "associations_match": true,
+      "annual_csv_and_frozen_drive_match": true
+    },
+    {
+      "case": 9,
+      "sheet": "9_AnaCiencLiderazgo",
+      "source": "https://doi.org/10.21676/23897848.5669",
+      "source_window": [
+        2000,
+        2022
+      ],
+      "source_total": 483,
+      "analysis_window": [
+        2000,
+        2022
+      ],
+      "analysis_total": 483,
+      "K": 2,
+      "reference_cuts": [
+        2012
+      ],
+      "associations_match": true,
+      "annual_csv_and_frozen_drive_match": true
+    },
+    {
+      "case": 10,
+      "sheet": "10_HumanGut",
+      "source": "https://doi.org/10.3390/ijms26094112",
+      "source_window": [
+        2000,
+        2023
+      ],
+      "source_total": 2165,
+      "analysis_window": [
+        2000,
+        2023
+      ],
+      "analysis_total": 2165,
+      "K": null,
+      "reference_cuts": null,
+      "associations_match": true,
+      "annual_csv_and_frozen_drive_match": true
+    }
+  ],
+  "case_count": 10,
+  "archived_records_reproduced": 60,
+  "numerical_comparison": {
+    "relative_tolerance": 1e-12,
+    "absolute_tolerance": 1e-12,
+    "allowed_parameters": [
+      "candidate_heights",
+      "height",
+      "selected_strength",
+      "sse"
+    ],
+    "decimal_differences": [
+      {
+        "path": "records[0].parameters.height",
+        "recalculated": 2.4000216987534326,
+        "archived": 2.400021698753431
+      },
+      {
+        "path": "records[0].parameters.candidate_heights[0]",
+        "recalculated": 3.7945962604571246,
+        "archived": 3.794596260457123
+      },
+      {
+        "path": "records[0].parameters.candidate_heights[1]",
+        "recalculated": 5.879761039412102,
+        "archived": 5.879761039412095
+      },
+      {
+        "path": "records[3].parameters.height",
+        "recalculated": 2.4000216987534326,
+        "archived": 2.400021698753431
+      },
+      {
+        "path": "records[3].parameters.candidate_heights[0]",
+        "recalculated": 3.7945962604571246,
+        "archived": 3.794596260457123
+      },
+      {
+        "path": "records[3].parameters.candidate_heights[1]",
+        "recalculated": 5.879761039412102,
+        "archived": 5.879761039412095
+      },
+      {
+        "path": "records[6].parameters.height",
+        "recalculated": 3.674052096676688,
+        "archived": 3.674052096676695
+      },
+      {
+        "path": "records[6].parameters.candidate_heights[0]",
+        "recalculated": 4.7906731277894625,
+        "archived": 4.790673127789455
+      },
+      {
+        "path": "records[6].parameters.selected_strength",
+        "recalculated": 12.449289283005443,
+        "archived": 12.449289283005436
+      },
+      {
+        "path": "records[9].parameters.height",
+        "recalculated": 3.674052096676688,
+        "archived": 3.674052096676695
+      },
+      {
+        "path": "records[9].parameters.candidate_heights[0]",
+        "recalculated": 4.7906731277894625,
+        "archived": 4.790673127789455
+      },
+      {
+        "path": "records[9].parameters.selected_strength",
+        "recalculated": 12.449289283005443,
+        "archived": 12.449289283005436
+      },
+      {
+        "path": "records[12].parameters.height",
+        "recalculated": 1.1551919661313501,
+        "archived": 1.1551919661313506
+      },
+      {
+        "path": "records[12].parameters.candidate_heights[0]",
+        "recalculated": 2.4053119182033416,
+        "archived": 2.405311918203343
+      },
+      {
+        "path": "records[12].parameters.selected_strength",
+        "recalculated": 4.682226326608184,
+        "archived": 4.682226326608185
+      },
+      {
+        "path": "records[13].parameters.sse",
+        "recalculated": 225.20569430569424,
+        "archived": 225.20569430569427
+      },
+      {
+        "path": "records[15].parameters.height",
+        "recalculated": 1.1551919661313501,
+        "archived": 1.1551919661313506
+      },
+      {
+        "path": "records[15].parameters.candidate_heights[0]",
+        "recalculated": 2.4053119182033416,
+        "archived": 2.405311918203343
+      },
+      {
+        "path": "records[16].parameters.sse",
+        "recalculated": 225.20569430569424,
+        "archived": 225.20569430569427
+      },
+      {
+        "path": "records[18].parameters.height",
+        "recalculated": 0.43536966972399627,
+        "archived": 0.4353696697239964
+      },
+      {
+        "path": "records[18].parameters.candidate_heights[1]",
+        "recalculated": 0.9691976808130143,
+        "archived": 0.9691976808130156
+      },
+      {
+        "path": "records[18].parameters.candidate_heights[2]",
+        "recalculated": 0.5462909128621671,
+        "archived": 0.5462909128621662
+      },
+      {
+        "path": "records[18].parameters.selected_strength",
+        "recalculated": 1.629654146248058,
+        "archived": 1.6296541462480594
+      },
+      {
+        "path": "records[21].parameters.height",
+        "recalculated": 0.43536966972399627,
+        "archived": 0.4353696697239964
+      },
+      {
+        "path": "records[21].parameters.candidate_heights[1]",
+        "recalculated": 0.9691976808130143,
+        "archived": 0.9691976808130156
+      },
+      {
+        "path": "records[21].parameters.candidate_heights[2]",
+        "recalculated": 0.5462909128621671,
+        "archived": 0.5462909128621662
+      },
+      {
+        "path": "records[21].parameters.selected_strength",
+        "recalculated": 1.629654146248058,
+        "archived": 1.6296541462480594
+      },
+      {
+        "path": "records[24].parameters.height",
+        "recalculated": 2.039418619105377,
+        "archived": 2.039418619105375
+      },
+      {
+        "path": "records[24].parameters.candidate_heights[0]",
+        "recalculated": 3.1055983677494896,
+        "archived": 3.1055983677494914
+      },
+      {
+        "path": "records[24].parameters.candidate_heights[1]",
+        "recalculated": 4.376295173499425,
+        "archived": 4.376295173499418
+      },
+      {
+        "path": "records[24].parameters.selected_strength",
+        "recalculated": 7.481893541248915,
+        "archived": 7.48189354124891
+      },
+      {
+        "path": "records[27].parameters.height",
+        "recalculated": 2.039418619105377,
+        "archived": 2.039418619105375
+      },
+      {
+        "path": "records[27].parameters.candidate_heights[0]",
+        "recalculated": 3.1055983677494896,
+        "archived": 3.1055983677494914
+      },
+      {
+        "path": "records[27].parameters.candidate_heights[1]",
+        "recalculated": 4.376295173499425,
+        "archived": 4.376295173499418
+      },
+      {
+        "path": "records[31].parameters.sse",
+        "recalculated": 331.78937728937746,
+        "archived": 331.78937728937706
+      },
+      {
+        "path": "records[36].parameters.height",
+        "recalculated": 0.5648805769258423,
+        "archived": 0.5648805769258418
+      },
+      {
+        "path": "records[36].parameters.candidate_heights[0]",
+        "recalculated": 1.037547142972595,
+        "archived": 1.0375471429725946
+      },
+      {
+        "path": "records[36].parameters.selected_strength",
+        "recalculated": 2.1824102152711506,
+        "archived": 2.18241021527115
+      },
+      {
+        "path": "records[37].parameters.sse",
+        "recalculated": 71.92673992673991,
+        "archived": 71.92673992673993
+      },
+      {
+        "path": "records[39].parameters.height",
+        "recalculated": 0.5648805769258423,
+        "archived": 0.5648805769258418
+      },
+      {
+        "path": "records[39].parameters.candidate_heights[0]",
+        "recalculated": 1.037547142972595,
+        "archived": 1.0375471429725946
+      },
+      {
+        "path": "records[39].parameters.selected_strength",
+        "recalculated": 2.1824102152711506,
+        "archived": 2.18241021527115
+      },
+      {
+        "path": "records[40].parameters.sse",
+        "recalculated": 71.92673992673991,
+        "archived": 71.92673992673993
+      },
+      {
+        "path": "records[42].parameters.height",
+        "recalculated": 2.337727433327219,
+        "archived": 2.3377274333272187
+      },
+      {
+        "path": "records[42].parameters.candidate_heights[0]",
+        "recalculated": 4.250338973587418,
+        "archived": 4.2503389735874215
+      },
+      {
+        "path": "records[42].parameters.candidate_heights[1]",
+        "recalculated": 5.329331266685422,
+        "archived": 5.329331266685408
+      },
+      {
+        "path": "records[42].parameters.selected_strength",
+        "recalculated": 9.57967024027284,
+        "archived": 9.57967024027283
+      },
+      {
+        "path": "records[45].parameters.height",
+        "recalculated": 2.337727433327219,
+        "archived": 2.3377274333272187
+      },
+      {
+        "path": "records[45].parameters.candidate_heights[0]",
+        "recalculated": 4.250338973587418,
+        "archived": 4.2503389735874215
+      },
+      {
+        "path": "records[45].parameters.candidate_heights[1]",
+        "recalculated": 5.329331266685422,
+        "archived": 5.329331266685408
+      },
+      {
+        "path": "records[45].parameters.selected_strength",
+        "recalculated": 9.57967024027284,
+        "archived": 9.57967024027283
+      },
+      {
+        "path": "records[48].parameters.height",
+        "recalculated": 0.8417043611560249,
+        "archived": 0.8417043611560239
+      },
+      {
+        "path": "records[48].parameters.candidate_heights[0]",
+        "recalculated": 1.9146086187161577,
+        "archived": 1.9146086187161568
+      },
+      {
+        "path": "records[48].parameters.candidate_heights[1]",
+        "recalculated": 1.7590929716336294,
+        "archived": 1.7590929716336259
+      },
+      {
+        "path": "records[48].parameters.selected_strength",
+        "recalculated": 1.9146086187161577,
+        "archived": 1.9146086187161568
+      },
+      {
+        "path": "records[49].parameters.sse",
+        "recalculated": 437.216290726817,
+        "archived": 437.21629072681696
+      },
+      {
+        "path": "records[51].parameters.height",
+        "recalculated": 0.8417043611560249,
+        "archived": 0.8417043611560239
+      },
+      {
+        "path": "records[51].parameters.candidate_heights[0]",
+        "recalculated": 1.9146086187161577,
+        "archived": 1.9146086187161568
+      },
+      {
+        "path": "records[51].parameters.candidate_heights[1]",
+        "recalculated": 1.7590929716336294,
+        "archived": 1.7590929716336259
+      },
+      {
+        "path": "records[51].parameters.selected_strength",
+        "recalculated": 1.9146086187161577,
+        "archived": 1.9146086187161568
+      },
+      {
+        "path": "records[52].parameters.sse",
+        "recalculated": 437.216290726817,
+        "archived": 437.21629072681696
+      }
+    ],
+    "other_fields_exact": true
+  },
+  "references_and_aggregates_identical": true,
+  "legacy_reversed_reference_misassociations": 10,
+  "preparation_preserves_workbook_members_and_csv_values": true,
+  "scope": "Internal association audit against archived evidence and frozen Drive series; no new source-figure or bibliographic-record audit.",
+  "sha256": {
+    "data_articles/data_articles.xlsx": "9fa37b95ea9384cf215349e0fa53fe1248a40e927dc0d77686d785a73ba04763",
+    "istl/v2/results/references_normalized.json": "0c7a2e77dbeb04acdbf043ef61e01b320c982b169b851b98037eb33a785bc0ae",
+    "istl/integration/evidence_status_v0.2.json": "b585da7ca91985d86b7ec55356beef6c48fa0fe283db8d013bb9c55839a3585d",
+    "istl/v3/sources/drive_snapshot.txt": "792577cb4736fb1a1e902974f35f6bc314cd38a614af9730d93f0f503a50a3c1",
+    "istl/v3/data/source_series.csv": "9d0e66d2cd3fe13d28f20d6e4ecd0dcaf772e244e4e22b2093907a7db3e4f6ad",
+    "istl/v3/data/analysis_series.csv": "30b87e1c838290ee37fa0ba4409d699a43e32c9e2d6b7f5f6c2aad5c1a390a73",
+    "istl/v3/results/references_and_evidence.json": "f00cafd52c796eef3dbb20a62c0c5bdca87f36beb4699961c089790ca9eb439c",
+    "istl/v3/results/results.json": "36dbacb46872567912a27b496eb573acf0d280afdc35a48295cd16136b390113",
+    "istl/v3/run.py": "c51b3b9b3607d9a792584e67c3b5d7747dcd4d6c1d7b3d0fa27d4c0599160702",
+    "istl/v3/prepare_data.py": "3bd64820768b7ebe54c100da61078f1313311939964ad7652d6f8d96d2b7632e",
+    "istl/v3/associations.py": "704dea306e63210694f699862a21869101240bd889d88be274d8c71282fd4fa2",
+    "istl/v3/case_manifest.json": "61a4f41850344d88a9ab5aa9d9fe89513bbf3291fe72b1e523044575272fbf53",
+    "istl/v3/audit_associations.py": "de790db81ade6cb0498848a790f18960e51746d716704c12ed185ea740ed6f28"
+  }
+}

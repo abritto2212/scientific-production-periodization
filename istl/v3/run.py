@@ -18,6 +18,7 @@ ROOT=HERE.parents[1]
 sys.path.insert(0,str(HERE.parent/'v2'))
 from conditioned import segment,native_derivative,ordered_distance
 from read_data import load_cases
+from associations import join_inputs, paired_series, series_by_case
 from periodization import piecewise,dynamic_l2
 
 METHODS=('derivative_k_provisional','piecewise_linear_k','dynamic_l2_k')
@@ -36,12 +37,12 @@ def csv_write(path,rows):
         for row in rows:w.writerow({k:json.dumps(v,ensure_ascii=False) if isinstance(v,(list,dict)) else v for k,v in row.items()})
 
 
-def inputs():
-    cases=load_cases(ROOT/'data_articles/data_articles.xlsx')
-    old=json.loads((HERE.parent/'v2/results/references_normalized.json').read_text(encoding='utf-8'))
-    inherited=json.loads((HERE.parent/'integration/evidence_status_v0.2.json').read_text(encoding='utf-8'))['cases']
+def inputs(cases=None, old=None, inherited=None):
+    if cases is None: cases=load_cases(ROOT/'data_articles/data_articles.xlsx')
+    if old is None: old=json.loads((HERE.parent/'v2/results/references_normalized.json').read_text(encoding='utf-8'))
+    if inherited is None: inherited=json.loads((HERE.parent/'integration/evidence_status_v0.2.json').read_text(encoding='utf-8'))['cases']
     refs=[];analytical=[]
-    for i,((sheet,x,y,_),previous,status) in enumerate(zip(cases,old,inherited),1):
+    for i,(sheet,x,y,_),previous,status in join_inputs(cases,old,inherited):
         mask=x<=2023 if i==6 else np.ones(len(x),dtype=bool)
         xx,yy=x[mask],y[mask];cuts=CUTS[i]
         edges=[int(xx[0]),*(cuts or []),int(xx[-1])+1]
@@ -70,7 +71,7 @@ def inputs():
                 verbatim_graphical_heading=None,transcription_status='not supplied in this chat or integration record; do not reconstruct') if i in (7,8,9) else None,
             partial_last_year_note='2024 partial; source query 2024-10-05' if i==5 else None)
         refs.append(ref);analytical.append((sheet,xx,yy,[]))
-    return cases,analytical,refs
+    return list(series_by_case(cases).values()),analytical,refs
 
 
 def record(ref,x,y,method,m):
@@ -122,7 +123,7 @@ def plot(out,cases,refs,records):
     plt.rcParams.update({'svg.hashsalt':'istl-entrega03','svg.fonttype':'none'})
     for m in (2,3):
         fig,axes=plt.subplots(5,2,figsize=(13,17),layout='constrained')
-        for i,((sheet,x,y,_),ref) in enumerate(zip(cases,refs),1):
+        for i,(sheet,x,y,_),ref in paired_series(cases,refs):
             ax=axes.flat[i-1];ax.plot(x,y,'o-',ms=3,color='#555555',label='Annual publications')
             for j,cut in enumerate(ref['cut_years'] or []):ax.axvline(cut,color='black',alpha=.5,lw=2,label='Published textual boundary' if j==0 else None)
             notes=[]
@@ -145,9 +146,9 @@ def plot(out,cases,refs,records):
 def main():
     p=argparse.ArgumentParser();p.add_argument('--output',type=Path,default=HERE/'results');args=p.parse_args()
     out=args.output;out.mkdir(exist_ok=True,parents=True);(out/'figures').mkdir(exist_ok=True)
-    full,analysis,refs=inputs();records=[record(ref,x,y,method,m) for ref,(_,x,y,_) in zip(refs,analysis) for m in (2,3) for method in METHODS]
+    full,analysis,refs=inputs();records=[record(ref,x,y,method,m) for _,(_,x,y,_),ref in paired_series(analysis,refs) for m in (2,3) for method in METHODS]
     ss=summaries(records);diagnostic=[]
-    _,x,y,_=full[9]
+    _,x,y,_=series_by_case(full)[10]
     for m in (2,3):
         diagnostic.append(dict(case=10,configuration='separate two-cut diagnostic, no published K',min_len=m,
             derivative_automatic=native_derivative(x,y,m),
@@ -183,7 +184,7 @@ def main():
         boundary_convention='first year of next period',minimums=[2,3],publication_attempted=False))
     plot(out/'figures',analysis,refs,records)
     fig,axes=plt.subplots(2,1,figsize=(10,8),layout='constrained')
-    _,x,y,_=full[9]
+    _,x,y,_=series_by_case(full)[10]
     for ax,d in zip(axes,diagnostic):
         ax.plot(x,y,'o-',ms=3,color='#555555',label='Annual publications')
         for cuts,color,label in [(d['derivative_automatic']['cut_years'],'#009E73','Automatic derivative'),

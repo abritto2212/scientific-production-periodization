@@ -9,6 +9,9 @@ import sys
 import zipfile
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from read_data import load_cases
+from associations import series_by_case, drive_by_case, SHEETS
+import xml.etree.ElementTree as ET
+import posixpath
 
 HERE=Path(__file__).resolve().parent
 ROOT=HERE.parents[1]
@@ -20,7 +23,9 @@ def dump(p,x):
 
 
 def validate_existing(source,current):
-    for i,((_,x,y,_),(sheet,xx,yy,_)) in enumerate(zip(source,current),1):
+    src,cur=series_by_case(source),series_by_case(current)
+    for i in sorted(src):
+        _,x,y,_=src[i];sheet,xx,yy,_=cur[i]
         if not np_equal(x,xx):raise ValueError('Current workbook years differ from frozen base')
         for year,old,now in zip(x,y,yy):
             if old!=now and not (i==2 and year==2004 and now==1):
@@ -39,9 +44,15 @@ def prepare():
         current=load_cases(target)
         validate_existing(source,current)
     with zipfile.ZipFile(base) as z,zipfile.ZipFile(target,'w') as out:
+        ns={'s':'http://schemas.openxmlformats.org/spreadsheetml/2006/main'}
+        sheets=ET.fromstring(z.read('xl/workbook.xml')).findall('s:sheets/s:sheet',ns)
+        target_sheet=next(sh for sh in sheets if sh.attrib['name']==SHEETS[2])
+        rid=target_sheet.attrib['{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id']
+        rels={e.attrib['Id']:e.attrib['Target'] for e in ET.fromstring(z.read('xl/_rels/workbook.xml.rels'))}
+        target_xml=rels[rid].lstrip('/') if rels[rid].startswith('/') else posixpath.normpath('xl/'+rels[rid])
         for info in z.infolist():
             data=z.read(info.filename)
-            if info.filename=='xl/worksheets/sheet2.xml':
+            if info.filename==target_xml:
                 text=data.decode('utf-8')
                 text,n=re.subn(r'(<c\b[^>]*\br="B2"[^>]*>\s*<v>)2(</v>\s*</c>)',r'\g<1>1\2',text)
                 if n!=1:raise ValueError('Expected one pending correction at sheet2 B2')
@@ -51,7 +62,9 @@ def prepare():
     differences=[];rows=[];analysis=[]
     drive_parts=(HERE/'sources/drive_snapshot.txt').read_text(encoding='utf-8').strip().split('\f')
     if len(drive_parts)!=10:raise ValueError('Drive snapshot must contain ten series')
-    for case,((sheet,x,y,_),(_,bx,by,_),part) in enumerate(zip(corrected,source,drive_parts),1):
+    corrected_map,source_map,drive_map=series_by_case(corrected),series_by_case(source),drive_by_case(drive_parts)
+    for case in sorted(corrected_map):
+        sheet,x,y,_=corrected_map[case];_,bx,by,_=source_map[case];part=drive_map[case]
         drive=[(int(r['Year']),int(r['Total_Publications'])) for r in csv.DictReader(io.StringIO(part.strip()))]
         if drive!=list(zip(x.tolist(),y.astype(int).tolist())):raise ValueError(f'Drive discrepancy beyond approved decision, case {case}')
         for year,new,old in zip(x,y,by):

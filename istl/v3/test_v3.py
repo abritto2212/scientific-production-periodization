@@ -102,7 +102,12 @@ class Delivery03Tests(unittest.TestCase):
             p=ROOT/entry['path']
             if not p.is_file() or entry['path']=='data_articles/data_articles.xlsx':continue
             b=p.read_bytes();actual=hashlib.sha1(b'blob '+str(len(b)).encode()+b'\0'+b).hexdigest()
-            self.assertEqual(actual,entry['git_blob_sha'],entry['path']);count+=1
+            # Explicit reviewed Equal-K updates, published in commit 0e78999.
+            approved_equal_k = {
+                'istl/periodization.py': '24ef513164c78895919c4702fa085668b076deea',
+                'istl/v2/conditioned.py': 'f6a9bc853859c0bbdb39aaf224e89ef3fb0859c5',
+            }
+            self.assertEqual(actual,approved_equal_k.get(entry['path'],entry['git_blob_sha']),entry['path']);count+=1
         self.assertGreater(count,50)
 
 
