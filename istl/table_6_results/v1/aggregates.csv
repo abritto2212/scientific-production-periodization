@@ -1,0 +1,5 @@
+method,method_label,cases,n_cases,min_period_length,n_boundaries,macro_mae_years,exact_matches
+derivative_k_provisional,Derivative-K,"[4, 6, 7, 8, 9]",5,2,9,3.6,2
+piecewise_linear_k,Linear-K,"[4, 6, 7, 8, 9]",5,2,9,3.7,2
+dynamic_l2_k,Dynp L2-K,"[4, 6, 7, 8, 9]",5,2,9,4.4,0
+equal_k,Equal-K,"[4, 6, 7, 8, 9]",5,2,9,1.7,1

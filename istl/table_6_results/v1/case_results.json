@@ -1,0 +1,646 @@
+[
+  {
+    "case": 4,
+    "method": "derivative_k_provisional",
+    "method_label": "Derivative-K",
+    "boundary_origin": "archived_boundaries",
+    "analysis_year_start": 2000,
+    "analysis_year_end": 2023,
+    "n_years": 24,
+    "k": 3,
+    "min_period_length": 2,
+    "algorithm_feasible": true,
+    "reference_satisfies_minimum": true,
+    "reference_cut_years": [
+      2011,
+      2017
+    ],
+    "estimated_cut_years": [
+      2009,
+      2017
+    ],
+    "n_cuts": 2,
+    "signed_errors_years": [
+      -2,
+      0
+    ],
+    "absolute_errors_years": [
+      2,
+      0
+    ],
+    "mae_years": 1.0,
+    "exact_count": 1,
+    "exact_rate": 0.5
+  },
+  {
+    "case": 4,
+    "method": "piecewise_linear_k",
+    "method_label": "Linear-K",
+    "boundary_origin": "archived_boundaries",
+    "analysis_year_start": 2000,
+    "analysis_year_end": 2023,
+    "n_years": 24,
+    "k": 3,
+    "min_period_length": 2,
+    "algorithm_feasible": true,
+    "reference_satisfies_minimum": true,
+    "reference_cut_years": [
+      2011,
+      2017
+    ],
+    "estimated_cut_years": [
+      2012,
+      2015
+    ],
+    "n_cuts": 2,
+    "signed_errors_years": [
+      1,
+      -2
+    ],
+    "absolute_errors_years": [
+      1,
+      2
+    ],
+    "mae_years": 1.5,
+    "exact_count": 0,
+    "exact_rate": 0.0
+  },
+  {
+    "case": 4,
+    "method": "dynamic_l2_k",
+    "method_label": "Dynp L2-K",
+    "boundary_origin": "archived_boundaries",
+    "analysis_year_start": 2000,
+    "analysis_year_end": 2023,
+    "n_years": 24,
+    "k": 3,
+    "min_period_length": 2,
+    "algorithm_feasible": true,
+    "reference_satisfies_minimum": true,
+    "reference_cut_years": [
+      2011,
+      2017
+    ],
+    "estimated_cut_years": [
+      2007,
+      2019
+    ],
+    "n_cuts": 2,
+    "signed_errors_years": [
+      -4,
+      2
+    ],
+    "absolute_errors_years": [
+      4,
+      2
+    ],
+    "mae_years": 3.0,
+    "exact_count": 0,
+    "exact_rate": 0.0
+  },
+  {
+    "case": 4,
+    "method": "equal_k",
+    "method_label": "Equal-K",
+    "boundary_origin": "verified_equal_k_implementation",
+    "analysis_year_start": 2000,
+    "analysis_year_end": 2023,
+    "n_years": 24,
+    "k": 3,
+    "min_period_length": 2,
+    "algorithm_feasible": true,
+    "reference_satisfies_minimum": true,
+    "reference_cut_years": [
+      2011,
+      2017
+    ],
+    "estimated_cut_years": [
+      2008,
+      2016
+    ],
+    "n_cuts": 2,
+    "signed_errors_years": [
+      -3,
+      -1
+    ],
+    "absolute_errors_years": [
+      3,
+      1
+    ],
+    "mae_years": 2.0,
+    "exact_count": 0,
+    "exact_rate": 0.0
+  },
+  {
+    "case": 6,
+    "method": "derivative_k_provisional",
+    "method_label": "Derivative-K",
+    "boundary_origin": "archived_boundaries",
+    "analysis_year_start": 2003,
+    "analysis_year_end": 2023,
+    "n_years": 21,
+    "k": 3,
+    "min_period_length": 2,
+    "algorithm_feasible": true,
+    "reference_satisfies_minimum": true,
+    "reference_cut_years": [
+      2011,
+      2018
+    ],
+    "estimated_cut_years": [
+      2017,
+      2022
+    ],
+    "n_cuts": 2,
+    "signed_errors_years": [
+      6,
+      4
+    ],
+    "absolute_errors_years": [
+      6,
+      4
+    ],
+    "mae_years": 5.0,
+    "exact_count": 0,
+    "exact_rate": 0.0
+  },
+  {
+    "case": 6,
+    "method": "piecewise_linear_k",
+    "method_label": "Linear-K",
+    "boundary_origin": "archived_boundaries",
+    "analysis_year_start": 2003,
+    "analysis_year_end": 2023,
+    "n_years": 21,
+    "k": 3,
+    "min_period_length": 2,
+    "algorithm_feasible": true,
+    "reference_satisfies_minimum": true,
+    "reference_cut_years": [
+      2011,
+      2018
+    ],
+    "estimated_cut_years": [
+      2016,
+      2018
+    ],
+    "n_cuts": 2,
+    "signed_errors_years": [
+      5,
+      0
+    ],
+    "absolute_errors_years": [
+      5,
+      0
+    ],
+    "mae_years": 2.5,
+    "exact_count": 1,
+    "exact_rate": 0.5
+  },
+  {
+    "case": 6,
+    "method": "dynamic_l2_k",
+    "method_label": "Dynp L2-K",
+    "boundary_origin": "archived_boundaries",
+    "analysis_year_start": 2003,
+    "analysis_year_end": 2023,
+    "n_years": 21,
+    "k": 3,
+    "min_period_length": 2,
+    "algorithm_feasible": true,
+    "reference_satisfies_minimum": true,
+    "reference_cut_years": [
+      2011,
+      2018
+    ],
+    "estimated_cut_years": [
+      2016,
+      2020
+    ],
+    "n_cuts": 2,
+    "signed_errors_years": [
+      5,
+      2
+    ],
+    "absolute_errors_years": [
+      5,
+      2
+    ],
+    "mae_years": 3.5,
+    "exact_count": 0,
+    "exact_rate": 0.0
+  },
+  {
+    "case": 6,
+    "method": "equal_k",
+    "method_label": "Equal-K",
+    "boundary_origin": "verified_equal_k_implementation",
+    "analysis_year_start": 2003,
+    "analysis_year_end": 2023,
+    "n_years": 21,
+    "k": 3,
+    "min_period_length": 2,
+    "algorithm_feasible": true,
+    "reference_satisfies_minimum": true,
+    "reference_cut_years": [
+      2011,
+      2018
+    ],
+    "estimated_cut_years": [
+      2010,
+      2017
+    ],
+    "n_cuts": 2,
+    "signed_errors_years": [
+      -1,
+      -1
+    ],
+    "absolute_errors_years": [
+      1,
+      1
+    ],
+    "mae_years": 1.0,
+    "exact_count": 0,
+    "exact_rate": 0.0
+  },
+  {
+    "case": 7,
+    "method": "derivative_k_provisional",
+    "method_label": "Derivative-K",
+    "boundary_origin": "archived_boundaries",
+    "analysis_year_start": 2000,
+    "analysis_year_end": 2022,
+    "n_years": 23,
+    "k": 3,
+    "min_period_length": 2,
+    "algorithm_feasible": true,
+    "reference_satisfies_minimum": true,
+    "reference_cut_years": [
+      2013,
+      2020
+    ],
+    "estimated_cut_years": [
+      2015,
+      2020
+    ],
+    "n_cuts": 2,
+    "signed_errors_years": [
+      2,
+      0
+    ],
+    "absolute_errors_years": [
+      2,
+      0
+    ],
+    "mae_years": 1.0,
+    "exact_count": 1,
+    "exact_rate": 0.5
+  },
+  {
+    "case": 7,
+    "method": "piecewise_linear_k",
+    "method_label": "Linear-K",
+    "boundary_origin": "archived_boundaries",
+    "analysis_year_start": 2000,
+    "analysis_year_end": 2022,
+    "n_years": 23,
+    "k": 3,
+    "min_period_length": 2,
+    "algorithm_feasible": true,
+    "reference_satisfies_minimum": true,
+    "reference_cut_years": [
+      2013,
+      2020
+    ],
+    "estimated_cut_years": [
+      2013,
+      2019
+    ],
+    "n_cuts": 2,
+    "signed_errors_years": [
+      0,
+      -1
+    ],
+    "absolute_errors_years": [
+      0,
+      1
+    ],
+    "mae_years": 0.5,
+    "exact_count": 1,
+    "exact_rate": 0.5
+  },
+  {
+    "case": 7,
+    "method": "dynamic_l2_k",
+    "method_label": "Dynp L2-K",
+    "boundary_origin": "archived_boundaries",
+    "analysis_year_start": 2000,
+    "analysis_year_end": 2022,
+    "n_years": 23,
+    "k": 3,
+    "min_period_length": 2,
+    "algorithm_feasible": true,
+    "reference_satisfies_minimum": true,
+    "reference_cut_years": [
+      2013,
+      2020
+    ],
+    "estimated_cut_years": [
+      2009,
+      2019
+    ],
+    "n_cuts": 2,
+    "signed_errors_years": [
+      -4,
+      -1
+    ],
+    "absolute_errors_years": [
+      4,
+      1
+    ],
+    "mae_years": 2.5,
+    "exact_count": 0,
+    "exact_rate": 0.0
+  },
+  {
+    "case": 7,
+    "method": "equal_k",
+    "method_label": "Equal-K",
+    "boundary_origin": "verified_equal_k_implementation",
+    "analysis_year_start": 2000,
+    "analysis_year_end": 2022,
+    "n_years": 23,
+    "k": 3,
+    "min_period_length": 2,
+    "algorithm_feasible": true,
+    "reference_satisfies_minimum": true,
+    "reference_cut_years": [
+      2013,
+      2020
+    ],
+    "estimated_cut_years": [
+      2008,
+      2016
+    ],
+    "n_cuts": 2,
+    "signed_errors_years": [
+      -5,
+      -4
+    ],
+    "absolute_errors_years": [
+      5,
+      4
+    ],
+    "mae_years": 4.5,
+    "exact_count": 0,
+    "exact_rate": 0.0
+  },
+  {
+    "case": 8,
+    "method": "derivative_k_provisional",
+    "method_label": "Derivative-K",
+    "boundary_origin": "archived_boundaries",
+    "analysis_year_start": 2000,
+    "analysis_year_end": 2022,
+    "n_years": 23,
+    "k": 3,
+    "min_period_length": 2,
+    "algorithm_feasible": true,
+    "reference_satisfies_minimum": true,
+    "reference_cut_years": [
+      2009,
+      2017
+    ],
+    "estimated_cut_years": [
+      2016,
+      2020
+    ],
+    "n_cuts": 2,
+    "signed_errors_years": [
+      7,
+      3
+    ],
+    "absolute_errors_years": [
+      7,
+      3
+    ],
+    "mae_years": 5.0,
+    "exact_count": 0,
+    "exact_rate": 0.0
+  },
+  {
+    "case": 8,
+    "method": "piecewise_linear_k",
+    "method_label": "Linear-K",
+    "boundary_origin": "archived_boundaries",
+    "analysis_year_start": 2000,
+    "analysis_year_end": 2022,
+    "n_years": 23,
+    "k": 3,
+    "min_period_length": 2,
+    "algorithm_feasible": true,
+    "reference_satisfies_minimum": true,
+    "reference_cut_years": [
+      2009,
+      2017
+    ],
+    "estimated_cut_years": [
+      2017,
+      2021
+    ],
+    "n_cuts": 2,
+    "signed_errors_years": [
+      8,
+      4
+    ],
+    "absolute_errors_years": [
+      8,
+      4
+    ],
+    "mae_years": 6.0,
+    "exact_count": 0,
+    "exact_rate": 0.0
+  },
+  {
+    "case": 8,
+    "method": "dynamic_l2_k",
+    "method_label": "Dynp L2-K",
+    "boundary_origin": "archived_boundaries",
+    "analysis_year_start": 2000,
+    "analysis_year_end": 2022,
+    "n_years": 23,
+    "k": 3,
+    "min_period_length": 2,
+    "algorithm_feasible": true,
+    "reference_satisfies_minimum": true,
+    "reference_cut_years": [
+      2009,
+      2017
+    ],
+    "estimated_cut_years": [
+      2015,
+      2019
+    ],
+    "n_cuts": 2,
+    "signed_errors_years": [
+      6,
+      2
+    ],
+    "absolute_errors_years": [
+      6,
+      2
+    ],
+    "mae_years": 4.0,
+    "exact_count": 0,
+    "exact_rate": 0.0
+  },
+  {
+    "case": 8,
+    "method": "equal_k",
+    "method_label": "Equal-K",
+    "boundary_origin": "verified_equal_k_implementation",
+    "analysis_year_start": 2000,
+    "analysis_year_end": 2022,
+    "n_years": 23,
+    "k": 3,
+    "min_period_length": 2,
+    "algorithm_feasible": true,
+    "reference_satisfies_minimum": true,
+    "reference_cut_years": [
+      2009,
+      2017
+    ],
+    "estimated_cut_years": [
+      2008,
+      2016
+    ],
+    "n_cuts": 2,
+    "signed_errors_years": [
+      -1,
+      -1
+    ],
+    "absolute_errors_years": [
+      1,
+      1
+    ],
+    "mae_years": 1.0,
+    "exact_count": 0,
+    "exact_rate": 0.0
+  },
+  {
+    "case": 9,
+    "method": "derivative_k_provisional",
+    "method_label": "Derivative-K",
+    "boundary_origin": "archived_boundaries",
+    "analysis_year_start": 2000,
+    "analysis_year_end": 2022,
+    "n_years": 23,
+    "k": 2,
+    "min_period_length": 2,
+    "algorithm_feasible": true,
+    "reference_satisfies_minimum": true,
+    "reference_cut_years": [
+      2012
+    ],
+    "estimated_cut_years": [
+      2018
+    ],
+    "n_cuts": 1,
+    "signed_errors_years": [
+      6
+    ],
+    "absolute_errors_years": [
+      6
+    ],
+    "mae_years": 6.0,
+    "exact_count": 0,
+    "exact_rate": 0.0
+  },
+  {
+    "case": 9,
+    "method": "piecewise_linear_k",
+    "method_label": "Linear-K",
+    "boundary_origin": "archived_boundaries",
+    "analysis_year_start": 2000,
+    "analysis_year_end": 2022,
+    "n_years": 23,
+    "k": 2,
+    "min_period_length": 2,
+    "algorithm_feasible": true,
+    "reference_satisfies_minimum": true,
+    "reference_cut_years": [
+      2012
+    ],
+    "estimated_cut_years": [
+      2020
+    ],
+    "n_cuts": 1,
+    "signed_errors_years": [
+      8
+    ],
+    "absolute_errors_years": [
+      8
+    ],
+    "mae_years": 8.0,
+    "exact_count": 0,
+    "exact_rate": 0.0
+  },
+  {
+    "case": 9,
+    "method": "dynamic_l2_k",
+    "method_label": "Dynp L2-K",
+    "boundary_origin": "archived_boundaries",
+    "analysis_year_start": 2000,
+    "analysis_year_end": 2022,
+    "n_years": 23,
+    "k": 2,
+    "min_period_length": 2,
+    "algorithm_feasible": true,
+    "reference_satisfies_minimum": true,
+    "reference_cut_years": [
+      2012
+    ],
+    "estimated_cut_years": [
+      2021
+    ],
+    "n_cuts": 1,
+    "signed_errors_years": [
+      9
+    ],
+    "absolute_errors_years": [
+      9
+    ],
+    "mae_years": 9.0,
+    "exact_count": 0,
+    "exact_rate": 0.0
+  },
+  {
+    "case": 9,
+    "method": "equal_k",
+    "method_label": "Equal-K",
+    "boundary_origin": "verified_equal_k_implementation",
+    "analysis_year_start": 2000,
+    "analysis_year_end": 2022,
+    "n_years": 23,
+    "k": 2,
+    "min_period_length": 2,
+    "algorithm_feasible": true,
+    "reference_satisfies_minimum": true,
+    "reference_cut_years": [
+      2012
+    ],
+    "estimated_cut_years": [
+      2012
+    ],
+    "n_cuts": 1,
+    "signed_errors_years": [
+      0
+    ],
+    "absolute_errors_years": [
+      0
+    ],
+    "mae_years": 0.0,
+    "exact_count": 1,
+    "exact_rate": 1.0
+  }
+]
