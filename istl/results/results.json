@@ -1,0 +1,1310 @@
+[
+  {
+    "case": 1,
+    "sheet": "1_Emprendi-innovador",
+    "method": "derivatives",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 2.4000216987534326,
+      "min_len": 3,
+      "n_breaks_input": null,
+      "candidate_indices": [
+        15,
+        20
+      ],
+      "rejected_indices": [],
+      "length_rule": "descending absolute d2, earlier index breaks ties"
+    },
+    "cut_indices": [
+      15,
+      20
+    ],
+    "cut_years": [
+      2015,
+      2020
+    ],
+    "n_cuts": 2,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2014,
+        "length": 15
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "length": 5
+      },
+      {
+        "start": 2020,
+        "end": 2023,
+        "length": 4
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 1,
+    "sheet": "1_Emprendi-innovador",
+    "method": "piecewise_linear",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "n_breaks_input": 2,
+      "min_len": 3,
+      "objective": "independent linear SSE",
+      "continuity_constraint": false,
+      "sse": 1133.9544117647058,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      17,
+      21
+    ],
+    "cut_years": [
+      2017,
+      2021
+    ],
+    "n_cuts": 2,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2016,
+        "length": 17
+      },
+      {
+        "start": 2017,
+        "end": 2020,
+        "length": 4
+      },
+      {
+        "start": 2021,
+        "end": 2023,
+        "length": 3
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 1,
+    "sheet": "1_Emprendi-innovador",
+    "method": "dynamic_l2",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "n_breaks_input": 2,
+      "model": "l2",
+      "min_size": 3,
+      "jump": 1,
+      "sse": 6551.19246031746,
+      "backend": "ruptures v1.1.10, frozen Dynp/CostL2 source subset"
+    },
+    "cut_indices": [
+      9,
+      17
+    ],
+    "cut_years": [
+      2009,
+      2017
+    ],
+    "n_cuts": 2,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2008,
+        "length": 9
+      },
+      {
+        "start": 2009,
+        "end": 2016,
+        "length": 8
+      },
+      {
+        "start": 2017,
+        "end": 2023,
+        "length": 7
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 2,
+    "sheet": "2_TopicModeling",
+    "method": "derivatives",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 3.6759329260823477,
+      "min_len": 3,
+      "n_breaks_input": null,
+      "candidate_indices": [
+        10,
+        15
+      ],
+      "rejected_indices": [],
+      "length_rule": "descending absolute d2, earlier index breaks ties"
+    },
+    "cut_indices": [
+      10,
+      15
+    ],
+    "cut_years": [
+      2014,
+      2019
+    ],
+    "n_cuts": 2,
+    "intervals": [
+      {
+        "start": 2004,
+        "end": 2013,
+        "length": 10
+      },
+      {
+        "start": 2014,
+        "end": 2018,
+        "length": 5
+      },
+      {
+        "start": 2019,
+        "end": 2021,
+        "length": 3
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 2,
+    "sheet": "2_TopicModeling",
+    "method": "piecewise_linear",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "n_breaks_input": 2,
+      "min_len": 3,
+      "objective": "independent linear SSE",
+      "continuity_constraint": false,
+      "sse": 806.8848484848489,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      10,
+      15
+    ],
+    "cut_years": [
+      2014,
+      2019
+    ],
+    "n_cuts": 2,
+    "intervals": [
+      {
+        "start": 2004,
+        "end": 2013,
+        "length": 10
+      },
+      {
+        "start": 2014,
+        "end": 2018,
+        "length": 5
+      },
+      {
+        "start": 2019,
+        "end": 2021,
+        "length": 3
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 2,
+    "sheet": "2_TopicModeling",
+    "method": "dynamic_l2",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "n_breaks_input": 2,
+      "model": "l2",
+      "min_size": 3,
+      "jump": 1,
+      "sse": 10589.21212121212,
+      "backend": "ruptures v1.1.10, frozen Dynp/CostL2 source subset"
+    },
+    "cut_indices": [
+      11,
+      14
+    ],
+    "cut_years": [
+      2015,
+      2018
+    ],
+    "n_cuts": 2,
+    "intervals": [
+      {
+        "start": 2004,
+        "end": 2014,
+        "length": 11
+      },
+      {
+        "start": 2015,
+        "end": 2017,
+        "length": 3
+      },
+      {
+        "start": 2018,
+        "end": 2021,
+        "length": 4
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 3,
+    "sheet": "3_VirtualTeaching",
+    "method": "derivatives",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 1.1551919661313501,
+      "min_len": 3,
+      "n_breaks_input": null,
+      "candidate_indices": [
+        17,
+        21
+      ],
+      "rejected_indices": [
+        21
+      ],
+      "length_rule": "descending absolute d2, earlier index breaks ties"
+    },
+    "cut_indices": [
+      17
+    ],
+    "cut_years": [
+      2017
+    ],
+    "n_cuts": 1,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2016,
+        "length": 17
+      },
+      {
+        "start": 2017,
+        "end": 2022,
+        "length": 6
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 3,
+    "sheet": "3_VirtualTeaching",
+    "method": "piecewise_linear",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "n_breaks_input": 2,
+      "min_len": 3,
+      "objective": "independent linear SSE",
+      "continuity_constraint": false,
+      "sse": 225.20569430569424,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      12,
+      18
+    ],
+    "cut_years": [
+      2012,
+      2018
+    ],
+    "n_cuts": 2,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2011,
+        "length": 12
+      },
+      {
+        "start": 2012,
+        "end": 2017,
+        "length": 6
+      },
+      {
+        "start": 2018,
+        "end": 2022,
+        "length": 5
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 3,
+    "sheet": "3_VirtualTeaching",
+    "method": "dynamic_l2",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "n_breaks_input": 2,
+      "model": "l2",
+      "min_size": 3,
+      "jump": 1,
+      "sse": 1328.2666666666667,
+      "backend": "ruptures v1.1.10, frozen Dynp/CostL2 source subset"
+    },
+    "cut_indices": [
+      10,
+      20
+    ],
+    "cut_years": [
+      2010,
+      2020
+    ],
+    "n_cuts": 2,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2009,
+        "length": 10
+      },
+      {
+        "start": 2010,
+        "end": 2019,
+        "length": 10
+      },
+      {
+        "start": 2020,
+        "end": 2022,
+        "length": 3
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 4,
+    "sheet": "4_ProduccionCafe",
+    "method": "derivatives",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 0.43536966972399627,
+      "min_len": 3,
+      "n_breaks_input": null,
+      "candidate_indices": [
+        9,
+        17,
+        21
+      ],
+      "rejected_indices": [],
+      "length_rule": "descending absolute d2, earlier index breaks ties"
+    },
+    "cut_indices": [
+      9,
+      17,
+      21
+    ],
+    "cut_years": [
+      2009,
+      2017,
+      2021
+    ],
+    "n_cuts": 3,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2008,
+        "length": 9
+      },
+      {
+        "start": 2009,
+        "end": 2016,
+        "length": 8
+      },
+      {
+        "start": 2017,
+        "end": 2020,
+        "length": 4
+      },
+      {
+        "start": 2021,
+        "end": 2023,
+        "length": 3
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 4,
+    "sheet": "4_ProduccionCafe",
+    "method": "piecewise_linear",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "n_breaks_input": 2,
+      "min_len": 3,
+      "objective": "independent linear SSE",
+      "continuity_constraint": false,
+      "sse": 190.10007770007775,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      12,
+      15
+    ],
+    "cut_years": [
+      2012,
+      2015
+    ],
+    "n_cuts": 2,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2011,
+        "length": 12
+      },
+      {
+        "start": 2012,
+        "end": 2014,
+        "length": 3
+      },
+      {
+        "start": 2015,
+        "end": 2023,
+        "length": 9
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 4,
+    "sheet": "4_ProduccionCafe",
+    "method": "dynamic_l2",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "n_breaks_input": 2,
+      "model": "l2",
+      "min_size": 3,
+      "jump": 1,
+      "sse": 458.11666666666673,
+      "backend": "ruptures v1.1.10, frozen Dynp/CostL2 source subset"
+    },
+    "cut_indices": [
+      7,
+      19
+    ],
+    "cut_years": [
+      2007,
+      2019
+    ],
+    "n_cuts": 2,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2006,
+        "length": 7
+      },
+      {
+        "start": 2007,
+        "end": 2018,
+        "length": 12
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "length": 5
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 5,
+    "sheet": "5_IA-ID",
+    "method": "derivatives",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 2.039418619105377,
+      "min_len": 3,
+      "n_breaks_input": null,
+      "candidate_indices": [
+        14,
+        20
+      ],
+      "rejected_indices": [
+        20
+      ],
+      "length_rule": "descending absolute d2, earlier index breaks ties"
+    },
+    "cut_indices": [
+      14
+    ],
+    "cut_years": [
+      2017
+    ],
+    "n_cuts": 1,
+    "intervals": [
+      {
+        "start": 2003,
+        "end": 2016,
+        "length": 14
+      },
+      {
+        "start": 2017,
+        "end": 2024,
+        "length": 8
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 5,
+    "sheet": "5_IA-ID",
+    "method": "piecewise_linear",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "n_breaks_input": 2,
+      "min_len": 3,
+      "objective": "independent linear SSE",
+      "continuity_constraint": false,
+      "sse": 260.42710622710626,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      14,
+      19
+    ],
+    "cut_years": [
+      2017,
+      2022
+    ],
+    "n_cuts": 2,
+    "intervals": [
+      {
+        "start": 2003,
+        "end": 2016,
+        "length": 14
+      },
+      {
+        "start": 2017,
+        "end": 2021,
+        "length": 5
+      },
+      {
+        "start": 2022,
+        "end": 2024,
+        "length": 3
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 5,
+    "sheet": "5_IA-ID",
+    "method": "dynamic_l2",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "n_breaks_input": 2,
+      "model": "l2",
+      "min_size": 3,
+      "jump": 1,
+      "sse": 1892.4,
+      "backend": "ruptures v1.1.10, frozen Dynp/CostL2 source subset"
+    },
+    "cut_indices": [
+      15,
+      19
+    ],
+    "cut_years": [
+      2018,
+      2022
+    ],
+    "n_cuts": 2,
+    "intervals": [
+      {
+        "start": 2003,
+        "end": 2017,
+        "length": 15
+      },
+      {
+        "start": 2018,
+        "end": 2021,
+        "length": 4
+      },
+      {
+        "start": 2022,
+        "end": 2024,
+        "length": 3
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 6,
+    "sheet": "6_PotMicrobiano",
+    "method": "derivatives",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 1.0753572634724164,
+      "min_len": 3,
+      "n_breaks_input": null,
+      "candidate_indices": [
+        14,
+        19
+      ],
+      "rejected_indices": [],
+      "length_rule": "descending absolute d2, earlier index breaks ties"
+    },
+    "cut_indices": [
+      14,
+      19
+    ],
+    "cut_years": [
+      2017,
+      2022
+    ],
+    "n_cuts": 2,
+    "intervals": [
+      {
+        "start": 2003,
+        "end": 2016,
+        "length": 14
+      },
+      {
+        "start": 2017,
+        "end": 2021,
+        "length": 5
+      },
+      {
+        "start": 2022,
+        "end": 2024,
+        "length": 3
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 6,
+    "sheet": "6_PotMicrobiano",
+    "method": "piecewise_linear",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "n_breaks_input": 2,
+      "min_len": 3,
+      "objective": "independent linear SSE",
+      "continuity_constraint": false,
+      "sse": 860.8479853479855,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      14,
+      19
+    ],
+    "cut_years": [
+      2017,
+      2022
+    ],
+    "n_cuts": 2,
+    "intervals": [
+      {
+        "start": 2003,
+        "end": 2016,
+        "length": 14
+      },
+      {
+        "start": 2017,
+        "end": 2021,
+        "length": 5
+      },
+      {
+        "start": 2022,
+        "end": 2024,
+        "length": 3
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 6,
+    "sheet": "6_PotMicrobiano",
+    "method": "dynamic_l2",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "n_breaks_input": 2,
+      "model": "l2",
+      "min_size": 3,
+      "jump": 1,
+      "sse": 2001.892307692308,
+      "backend": "ruptures v1.1.10, frozen Dynp/CostL2 source subset"
+    },
+    "cut_indices": [
+      13,
+      17
+    ],
+    "cut_years": [
+      2016,
+      2020
+    ],
+    "n_cuts": 2,
+    "intervals": [
+      {
+        "start": 2003,
+        "end": 2015,
+        "length": 13
+      },
+      {
+        "start": 2016,
+        "end": 2019,
+        "length": 4
+      },
+      {
+        "start": 2020,
+        "end": 2024,
+        "length": 5
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 7,
+    "sheet": "7_PerspCiencio",
+    "method": "derivatives",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 0.5648805769258423,
+      "min_len": 3,
+      "n_breaks_input": null,
+      "candidate_indices": [
+        15,
+        20
+      ],
+      "rejected_indices": [],
+      "length_rule": "descending absolute d2, earlier index breaks ties"
+    },
+    "cut_indices": [
+      15,
+      20
+    ],
+    "cut_years": [
+      2015,
+      2020
+    ],
+    "n_cuts": 2,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2014,
+        "length": 15
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "length": 5
+      },
+      {
+        "start": 2020,
+        "end": 2022,
+        "length": 3
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 7,
+    "sheet": "7_PerspCiencio",
+    "method": "piecewise_linear",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "n_breaks_input": 2,
+      "min_len": 3,
+      "objective": "independent linear SSE",
+      "continuity_constraint": false,
+      "sse": 71.92673992673991,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      13,
+      19
+    ],
+    "cut_years": [
+      2013,
+      2019
+    ],
+    "n_cuts": 2,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2012,
+        "length": 13
+      },
+      {
+        "start": 2013,
+        "end": 2018,
+        "length": 6
+      },
+      {
+        "start": 2019,
+        "end": 2022,
+        "length": 4
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 7,
+    "sheet": "7_PerspCiencio",
+    "method": "dynamic_l2",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "n_breaks_input": 2,
+      "model": "l2",
+      "min_size": 3,
+      "jump": 1,
+      "sse": 229.59999999999997,
+      "backend": "ruptures v1.1.10, frozen Dynp/CostL2 source subset"
+    },
+    "cut_indices": [
+      9,
+      19
+    ],
+    "cut_years": [
+      2009,
+      2019
+    ],
+    "n_cuts": 2,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2008,
+        "length": 9
+      },
+      {
+        "start": 2009,
+        "end": 2018,
+        "length": 10
+      },
+      {
+        "start": 2019,
+        "end": 2022,
+        "length": 4
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 8,
+    "sheet": "8_TenTurismoSos",
+    "method": "derivatives",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 2.337727433327219,
+      "min_len": 3,
+      "n_breaks_input": null,
+      "candidate_indices": [
+        16,
+        20
+      ],
+      "rejected_indices": [],
+      "length_rule": "descending absolute d2, earlier index breaks ties"
+    },
+    "cut_indices": [
+      16,
+      20
+    ],
+    "cut_years": [
+      2016,
+      2020
+    ],
+    "n_cuts": 2,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2015,
+        "length": 16
+      },
+      {
+        "start": 2016,
+        "end": 2019,
+        "length": 4
+      },
+      {
+        "start": 2020,
+        "end": 2022,
+        "length": 3
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 8,
+    "sheet": "8_TenTurismoSos",
+    "method": "piecewise_linear",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "n_breaks_input": 2,
+      "min_len": 3,
+      "objective": "independent linear SSE",
+      "continuity_constraint": false,
+      "sse": 1156.0034313725494,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      16,
+      19
+    ],
+    "cut_years": [
+      2016,
+      2019
+    ],
+    "n_cuts": 2,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2015,
+        "length": 16
+      },
+      {
+        "start": 2016,
+        "end": 2018,
+        "length": 3
+      },
+      {
+        "start": 2019,
+        "end": 2022,
+        "length": 4
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 8,
+    "sheet": "8_TenTurismoSos",
+    "method": "dynamic_l2",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "n_breaks_input": 2,
+      "model": "l2",
+      "min_size": 3,
+      "jump": 1,
+      "sse": 3701.4833333333336,
+      "backend": "ruptures v1.1.10, frozen Dynp/CostL2 source subset"
+    },
+    "cut_indices": [
+      15,
+      19
+    ],
+    "cut_years": [
+      2015,
+      2019
+    ],
+    "n_cuts": 2,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2014,
+        "length": 15
+      },
+      {
+        "start": 2015,
+        "end": 2018,
+        "length": 4
+      },
+      {
+        "start": 2019,
+        "end": 2022,
+        "length": 4
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 9,
+    "sheet": "9_AnaCiencLiderazgo",
+    "method": "derivatives",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 0.8417043611560249,
+      "min_len": 3,
+      "n_breaks_input": null,
+      "candidate_indices": [
+        18,
+        21
+      ],
+      "rejected_indices": [
+        21
+      ],
+      "length_rule": "descending absolute d2, earlier index breaks ties"
+    },
+    "cut_indices": [
+      18
+    ],
+    "cut_years": [
+      2018
+    ],
+    "n_cuts": 1,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2017,
+        "length": 18
+      },
+      {
+        "start": 2018,
+        "end": 2022,
+        "length": 5
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 9,
+    "sheet": "9_AnaCiencLiderazgo",
+    "method": "piecewise_linear",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "n_breaks_input": 2,
+      "min_len": 3,
+      "objective": "independent linear SSE",
+      "continuity_constraint": false,
+      "sse": 275.52500000000003,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      15,
+      20
+    ],
+    "cut_years": [
+      2015,
+      2020
+    ],
+    "n_cuts": 2,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2014,
+        "length": 15
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "length": 5
+      },
+      {
+        "start": 2020,
+        "end": 2022,
+        "length": 3
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 9,
+    "sheet": "9_AnaCiencLiderazgo",
+    "method": "dynamic_l2",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "n_breaks_input": 2,
+      "model": "l2",
+      "min_size": 3,
+      "jump": 1,
+      "sse": 2281.2738095238096,
+      "backend": "ruptures v1.1.10, frozen Dynp/CostL2 source subset"
+    },
+    "cut_indices": [
+      12,
+      19
+    ],
+    "cut_years": [
+      2012,
+      2019
+    ],
+    "n_cuts": 2,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2011,
+        "length": 12
+      },
+      {
+        "start": 2012,
+        "end": 2018,
+        "length": 7
+      },
+      {
+        "start": 2019,
+        "end": 2022,
+        "length": 4
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 10,
+    "sheet": "10_HumanGut",
+    "method": "derivatives",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "sigma": 2.0,
+      "mode": "reflect",
+      "truncate": 4.0,
+      "gradient_edge_order": 1,
+      "sampling_years": 1,
+      "height_rule": "std(d2), ddof=0",
+      "height": 5.756016181581976,
+      "min_len": 3,
+      "n_breaks_input": null,
+      "candidate_indices": [
+        18,
+        22
+      ],
+      "rejected_indices": [
+        22
+      ],
+      "length_rule": "descending absolute d2, earlier index breaks ties"
+    },
+    "cut_indices": [
+      18
+    ],
+    "cut_years": [
+      2018
+    ],
+    "n_cuts": 1,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2017,
+        "length": 18
+      },
+      {
+        "start": 2018,
+        "end": 2023,
+        "length": 6
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 10,
+    "sheet": "10_HumanGut",
+    "method": "piecewise_linear",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "n_breaks_input": 2,
+      "min_len": 3,
+      "objective": "independent linear SSE",
+      "continuity_constraint": false,
+      "sse": 8255.844047619048,
+      "tie_rule": "first lexicographic combination"
+    },
+    "cut_indices": [
+      15,
+      20
+    ],
+    "cut_years": [
+      2015,
+      2020
+    ],
+    "n_cuts": 2,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2014,
+        "length": 15
+      },
+      {
+        "start": 2015,
+        "end": 2019,
+        "length": 5
+      },
+      {
+        "start": 2020,
+        "end": 2023,
+        "length": 4
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  },
+  {
+    "case": 10,
+    "sheet": "10_HumanGut",
+    "method": "dynamic_l2",
+    "comparison": "diagnostic; not expert agreement",
+    "parameters": {
+      "n_breaks_input": 2,
+      "model": "l2",
+      "min_size": 3,
+      "jump": 1,
+      "sse": 39601.33333333333,
+      "backend": "ruptures v1.1.10, frozen Dynp/CostL2 source subset"
+    },
+    "cut_indices": [
+      18,
+      21
+    ],
+    "cut_years": [
+      2018,
+      2021
+    ],
+    "n_cuts": 2,
+    "intervals": [
+      {
+        "start": 2000,
+        "end": 2017,
+        "length": 18
+      },
+      {
+        "start": 2018,
+        "end": 2020,
+        "length": 3
+      },
+      {
+        "start": 2021,
+        "end": 2023,
+        "length": 3
+      }
+    ],
+    "cut_convention": "first year of new period; inclusive nonoverlapping intervals"
+  }
+]

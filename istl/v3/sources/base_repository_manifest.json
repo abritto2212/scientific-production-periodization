@@ -1,0 +1,317 @@
+{
+  "commit": "60ea426564f37622a8f7fc090ad3f9d8b63070ac",
+  "files": [
+    {
+      "path": ".gitignore",
+      "git_blob_sha": "b5d9301a693335ec502a372a08714298ce235f1c"
+    },
+    {
+      "path": ".vscode/settings.json",
+      "git_blob_sha": "c9ebf2d2794e8b36bb157c3e78a7372073395a3d"
+    },
+    {
+      "path": "1_metodo_derivadas.py",
+      "git_blob_sha": "4bc058232a91366afb887f64819a41832744e54a"
+    },
+    {
+      "path": "2_metodo_S-Robledo.py",
+      "git_blob_sha": "be4c05391859d7d10dc592d429d6041e5799feb1"
+    },
+    {
+      "path": "3_Método/grafica_puntos_cambio.png",
+      "git_blob_sha": "cf5230a8c851b670cefbc4412a8f33de77736013"
+    },
+    {
+      "path": "3_Método/grafica_puntos_cambio_1.png",
+      "git_blob_sha": "057630ff746ccf1aa05da186ecaf1f74ba731e4b"
+    },
+    {
+      "path": "3_metodo_nuevo.py",
+      "git_blob_sha": "1effcff04f0fc318065a7b0e691854f5dce140df"
+    },
+    {
+      "path": "ArticuloEDO.ipynb",
+      "git_blob_sha": "c3667147cf6e265d41a402044ffbae86185759bc"
+    },
+    {
+      "path": "ENTREGA02.md",
+      "git_blob_sha": "2cf1667640dd8c76fb30f96872f8ff92dc49d9be"
+    },
+    {
+      "path": "Idea Articulos.txt",
+      "git_blob_sha": "af1c68299c7197e8182ca52a3320ffd5c0af6494"
+    },
+    {
+      "path": "LICENSE",
+      "git_blob_sha": "7c94a1d40a4a7bcf90ff170eb078dd15fccf8aef"
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha": "13aa245aceafca715bd4b1d39055268e57c32bb1"
+    },
+    {
+      "path": "cambio_etapas.png",
+      "git_blob_sha": "5e117d3adf0f7a541740a05f4220a6f5348739e3"
+    },
+    {
+      "path": "cambio_etapasDATOSMIOS.png",
+      "git_blob_sha": "9cd15ae07987c46b82ee047d7ce579fb4b225f35"
+    },
+    {
+      "path": "cambio_etapas_con_crecimiento.png",
+      "git_blob_sha": "0f10aa3277f40a936782f7aaa018bd57a07783a3"
+    },
+    {
+      "path": "data_articles.py",
+      "git_blob_sha": "360c8b5e016f2126068ee1bb9e387bb693813a96"
+    },
+    {
+      "path": "data_articles/data_articles.xlsx",
+      "git_blob_sha": "89381c887437869b465ed992cdd551afea07920c"
+    },
+    {
+      "path": "istl/INFORME_DIRECTOR.md",
+      "git_blob_sha": "cfd118433787987874e6cb0dccd3772f505daa8a"
+    },
+    {
+      "path": "istl/README.md",
+      "git_blob_sha": "0820e63cb1097b0fee21a2314c0e34aa7bacbf24"
+    },
+    {
+      "path": "istl/integration/02_Informe_literatura_y_evidencia_v0.2.html",
+      "git_blob_sha": "e240c57fe30a2fcc87384216998e4cc9eb279ed8"
+    },
+    {
+      "path": "istl/integration/REVIEW_ENTREGA02.md",
+      "git_blob_sha": "043d88fddf961b53cb79756e985524d59fb8c0b2"
+    },
+    {
+      "path": "istl/integration/evidence_status_v0.2.json",
+      "git_blob_sha": "c7741f314f8bddab8afeea830413fe573a871f5f"
+    },
+    {
+      "path": "istl/periodization.py",
+      "git_blob_sha": "c7098083cb46bb26669025bcd336d7c086a8d761"
+    },
+    {
+      "path": "istl/read_data.py",
+      "git_blob_sha": "35984fb9c168446bccea404c6d182557fe79a575"
+    },
+    {
+      "path": "istl/requirements.txt",
+      "git_blob_sha": "2c06b3175f847718e11ce89aabe0768e2526a8e5"
+    },
+    {
+      "path": "istl/results/before_after.json",
+      "git_blob_sha": "5c17c1eb9b535bf9eec4d58e4e447bb923e57761"
+    },
+    {
+      "path": "istl/results/cuts.csv",
+      "git_blob_sha": "b2dc4c3d3d6f35ce54dd2e5d1121cff0127c011b"
+    },
+    {
+      "path": "istl/results/data_audit.json",
+      "git_blob_sha": "b9580bb271be6240762d88decdd2a7dab3b96de2"
+    },
+    {
+      "path": "istl/results/figures/derivative_candidates.svg",
+      "git_blob_sha": "73ca0e6cf0ee176c2b4678df3605afb776a85ddc"
+    },
+    {
+      "path": "istl/results/figures/diagnostic.svg",
+      "git_blob_sha": "e4b1c1514e3fdcc1c764c67096af106601d777aa"
+    },
+    {
+      "path": "istl/results/provenance.json",
+      "git_blob_sha": "1c87ef407c79c60e6b1d42b19328e496be338ebe"
+    },
+    {
+      "path": "istl/results/results.json",
+      "git_blob_sha": "495af6c1bad9750550f24a3c133af5886cda155d"
+    },
+    {
+      "path": "istl/results/series.csv",
+      "git_blob_sha": "e0a7e44ab6e8fa3711251f58d49e8d9c2480e3f7"
+    },
+    {
+      "path": "istl/results/verification.txt",
+      "git_blob_sha": "c05e4f2999cdb29f42588842077df75e866ef1a1"
+    },
+    {
+      "path": "istl/run.py",
+      "git_blob_sha": "cc94a4619b3193747a5a4de82a4ffced6c996793"
+    },
+    {
+      "path": "istl/test_periodization.py",
+      "git_blob_sha": "f107032ce4a77a43ddfddaf06830df6753d351e5"
+    },
+    {
+      "path": "istl/v2/.gitignore",
+      "git_blob_sha": "c7862ffd14f04d33614d71891a62855b3f1bcf86"
+    },
+    {
+      "path": "istl/v2/INFORME_DIRECTOR_v0.2.md",
+      "git_blob_sha": "4d1462d717407c3ea57093442a52d59f0cb79d18"
+    },
+    {
+      "path": "istl/v2/PROTOCOLO_PROPUESTO_v0.2.md",
+      "git_blob_sha": "f0df6d91bc9335efed4f1450fbfe58a74c19eda2"
+    },
+    {
+      "path": "istl/v2/README.md",
+      "git_blob_sha": "bf48276abba2635cb5758bc9a0facff93aaa5b8b"
+    },
+    {
+      "path": "istl/v2/conditioned.py",
+      "git_blob_sha": "1ffa44ed6f054fcde232a295c0376b9068a9429b"
+    },
+    {
+      "path": "istl/v2/references.py",
+      "git_blob_sha": "7f7465d3e863e0b2feda94ab0b0603f2e2800cb5"
+    },
+    {
+      "path": "istl/v2/references/02_Cortes_publicados_v0.1.csv",
+      "git_blob_sha": "66615e22fa23a1978389ae4e332d554816c3098f"
+    },
+    {
+      "path": "istl/v2/references/02_Informe_literatura_v0.1.html",
+      "git_blob_sha": "ce7472eeef31453d5ff520dbdbe728c09df78dbc"
+    },
+    {
+      "path": "istl/v2/references/02_Matriz_evidencia_snapshot.txt",
+      "git_blob_sha": "d945f75ea6aeeb9c8f66049e693576a3e427c026"
+    },
+    {
+      "path": "istl/v2/references/sources.json",
+      "git_blob_sha": "b67daaf5f30de7ef625735cbc520af6e5a70ecf3"
+    },
+    {
+      "path": "istl/v2/results/conditioned_cuts.csv",
+      "git_blob_sha": "04eeca8e30b7b86b60845ca789b0f3bf0b5bb09e"
+    },
+    {
+      "path": "istl/v2/results/conditioned_results.json",
+      "git_blob_sha": "cfc69e10f2fb637582c86938ef7e098ebfb42107"
+    },
+    {
+      "path": "istl/v2/results/figures/conditioned_min2.svg",
+      "git_blob_sha": "c0a8b456a15b6ac01f431ed3c3fb9cc98ee7747f"
+    },
+    {
+      "path": "istl/v2/results/figures/conditioned_min3.svg",
+      "git_blob_sha": "e46067c9bc61712eae33bd50ba8ba906f09f9be2"
+    },
+    {
+      "path": "istl/v2/results/native_derivative_diagnostic.json",
+      "git_blob_sha": "48842c259888c64c91738af0e7cd136474a1658a"
+    },
+    {
+      "path": "istl/v2/results/paired_boundaries.csv",
+      "git_blob_sha": "8ebec2fd39fc751b97932db97b17deeb2360d06c"
+    },
+    {
+      "path": "istl/v2/results/provenance.json",
+      "git_blob_sha": "7f05f0d8dd648ba5095d615d230f7c1ef429383f"
+    },
+    {
+      "path": "istl/v2/results/references_normalized.json",
+      "git_blob_sha": "9bca6fb1584c40c9072a669dd61b827dc7eddd18"
+    },
+    {
+      "path": "istl/v2/results/reproducibility_hashes.json",
+      "git_blob_sha": "dab71847cbb6b5981eb3078d9553dfcf28fcd33c"
+    },
+    {
+      "path": "istl/v2/results/summary.csv",
+      "git_blob_sha": "c16f8a040257e4360c84c5e890131c9e7eb4b3b7"
+    },
+    {
+      "path": "istl/v2/results/summary.json",
+      "git_blob_sha": "51d1669ef5c219c4edb0a42c8d4f62c620c63383"
+    },
+    {
+      "path": "istl/v2/results/verification.txt",
+      "git_blob_sha": "c469dbc5931b8b6569126d6a38f7ada9c2ad30a5"
+    },
+    {
+      "path": "istl/v2/run_conditioned.py",
+      "git_blob_sha": "3fd9104e189094e722349eac3ebc04fbf8c81b63"
+    },
+    {
+      "path": "istl/v2/test_conditioned.py",
+      "git_blob_sha": "ffe5e05a96742d79a21407033257abf286ef8f9f"
+    },
+    {
+      "path": "istl/v2/verify_delivery.py",
+      "git_blob_sha": "f8beee81a078f0c129248f3a2ce2e1bdb72d7ebb"
+    },
+    {
+      "path": "istl/vendor/LICENSE",
+      "git_blob_sha": "1514849befd34769d5af24fb2b6d3324920a6623"
+    },
+    {
+      "path": "istl/vendor/README.md",
+      "git_blob_sha": "94013e89f09ad17de6d7d590180863e309394982"
+    },
+    {
+      "path": "istl/vendor/ruptures/__init__.py",
+      "git_blob_sha": "963cd52c34f8ab5ac4aa66c54c619fbb0334daeb"
+    },
+    {
+      "path": "istl/vendor/ruptures/base.py",
+      "git_blob_sha": "5becb9db64a4afd5682c4cac50356b7d4b0edc12"
+    },
+    {
+      "path": "istl/vendor/ruptures/costs/__init__.py",
+      "git_blob_sha": "e9b26bd83c19942ca8ebf4c1f91dc4bc13340f81"
+    },
+    {
+      "path": "istl/vendor/ruptures/costs/costl2.py",
+      "git_blob_sha": "f1d81f5215ea1ec70739629c9010af31a4e0e2ea"
+    },
+    {
+      "path": "istl/vendor/ruptures/detection/__init__.py",
+      "git_blob_sha": "8b137891791fe96927ad78e64b0aad7bded08bdc"
+    },
+    {
+      "path": "istl/vendor/ruptures/detection/dynp.py",
+      "git_blob_sha": "8afa935d88d51dd80ecc315fa07ca6e6eaf252ea"
+    },
+    {
+      "path": "istl/vendor/ruptures/exceptions.py",
+      "git_blob_sha": "1b98b3192b0ad0e3a9d82cb4eeb29fd242fd2ea3"
+    },
+    {
+      "path": "istl/vendor/ruptures/utils/__init__.py",
+      "git_blob_sha": "0bed716875e461ffd9602ab149122322df26bf4d"
+    },
+    {
+      "path": "istl/vendor/ruptures/utils/utils.py",
+      "git_blob_sha": "6db4fc7bcc846861d4b41070c9d937f92ff7f0a2"
+    },
+    {
+      "path": "istl/vendor/upstream.json",
+      "git_blob_sha": "a985fe9ba26fb8b3490b9aa2750107292ac4be51"
+    },
+    {
+      "path": "panel_10_casos.png",
+      "git_blob_sha": "be316b0ee2b72f930770bb4499aa130f3c3bab06"
+    },
+    {
+      "path": "periodos_detectados.png",
+      "git_blob_sha": "846212aae956450094e132ee7b26641227df9b1e"
+    },
+    {
+      "path": "resumen_10_estudios.csv",
+      "git_blob_sha": "6d9f7bee35325e434f9898e1c10b55c7114cd61d"
+    },
+    {
+      "path": "trayectorias_normalizadas.png",
+      "git_blob_sha": "8dc6c8896918d166a8cf9de65484756a9d10c54d"
+    },
+    {
+      "path": "unnamed.webp",
+      "git_blob_sha": "08e21e290a2d99ce64dec5b366bdc12a7de7c857"
+    }
+  ]
+}

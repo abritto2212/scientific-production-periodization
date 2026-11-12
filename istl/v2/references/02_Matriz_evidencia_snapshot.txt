@@ -1,0 +1,261 @@
+,Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,Unnamed: 14,Unnamed: 15,Unnamed: 16,Unnamed: 17
+0,02 · Matriz de verificación de diez casos — v0.1,,,,,,,,,,,,,,,,,
+1,05-11-2026 | A: vinculación fuerte; B: cortes explícitos con discrepancias; C: candidato pendiente. Ninguna serie tiene cotejo anual completo.,,,,,,,,,,,,,,,,,
+2,,,,,,,,,,,,,,,,,,
+3,Caso,Hoja original,Estado,Referencia APA 7,DOI / enlace editorial,Evidencia de vínculo,N Excel,N artículo,Excel menos artículo,Período Excel,Período artículo,Divisiones explícitas,Ubicación,Justificación publicada,Pendientes / consulta a Britto,Nivel de lectura,Fuente consultada,Fecha de consulta
+4,1,1_Emprendi-innovador,B — cortes explícitos; serie pendiente,"Cano-Vargas, A. A., & Osorio-Toro, C. A. (2024). Exploring the evolution and trends of innovative entrepreneurship: A bibliometric analysis. Clío América, 18(35), 34–51.",https://doi.org/10.21676/23897848.5658,"Tema y ventana coinciden. Texto: 2006=22, 2007=15, 2012=62; Excel coincide. Artículo dice 2000=3; Excel=2. No se cotejó toda la gráfica.",1787,1795,-8,2000–2023,2000–2023,2000–2006; 2007–2012; 2013–2018; 2019–2023,Resultados > Bibliometric Analysis > Scientific production; Figura 1 y cuatro subtítulos.,"Cambios de crecimiento, citas y contexto interpretativo; no se especifica optimización formal.",Britto: confirmar extracción; resolver diferencia de 8 documentos y primer año.,Texto completo HTML editorial; páginas de los cortes no verificadas.,https://revistas.unimagdalena.edu.co/index.php/clioamerica/article/download/5658/5126?inline=1,2026-11-05
+5,2,2_TopicModeling,B — cortes explícitos; serie pendiente,"Grisales A., A. M., Robledo, S., & Zuluaga, M. (2023). Topic modeling: Perspectives from a literature review. IEEE Access, 11, 4066–4078.",https://doi.org/10.1109/ACCESS.2022.3232939,Tema y serie 2004–2021 coinciden; corpus 1697 frente a Excel 1694. Subtotales publicados 227/1195/732 no coinciden con Excel 198/953/543.,1694,1697,-3,2004–2021,2004–2021 (serie); búsqueda WoS 2000–2021 / Scopus 1960–2021,2004–2013; 2014–2019; 2020–2021,"III.A.1 Scientific production, p. 4068; Figura 1, p. 4069.","Crecimiento inicial, aceleración y nivelación final; estabilidad justifica una etapa de dos años.",Aclarar conteo único frente a suma de bases. Etapa final de 2 años incompatible con mínimo de 3. Online 28-12-2022; volumen 11=2023.,Texto completo versión publicada en copia de autores; contrastado con manuscrito aceptado de Drive.,https://www.researchgate.net/publication/366650505_Topic_modeling_perspectives_from_a_literature_review,2026-11-05
+6,3,3_VirtualTeaching,B — cortes explícitos; serie pendiente,"Vargas-Hernández, A., Robledo, S., & Rojas Quiceno, G. (2024). Virtual teaching for online learning from the perspective of higher education: A bibliometric analysis. Journal of Scientometric Research, 13(2), 406–418.",https://doi.org/10.5530/jscires.13.2.32,Tema y ventana coinciden; total publicado 376 frente a Excel 368. Etapas publicadas 18/85/261; Excel 24/85/259; los subtotales del texto suman 364.,368,376,-8,2000–2022,2000–2022,2000–2008; 2009–2016; 2017–2022,"Resultados > Scientific production, p. 409; Figura 2.","Crecimiento inicial, estabilidad y desarrollo rápido; referencia contextual a SARS-CoV-2.",Resolver total y subtotales antes de validar. No corregir fechas ni cantidades originales por suposición.,"PDF editorial completo; el portal tiene año corrupto «0202», corregido con cabecera del PDF de 2024.",https://www.oajr.org/journals/jscires/13/2/406,2026-11-05
+7,4,4_ProduccionCafe,B — cortes explícitos; serie pendiente,"Gómez-Ortiz, M. M., & Vivares-Vergara, J. A. (2024). Organic coffee production: Mapping trends through bibliometric analysis. Clío América, 18(35), 14–33.",https://doi.org/10.21676/23897848.5650,"Tema café orgánico y 2000–2023 coinciden; artículo=360, Excel=358. Correspondencia anual completa pendiente; otro candidato tecnológico (Interfaces 13408) difiere: 291, 2004–2024.",358,360,-2,2000–2023,2000–2023,2000–2010; 2011–2016; 2017–2023,"Discusión: tres subtítulos de períodos; Figura 1, p. 17 en PDF editorial. PDF Dialnet presenta paginación interna diferente.","Expansión, estabilización y crecimiento; explicación con producción y citas.",Resolver diferencia de 2 y cotejar gráfica; conservar DOI como identidad frente a diferencias de maquetación.,PDF editorial completo y copia Dialnet.,https://revistas.unimagdalena.edu.co/index.php/clioamerica/article/download/5650/5123/29380,2026-11-05
+8,5,5_IA-ID,A — vinculación fuerte y cortes explícitos,"Britto-Berrocal, A. J., & Cordoba-Rizo, D. M. (2024). Scientometric analysis of the relationship between artificial intelligence and data engineering: Trends, collaboration, and evolution. Revista de Ingenierías Interfaces, 7(2), 1–17.",https://revistas.unilibre.edu.co/index.php/interfaces/article/view/12714,"Coinciden tema, ventana, total=663 y los tres subtotales: 7, 30 y 626. Es la vinculación más fuerte; falta cotejo punto a punto de Figura 2.",663,663,0,2003–2024,2003–2024,2003–2011; 2012–2017; 2018–2024,"Resultados > Scientific production, pp. 5–6; Figura 2 y subtítulos Initiation / Early Growth / Consolidation.",Los autores indican división por comportamiento de barras y citaciones.,No se localizó DOI. Año APA sigue volumen/PDF 2024; portal publicado 07-04-2025. Documentar 2024 parcial: consulta 05-10-2024.,PDF editorial completo.,https://revistas.unilibre.edu.co/index.php/interfaces/article/download/12714/12751/43193,2026-11-05
+9,6,6_PotMicrobiano,B — cortes explícitos; cobertura incompleta,"Romero-Villareal, K. M., & Moscote Murgas, M. C. (2024). Antimicrobial potential of secondary metabolites: A scientometric review. Revista de Ingenierías Interfaces, 7(2), 1–27.",https://revistas.unilibre.edu.co/index.php/interfaces/article/view/12712,"Tema abreviado corresponde a potencial ANTI-microbiano; ventana 2003–2024 coincide. Tabla I=797, Excel=796.",796,797,-1,2003–2024,2003–2024; etapa final textual solo hasta 2023,2003–2010; 2011–2017; 2018–2023 (texto),"Resultados > Scientific production; Figura 2 y tres subtítulos, pp. 6–7.",Tasas de crecimiento y picos de citas; último rótulo temporal no cubre 2024.,Britto: resolver 797/796 y destino de 2024; no extender automáticamente último período. Sin DOI localizado. Portal 2025; volumen/PDF 2024.,"PDF completo de la publicación, copia Dialnet; metadatos editoriales.",https://dialnet.unirioja.es/descarga/articulo/10631380.pdf,2026-11-05
+10,7,7_PerspCiencio,C — candidato; identificación pendiente,"Martínez-Pinzón, C. A., & Duque-Hurtado, P. L. (2024). Scientometric insights into dynamic capabilities: Measuring academic impact and trends. Clío América, 18(35), 106–125.",https://doi.org/10.21676/23897848.5816,"Título español comienza «Perspectivas cientométricas…», compatible con hoja. Artículo reporta 330 registros y 2000–2023; Excel 273 y 2000–2022. No basta para identificación firme.",273,330,-57,2000–2022,2000–2023 en introducción; 2000–2022 en resumen,No extraídas con verificación suficiente,Introducción: total 330; conclusión menciona tres fases. Fechas de las fases pendientes.,No verificada.,Solicitar a Britto PDF exacto de 7_PerspCiencio y procedencia de serie; confirmar si es este artículo. Acceso al cuerpo intermitente (502).,HTML editorial consultado parcialmente; fechas de cortes sin verificar.,https://revistas.unimagdalena.edu.co/index.php/clioamerica/article/download/5816/5135?inline=1,2026-11-05
+11,8,8_TenTurismoSos,B — cortes explícitos; serie pendiente,"Carrillo-Acosta, N., Alarcón-Rivera, Z., & Valderrama-López, C. F. (2024). Sustainable tourism trends in heritage sites, a bibliometric analysis. Clío América, 18(35), 140–157.",https://doi.org/10.21676/23897848.5664,Tema y serie 2000–2022 coinciden. Tabla 1=1064 (búsqueda hasta 2023); Excel=1004. Autores excluyen 2023 incompleto de gráfica; diferencia de 60 no reconciliada.,1004,1064,-60,2000–2022,2000–2023 búsqueda; 2000–2022 serie analizada,2000–2008; 2009–2016; 2017–2022,"Resultados > Scientometric Analysis > Scientific production, pp. 142–143; Figura 1.","Variación de producción; tasas indicadas 3,66%, 20% y 22,83%.",No atribuir los 60 documentos a 2023 sin conteo; pedir serie original. Candidato alternativo regional (empresa/a.11131) no coincide en alcance y fecha.,PDF editorial completo.,https://revistas.unimagdalena.edu.co/index.php/clioamerica/article/download/5664/5139/29396,2026-11-05
+12,9,9_AnaCiencLiderazgo,A — vinculación fuerte y cortes explícitos,"Molina-Morán, R. O., Castañeda-Betancur, S., Ardila-Niño, G., & Villao-Santos, F. (2024). Scientometric analysis in e-leadership and competencies for its development. Clío América, 18(35), 70–86.",https://doi.org/10.21676/23897848.5669,"Serie 2000–2022 y subtotales 98+385=483 coinciden exactamente con Excel. Tabla 1 del artículo reporta 511 hasta 2023, diferencia 28 por reconciliar.",483,511,-28,2000–2022,2000–2023 búsqueda; 2000–2022 serie,2000–2011; 2012–2022,"Resultados > Scientific Production, p. 73; Figura 1 y dos fases.","Inicio frente a aceleración; 2020 se comenta dentro de segunda fase, sin crear tercera.",Reconciliar 511/483 y año 2023. Conservar dos fases; no imponer tres por conveniencia algorítmica.,PDF editorial completo.,https://revistas.unimagdalena.edu.co/index.php/clioamerica/article/download/5669/5129/29386,2026-11-05
+13,10,10_HumanGut,C — candidato; sin partición completa,"Valencia, S., Zuluaga, M., Florian Pérez, M. C., Montoya-Quintero, K. F., Candamil-Cortés, M. S., & Robledo, S. (2025). Human gut microbiome: A connecting organ between nutrition, metabolism, and health. International Journal of Molecular Sciences, 26(9), Article 4112.",https://doi.org/10.3390/ijms26094112,"Título compatible con hoja. Fuente publicada abarca 1972–05-12-2024 y 2411 registros; Excel 2000–2023, 2165. Puede ser versión o recorte diferente; no demostrado.",2165,2411,-246,2000–2023,1972–05-12-2024,Observación explícita: inflexión alrededor de 2013; NO partición completa con intervalos.,"Sección 3.1 Scientometric Analysis, primer párrafo y Figura 2; metodología §2.",Autores relacionan cambio de crecimiento con pico de citas. «Around 2013» es aproximado.,Britto: PDF/versión exacta y origen de 2165. No convertir 2013 aproximado en frontera exacta ni fabricar segunda frontera.,Texto completo HTML editorial; no verificación punto a punto de gráfica.,https://www.mdpi.com/1422-0067/26/9/4112,2026-11-05
+,Caso,Hoja,Último año anterior,Primer año siguiente,N fases publicado,Estado / límite de uso
+0,1,1_Emprendi-innovador,2006,2007,4,B — cortes explícitos; serie pendiente
+1,1,1_Emprendi-innovador,2012,2013,4,B — cortes explícitos; serie pendiente
+2,1,1_Emprendi-innovador,2018,2019,4,B — cortes explícitos; serie pendiente
+3,2,2_TopicModeling,2013,2014,3,B — cortes explícitos; serie pendiente
+4,2,2_TopicModeling,2019,2020,3,B — cortes explícitos; serie pendiente
+5,3,3_VirtualTeaching,2008,2009,3,B — cortes explícitos; serie pendiente
+6,3,3_VirtualTeaching,2016,2017,3,B — cortes explícitos; serie pendiente
+7,4,4_ProduccionCafe,2010,2011,3,B — cortes explícitos; serie pendiente
+8,4,4_ProduccionCafe,2016,2017,3,B — cortes explícitos; serie pendiente
+9,5,5_IA-ID,2011,2012,3,A — vinculación fuerte y cortes explícitos
+10,5,5_IA-ID,2017,2018,3,A — vinculación fuerte y cortes explícitos
+11,6,6_PotMicrobiano,2010,2011,3,B — cortes explícitos; cobertura incompleta | 2024 fuera del último intervalo textual
+12,6,6_PotMicrobiano,2017,2018,3,B — cortes explícitos; cobertura incompleta | 2024 fuera del último intervalo textual
+13,7,7_PerspCiencio,,,,Pendiente: no alimentar métricas de concordancia
+14,8,8_TenTurismoSos,2008,2009,3,B — cortes explícitos; serie pendiente
+15,8,8_TenTurismoSos,2016,2017,3,B — cortes explícitos; serie pendiente
+16,9,9_AnaCiencLiderazgo,2011,2012,2,A — vinculación fuerte y cortes explícitos
+17,10,10_HumanGut,,,,Pendiente: no alimentar métricas de concordancia
+,Caso,Hoja,Año,Publicaciones,Fuente / versión
+0,1,1_Emprendi-innovador,2000,2,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+1,1,1_Emprendi-innovador,2001,5,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+2,1,1_Emprendi-innovador,2002,8,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+3,1,1_Emprendi-innovador,2003,9,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+4,1,1_Emprendi-innovador,2004,11,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+5,1,1_Emprendi-innovador,2005,14,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+6,1,1_Emprendi-innovador,2006,22,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+7,1,1_Emprendi-innovador,2007,15,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+8,1,1_Emprendi-innovador,2008,21,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+9,1,1_Emprendi-innovador,2009,48,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+10,1,1_Emprendi-innovador,2010,42,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+11,1,1_Emprendi-innovador,2011,53,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+12,1,1_Emprendi-innovador,2012,62,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+13,1,1_Emprendi-innovador,2013,53,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+14,1,1_Emprendi-innovador,2014,63,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+15,1,1_Emprendi-innovador,2015,76,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+16,1,1_Emprendi-innovador,2016,84,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+17,1,1_Emprendi-innovador,2017,130,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+18,1,1_Emprendi-innovador,2018,138,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+19,1,1_Emprendi-innovador,2019,179,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+20,1,1_Emprendi-innovador,2020,197,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+21,1,1_Emprendi-innovador,2021,206,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+22,1,1_Emprendi-innovador,2022,177,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+23,1,1_Emprendi-innovador,2023,172,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+24,2,2_TopicModeling,2004,2,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+25,2,2_TopicModeling,2005,1,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+26,2,2_TopicModeling,2006,5,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+27,2,2_TopicModeling,2007,0,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+28,2,2_TopicModeling,2008,8,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+29,2,2_TopicModeling,2009,19,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+30,2,2_TopicModeling,2010,29,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+31,2,2_TopicModeling,2011,29,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+32,2,2_TopicModeling,2012,50,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+33,2,2_TopicModeling,2013,55,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+34,2,2_TopicModeling,2014,73,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+35,2,2_TopicModeling,2015,96,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+36,2,2_TopicModeling,2016,139,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+37,2,2_TopicModeling,2017,160,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+38,2,2_TopicModeling,2018,217,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+39,2,2_TopicModeling,2019,268,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+40,2,2_TopicModeling,2020,273,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+41,2,2_TopicModeling,2021,270,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+42,3,3_VirtualTeaching,2000,2,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+43,3,3_VirtualTeaching,2001,0,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+44,3,3_VirtualTeaching,2002,4,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+45,3,3_VirtualTeaching,2003,0,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+46,3,3_VirtualTeaching,2004,0,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+47,3,3_VirtualTeaching,2005,3,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+48,3,3_VirtualTeaching,2006,3,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+49,3,3_VirtualTeaching,2007,6,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+50,3,3_VirtualTeaching,2008,6,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+51,3,3_VirtualTeaching,2009,8,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+52,3,3_VirtualTeaching,2010,12,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+53,3,3_VirtualTeaching,2011,21,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+54,3,3_VirtualTeaching,2012,6,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+55,3,3_VirtualTeaching,2013,10,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+56,3,3_VirtualTeaching,2014,4,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+57,3,3_VirtualTeaching,2015,14,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+58,3,3_VirtualTeaching,2016,10,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+59,3,3_VirtualTeaching,2017,9,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+60,3,3_VirtualTeaching,2018,23,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+61,3,3_VirtualTeaching,2019,31,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+62,3,3_VirtualTeaching,2020,48,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+63,3,3_VirtualTeaching,2021,65,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+64,3,3_VirtualTeaching,2022,83,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+65,4,4_ProduccionCafe,2000,0,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+66,4,4_ProduccionCafe,2001,1,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+67,4,4_ProduccionCafe,2002,7,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+68,4,4_ProduccionCafe,2003,5,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+69,4,4_ProduccionCafe,2004,6,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+70,4,4_ProduccionCafe,2005,9,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+71,4,4_ProduccionCafe,2006,7,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+72,4,4_ProduccionCafe,2007,12,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+73,4,4_ProduccionCafe,2008,19,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+74,4,4_ProduccionCafe,2009,14,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+75,4,4_ProduccionCafe,2010,23,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+76,4,4_ProduccionCafe,2011,16,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+77,4,4_ProduccionCafe,2012,11,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+78,4,4_ProduccionCafe,2013,14,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+79,4,4_ProduccionCafe,2014,26,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+80,4,4_ProduccionCafe,2015,12,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+81,4,4_ProduccionCafe,2016,10,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+82,4,4_ProduccionCafe,2017,10,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+83,4,4_ProduccionCafe,2018,18,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+84,4,4_ProduccionCafe,2019,24,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+85,4,4_ProduccionCafe,2020,27,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+86,4,4_ProduccionCafe,2021,24,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+87,4,4_ProduccionCafe,2022,27,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+88,4,4_ProduccionCafe,2023,36,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+89,5,5_IA-ID,2003,1,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+90,5,5_IA-ID,2004,0,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+91,5,5_IA-ID,2005,0,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+92,5,5_IA-ID,2006,2,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+93,5,5_IA-ID,2007,0,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+94,5,5_IA-ID,2008,1,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+95,5,5_IA-ID,2009,3,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+96,5,5_IA-ID,2010,0,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+97,5,5_IA-ID,2011,0,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+98,5,5_IA-ID,2012,1,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+99,5,5_IA-ID,2013,2,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+100,5,5_IA-ID,2014,2,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+101,5,5_IA-ID,2015,5,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+102,5,5_IA-ID,2016,4,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+103,5,5_IA-ID,2017,16,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+104,5,5_IA-ID,2018,31,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+105,5,5_IA-ID,2019,50,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+106,5,5_IA-ID,2020,50,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+107,5,5_IA-ID,2021,85,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+108,5,5_IA-ID,2022,127,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+109,5,5_IA-ID,2023,141,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+110,5,5_IA-ID,2024,142,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+111,6,6_PotMicrobiano,2003,4,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+112,6,6_PotMicrobiano,2004,7,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+113,6,6_PotMicrobiano,2005,13,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+114,6,6_PotMicrobiano,2006,10,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+115,6,6_PotMicrobiano,2007,7,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+116,6,6_PotMicrobiano,2008,9,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+117,6,6_PotMicrobiano,2009,10,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+118,6,6_PotMicrobiano,2010,11,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+119,6,6_PotMicrobiano,2011,20,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+120,6,6_PotMicrobiano,2012,27,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+121,6,6_PotMicrobiano,2013,21,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+122,6,6_PotMicrobiano,2014,21,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+123,6,6_PotMicrobiano,2015,24,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+124,6,6_PotMicrobiano,2016,41,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+125,6,6_PotMicrobiano,2017,33,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+126,6,6_PotMicrobiano,2018,42,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+127,6,6_PotMicrobiano,2019,54,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+128,6,6_PotMicrobiano,2020,76,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+129,6,6_PotMicrobiano,2021,73,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+130,6,6_PotMicrobiano,2022,95,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+131,6,6_PotMicrobiano,2023,114,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+132,6,6_PotMicrobiano,2024,84,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+133,7,7_PerspCiencio,2000,1,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+134,7,7_PerspCiencio,2001,0,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+135,7,7_PerspCiencio,2002,2,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+136,7,7_PerspCiencio,2003,0,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+137,7,7_PerspCiencio,2004,2,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+138,7,7_PerspCiencio,2005,2,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+139,7,7_PerspCiencio,2006,3,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+140,7,7_PerspCiencio,2007,5,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+141,7,7_PerspCiencio,2008,6,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+142,7,7_PerspCiencio,2009,9,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+143,7,7_PerspCiencio,2010,10,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+144,7,7_PerspCiencio,2011,14,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+145,7,7_PerspCiencio,2012,8,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+146,7,7_PerspCiencio,2013,4,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+147,7,7_PerspCiencio,2014,9,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+148,7,7_PerspCiencio,2015,9,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+149,7,7_PerspCiencio,2016,15,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+150,7,7_PerspCiencio,2017,15,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+151,7,7_PerspCiencio,2018,19,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+152,7,7_PerspCiencio,2019,38,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+153,7,7_PerspCiencio,2020,32,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+154,7,7_PerspCiencio,2021,36,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+155,7,7_PerspCiencio,2022,34,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+156,8,8_TenTurismoSos,2000,3,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+157,8,8_TenTurismoSos,2001,3,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+158,8,8_TenTurismoSos,2002,6,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+159,8,8_TenTurismoSos,2003,6,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+160,8,8_TenTurismoSos,2004,3,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+161,8,8_TenTurismoSos,2005,3,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+162,8,8_TenTurismoSos,2006,7,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+163,8,8_TenTurismoSos,2007,6,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+164,8,8_TenTurismoSos,2008,4,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+165,8,8_TenTurismoSos,2009,12,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+166,8,8_TenTurismoSos,2010,14,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+167,8,8_TenTurismoSos,2011,33,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+168,8,8_TenTurismoSos,2012,21,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+169,8,8_TenTurismoSos,2013,23,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+170,8,8_TenTurismoSos,2014,29,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+171,8,8_TenTurismoSos,2015,38,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+172,8,8_TenTurismoSos,2016,43,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+173,8,8_TenTurismoSos,2017,54,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+174,8,8_TenTurismoSos,2018,87,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+175,8,8_TenTurismoSos,2019,137,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+176,8,8_TenTurismoSos,2020,146,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+177,8,8_TenTurismoSos,2021,175,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+178,8,8_TenTurismoSos,2022,151,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+179,9,9_AnaCiencLiderazgo,2000,3,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+180,9,9_AnaCiencLiderazgo,2001,4,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+181,9,9_AnaCiencLiderazgo,2002,4,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+182,9,9_AnaCiencLiderazgo,2003,5,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+183,9,9_AnaCiencLiderazgo,2004,6,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+184,9,9_AnaCiencLiderazgo,2005,6,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+185,9,9_AnaCiencLiderazgo,2006,9,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+186,9,9_AnaCiencLiderazgo,2007,10,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+187,9,9_AnaCiencLiderazgo,2008,12,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+188,9,9_AnaCiencLiderazgo,2009,15,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+189,9,9_AnaCiencLiderazgo,2010,12,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+190,9,9_AnaCiencLiderazgo,2011,12,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+191,9,9_AnaCiencLiderazgo,2012,23,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+192,9,9_AnaCiencLiderazgo,2013,12,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+193,9,9_AnaCiencLiderazgo,2014,24,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+194,9,9_AnaCiencLiderazgo,2015,17,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+195,9,9_AnaCiencLiderazgo,2016,21,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+196,9,9_AnaCiencLiderazgo,2017,29,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+197,9,9_AnaCiencLiderazgo,2018,22,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+198,9,9_AnaCiencLiderazgo,2019,43,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+199,9,9_AnaCiencLiderazgo,2020,38,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+200,9,9_AnaCiencLiderazgo,2021,62,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+201,9,9_AnaCiencLiderazgo,2022,94,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+202,10,10_HumanGut,2000,3,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+203,10,10_HumanGut,2001,2,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+204,10,10_HumanGut,2002,6,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+205,10,10_HumanGut,2003,6,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+206,10,10_HumanGut,2004,5,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+207,10,10_HumanGut,2005,4,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+208,10,10_HumanGut,2006,8,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+209,10,10_HumanGut,2007,5,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+210,10,10_HumanGut,2008,9,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+211,10,10_HumanGut,2009,12,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+212,10,10_HumanGut,2010,27,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+213,10,10_HumanGut,2011,14,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+214,10,10_HumanGut,2012,24,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+215,10,10_HumanGut,2013,44,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+216,10,10_HumanGut,2014,31,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+217,10,10_HumanGut,2015,55,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+218,10,10_HumanGut,2016,74,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+219,10,10_HumanGut,2017,73,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+220,10,10_HumanGut,2018,139,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+221,10,10_HumanGut,2019,147,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+222,10,10_HumanGut,2020,231,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+223,10,10_HumanGut,2021,287,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+224,10,10_HumanGut,2022,482,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c
+225,10,10_HumanGut,2023,477,GitHub revision/istl; blob 89381c887437869b465ed992cdd551afea07920c

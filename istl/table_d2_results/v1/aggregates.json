@@ -1,0 +1,78 @@
+[
+  {
+    "method": "derivative_k_provisional",
+    "method_label": "Derivative-K",
+    "cases": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "n_cases": 8,
+    "min_period_length": 2,
+    "n_boundaries": 15,
+    "macro_mae_years": 3.6875,
+    "exact_matches": 3
+  },
+  {
+    "method": "piecewise_linear_k",
+    "method_label": "Linear-K",
+    "cases": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "n_cases": 8,
+    "min_period_length": 2,
+    "n_boundaries": 15,
+    "macro_mae_years": 3.1875,
+    "exact_matches": 3
+  },
+  {
+    "method": "dynamic_l2_k",
+    "method_label": "Dynp L2-K",
+    "cases": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "n_cases": 8,
+    "min_period_length": 2,
+    "n_boundaries": 15,
+    "macro_mae_years": 4.3125,
+    "exact_matches": 1
+  },
+  {
+    "method": "equal_k",
+    "method_label": "Equal-K",
+    "cases": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "n_cases": 8,
+    "min_period_length": 2,
+    "n_boundaries": 15,
+    "macro_mae_years": 1.75,
+    "exact_matches": 2
+  }
+]

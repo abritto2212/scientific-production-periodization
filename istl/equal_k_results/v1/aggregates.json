@@ -1,0 +1,59 @@
+{
+  "base_commit": "b8bdb75f85a1155c2aedfa9788ea71ab831904d0",
+  "method": "equal_k",
+  "macro_mae_definition": "arithmetic mean of case-level MAEs",
+  "boundary_convention": "first year of the next period",
+  "input_files": [
+    "istl/v3/data/analysis_series.csv",
+    "istl/v3/results/references_and_evidence.json"
+  ],
+  "sets": [
+    {
+      "set": "primary_common_set",
+      "cases": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "min_period_length": 2,
+      "n_cases": 8,
+      "n_boundaries": 15,
+      "macro_mae_years": 1.75,
+      "exact_matches": 2
+    },
+    {
+      "set": "four_case_common_subset",
+      "cases": [
+        4,
+        7,
+        8,
+        9
+      ],
+      "min_period_length": 2,
+      "n_cases": 4,
+      "n_boundaries": 7,
+      "macro_mae_years": 1.875,
+      "exact_matches": 1
+    },
+    {
+      "set": "excluding_overlapping_authorship",
+      "cases": [
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "min_period_length": 2,
+      "n_cases": 5,
+      "n_boundaries": 9,
+      "macro_mae_years": 1.7,
+      "exact_matches": 1
+    }
+  ]
+}

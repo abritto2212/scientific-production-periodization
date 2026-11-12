@@ -1,0 +1,237 @@
+{
+  "document_id": "1_nLm1OJWoDa7ZdUyaapyqc8u1h8QA3gIYhCWivcoy04",
+  "revision_id": "AHj4eMSgoc44fEJn_o-usv_DFtsVUw82e1an3k6JIqe0fsKk0k8TNidTG9i7fX1UAFuL8ElFoPGvfsJhQtO1XOyL4hjPtTh7D1MqkGX-IWIK",
+  "snapshot_sha256": "adddb9b6088e1a5f55d0db5a1dea96a8d3cec8d087586e455aaffaec036df7f1",
+  "snapshot_date": "2026-11-12",
+  "cells_checked": 32,
+  "mismatches": 0,
+  "comparisons": [
+    {
+      "case": 2,
+      "method": "Derivative-K",
+      "manuscript": 0.5,
+      "calculated": 0.5,
+      "matches": true
+    },
+    {
+      "case": 2,
+      "method": "Linear-K",
+      "manuscript": 0.5,
+      "calculated": 0.5,
+      "matches": true
+    },
+    {
+      "case": 2,
+      "method": "Dynp L2-K",
+      "manuscript": 1.0,
+      "calculated": 1.0,
+      "matches": true
+    },
+    {
+      "case": 2,
+      "method": "Equal-K",
+      "manuscript": 4.0,
+      "calculated": 4.0,
+      "matches": true
+    },
+    {
+      "case": 3,
+      "method": "Derivative-K",
+      "manuscript": 6.0,
+      "calculated": 6.0,
+      "matches": true
+    },
+    {
+      "case": 3,
+      "method": "Linear-K",
+      "manuscript": 2.0,
+      "calculated": 2.0,
+      "matches": true
+    },
+    {
+      "case": 3,
+      "method": "Dynp L2-K",
+      "manuscript": 6.5,
+      "calculated": 6.5,
+      "matches": true
+    },
+    {
+      "case": 3,
+      "method": "Equal-K",
+      "manuscript": 1.0,
+      "calculated": 1.0,
+      "matches": true
+    },
+    {
+      "case": 4,
+      "method": "Derivative-K",
+      "manuscript": 1.0,
+      "calculated": 1.0,
+      "matches": true
+    },
+    {
+      "case": 4,
+      "method": "Linear-K",
+      "manuscript": 1.5,
+      "calculated": 1.5,
+      "matches": true
+    },
+    {
+      "case": 4,
+      "method": "Dynp L2-K",
+      "manuscript": 3.0,
+      "calculated": 3.0,
+      "matches": true
+    },
+    {
+      "case": 4,
+      "method": "Equal-K",
+      "manuscript": 2.0,
+      "calculated": 2.0,
+      "matches": true
+    },
+    {
+      "case": 5,
+      "method": "Derivative-K",
+      "manuscript": 5.0,
+      "calculated": 5.0,
+      "matches": true
+    },
+    {
+      "case": 5,
+      "method": "Linear-K",
+      "manuscript": 4.5,
+      "calculated": 4.5,
+      "matches": true
+    },
+    {
+      "case": 5,
+      "method": "Dynp L2-K",
+      "manuscript": 5.0,
+      "calculated": 5.0,
+      "matches": true
+    },
+    {
+      "case": 5,
+      "method": "Equal-K",
+      "manuscript": 0.5,
+      "calculated": 0.5,
+      "matches": true
+    },
+    {
+      "case": 6,
+      "method": "Derivative-K",
+      "manuscript": 5.0,
+      "calculated": 5.0,
+      "matches": true
+    },
+    {
+      "case": 6,
+      "method": "Linear-K",
+      "manuscript": 2.5,
+      "calculated": 2.5,
+      "matches": true
+    },
+    {
+      "case": 6,
+      "method": "Dynp L2-K",
+      "manuscript": 3.5,
+      "calculated": 3.5,
+      "matches": true
+    },
+    {
+      "case": 6,
+      "method": "Equal-K",
+      "manuscript": 1.0,
+      "calculated": 1.0,
+      "matches": true
+    },
+    {
+      "case": 7,
+      "method": "Derivative-K",
+      "manuscript": 1.0,
+      "calculated": 1.0,
+      "matches": true
+    },
+    {
+      "case": 7,
+      "method": "Linear-K",
+      "manuscript": 0.5,
+      "calculated": 0.5,
+      "matches": true
+    },
+    {
+      "case": 7,
+      "method": "Dynp L2-K",
+      "manuscript": 2.5,
+      "calculated": 2.5,
+      "matches": true
+    },
+    {
+      "case": 7,
+      "method": "Equal-K",
+      "manuscript": 4.5,
+      "calculated": 4.5,
+      "matches": true
+    },
+    {
+      "case": 8,
+      "method": "Derivative-K",
+      "manuscript": 5.0,
+      "calculated": 5.0,
+      "matches": true
+    },
+    {
+      "case": 8,
+      "method": "Linear-K",
+      "manuscript": 6.0,
+      "calculated": 6.0,
+      "matches": true
+    },
+    {
+      "case": 8,
+      "method": "Dynp L2-K",
+      "manuscript": 4.0,
+      "calculated": 4.0,
+      "matches": true
+    },
+    {
+      "case": 8,
+      "method": "Equal-K",
+      "manuscript": 1.0,
+      "calculated": 1.0,
+      "matches": true
+    },
+    {
+      "case": 9,
+      "method": "Derivative-K",
+      "manuscript": 6.0,
+      "calculated": 6.0,
+      "matches": true
+    },
+    {
+      "case": 9,
+      "method": "Linear-K",
+      "manuscript": 8.0,
+      "calculated": 8.0,
+      "matches": true
+    },
+    {
+      "case": 9,
+      "method": "Dynp L2-K",
+      "manuscript": 9.0,
+      "calculated": 9.0,
+      "matches": true
+    },
+    {
+      "case": 9,
+      "method": "Equal-K",
+      "manuscript": 0.0,
+      "calculated": 0.0,
+      "matches": true
+    }
+  ],
+  "table_3_boundary_comparisons": 24,
+  "table_d1_equal_k_comparisons": 8,
+  "scope": "Metrics regenerated from archived boundaries; original algorithms not rerun."
+}

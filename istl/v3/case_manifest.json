@@ -1,0 +1,62 @@
+[
+  {
+    "case": 1,
+    "sheet": "1_Emprendi-innovador",
+    "source": "https://doi.org/10.21676/23897848.5658",
+    "drive_section_sha256": "bd9dec61a19e4f1ac5cd73c89d3ae707af7f5244561cf6a13acaa07c67e568b6"
+  },
+  {
+    "case": 2,
+    "sheet": "2_TopicModeling",
+    "source": "https://doi.org/10.1109/ACCESS.2022.3232939",
+    "drive_section_sha256": "ba2fbb695c5ab25c2154aafc7c4de70c01714948889fc292d69b6355b552234e"
+  },
+  {
+    "case": 3,
+    "sheet": "3_VirtualTeaching",
+    "source": "https://doi.org/10.5530/jscires.13.2.32",
+    "drive_section_sha256": "c6a3769aadd08c179dc810a5aacd19af2525f057f6b07b955bc3613e911e2c66"
+  },
+  {
+    "case": 4,
+    "sheet": "4_ProduccionCafe",
+    "source": "https://doi.org/10.21676/23897848.5650",
+    "drive_section_sha256": "8ec8a2dbeceefc439f616361a81966bc6d0a0a44f6d27815b741af44cb5c5879"
+  },
+  {
+    "case": 5,
+    "sheet": "5_IA-ID",
+    "source": "https://revistas.unilibre.edu.co/index.php/interfaces/article/view/12714",
+    "drive_section_sha256": "f9a33d806790389b98d8e9a2dc9a21ae0f4c046b0a36221afb0ab6b347eba88a"
+  },
+  {
+    "case": 6,
+    "sheet": "6_PotMicrobiano",
+    "source": "https://revistas.unilibre.edu.co/index.php/interfaces/article/view/12712",
+    "drive_section_sha256": "a98532eadeebfd0044dd7149662f76f105b002eec57adb390763be7047b46fe6"
+  },
+  {
+    "case": 7,
+    "sheet": "7_PerspCiencio",
+    "source": "https://doi.org/10.21676/23897848.5816",
+    "drive_section_sha256": "ab6848e8547e38a33f44eb30c90f6df46784d61a160c0509046a0aea8daeeeb9"
+  },
+  {
+    "case": 8,
+    "sheet": "8_TenTurismoSos",
+    "source": "https://doi.org/10.21676/23897848.5664",
+    "drive_section_sha256": "2b8160f99aa3e5d40a1111529d0781c228c046d57657da839416e5a375bdf3a6"
+  },
+  {
+    "case": 9,
+    "sheet": "9_AnaCiencLiderazgo",
+    "source": "https://doi.org/10.21676/23897848.5669",
+    "drive_section_sha256": "c4249c7aa5fa4ed875cd6ad5b509ba5b179ff6abd74dbd1c66677d2d6ff2c1e7"
+  },
+  {
+    "case": 10,
+    "sheet": "10_HumanGut",
+    "source": "https://doi.org/10.3390/ijms26094112",
+    "drive_section_sha256": "0f6113f10bf567194a82ea81431169eded323fec77fadf9a80ac45836a119081"
+  }
+]

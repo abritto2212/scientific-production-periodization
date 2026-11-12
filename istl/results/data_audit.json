@@ -1,0 +1,209 @@
+[
+  {
+    "case": 1,
+    "sheet": "1_Emprendi-innovador",
+    "start": 2000,
+    "end": 2023,
+    "n": 24,
+    "total": 1787,
+    "peak_years": [
+      2021
+    ],
+    "max_count": 206,
+    "mean": 74.45833333333333,
+    "zeros": 0,
+    "trailing_blank_rows_ignored": [],
+    "ordered": true,
+    "duplicates": 0,
+    "missing_years": 0,
+    "missing_counts": 0,
+    "imputed_values": 0
+  },
+  {
+    "case": 2,
+    "sheet": "2_TopicModeling",
+    "start": 2004,
+    "end": 2021,
+    "n": 18,
+    "total": 1694,
+    "peak_years": [
+      2020
+    ],
+    "max_count": 273,
+    "mean": 94.11111111111111,
+    "zeros": 1,
+    "trailing_blank_rows_ignored": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "ordered": true,
+    "duplicates": 0,
+    "missing_years": 0,
+    "missing_counts": 0,
+    "imputed_values": 0
+  },
+  {
+    "case": 3,
+    "sheet": "3_VirtualTeaching",
+    "start": 2000,
+    "end": 2022,
+    "n": 23,
+    "total": 368,
+    "peak_years": [
+      2022
+    ],
+    "max_count": 83,
+    "mean": 16.0,
+    "zeros": 3,
+    "trailing_blank_rows_ignored": [],
+    "ordered": true,
+    "duplicates": 0,
+    "missing_years": 0,
+    "missing_counts": 0,
+    "imputed_values": 0
+  },
+  {
+    "case": 4,
+    "sheet": "4_ProduccionCafe",
+    "start": 2000,
+    "end": 2023,
+    "n": 24,
+    "total": 358,
+    "peak_years": [
+      2023
+    ],
+    "max_count": 36,
+    "mean": 14.916666666666666,
+    "zeros": 1,
+    "trailing_blank_rows_ignored": [],
+    "ordered": true,
+    "duplicates": 0,
+    "missing_years": 0,
+    "missing_counts": 0,
+    "imputed_values": 0
+  },
+  {
+    "case": 5,
+    "sheet": "5_IA-ID",
+    "start": 2003,
+    "end": 2024,
+    "n": 22,
+    "total": 663,
+    "peak_years": [
+      2024
+    ],
+    "max_count": 142,
+    "mean": 30.136363636363637,
+    "zeros": 5,
+    "trailing_blank_rows_ignored": [],
+    "ordered": true,
+    "duplicates": 0,
+    "missing_years": 0,
+    "missing_counts": 0,
+    "imputed_values": 0
+  },
+  {
+    "case": 6,
+    "sheet": "6_PotMicrobiano",
+    "start": 2003,
+    "end": 2024,
+    "n": 22,
+    "total": 796,
+    "peak_years": [
+      2023
+    ],
+    "max_count": 114,
+    "mean": 36.18181818181818,
+    "zeros": 0,
+    "trailing_blank_rows_ignored": [],
+    "ordered": true,
+    "duplicates": 0,
+    "missing_years": 0,
+    "missing_counts": 0,
+    "imputed_values": 0
+  },
+  {
+    "case": 7,
+    "sheet": "7_PerspCiencio",
+    "start": 2000,
+    "end": 2022,
+    "n": 23,
+    "total": 273,
+    "peak_years": [
+      2019
+    ],
+    "max_count": 38,
+    "mean": 11.869565217391305,
+    "zeros": 2,
+    "trailing_blank_rows_ignored": [],
+    "ordered": true,
+    "duplicates": 0,
+    "missing_years": 0,
+    "missing_counts": 0,
+    "imputed_values": 0
+  },
+  {
+    "case": 8,
+    "sheet": "8_TenTurismoSos",
+    "start": 2000,
+    "end": 2022,
+    "n": 23,
+    "total": 1004,
+    "peak_years": [
+      2021
+    ],
+    "max_count": 175,
+    "mean": 43.65217391304348,
+    "zeros": 0,
+    "trailing_blank_rows_ignored": [],
+    "ordered": true,
+    "duplicates": 0,
+    "missing_years": 0,
+    "missing_counts": 0,
+    "imputed_values": 0
+  },
+  {
+    "case": 9,
+    "sheet": "9_AnaCiencLiderazgo",
+    "start": 2000,
+    "end": 2022,
+    "n": 23,
+    "total": 483,
+    "peak_years": [
+      2022
+    ],
+    "max_count": 94,
+    "mean": 21.0,
+    "zeros": 0,
+    "trailing_blank_rows_ignored": [],
+    "ordered": true,
+    "duplicates": 0,
+    "missing_years": 0,
+    "missing_counts": 0,
+    "imputed_values": 0
+  },
+  {
+    "case": 10,
+    "sheet": "10_HumanGut",
+    "start": 2000,
+    "end": 2023,
+    "n": 24,
+    "total": 2165,
+    "peak_years": [
+      2022
+    ],
+    "max_count": 482,
+    "mean": 90.20833333333333,
+    "zeros": 0,
+    "trailing_blank_rows_ignored": [],
+    "ordered": true,
+    "duplicates": 0,
+    "missing_years": 0,
+    "missing_counts": 0,
+    "imputed_values": 0
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "version": "entrega03",
+  "base_commit": "60ea426564f37622a8f7fc090ad3f9d8b63070ac",
+  "input_sha256": "9fa37b95ea9384cf215349e0fa53fe1248a40e927dc0d77686d785a73ba04763",
+  "code_sha256": {
+    "istl/v3/run.py": "8578bd6c645993c85b3b582b111210f0c04989f3fc3770c43211cbaa65ee28bb",
+    "istl/v3/prepare_data.py": "4c04bf851a73a9353f5a66e5eb8112b4f05c514857c424472fe9105d3410e354",
+    "istl/v2/conditioned.py": "7c918a8bfa634a900458ca032b8d5994c7bdc548bbc831281045213133078c12",
+    "istl/periodization.py": "e17e36a652e4c3028ba581a150f24b958cc0766cb0b5fed3d84be1a3dd480bda"
+  },
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8",
+  "boundary_convention": "first year of next period",
+  "minimums": [
+    2,
+    3
+  ],
+  "publication_attempted": false
+}

@@ -1,0 +1,23 @@
+{
+  "consultation_date": "2026-11-05",
+  "sources": [
+    {
+      "title": "02_Cortes_publicados_v0.1.csv",
+      "url": "https://drive.google.com/file/d/1v-2_P4j9NNafCr-58GK-S-1EniCrTKVR/view",
+      "modified_time": "2026-11-05T14:40:57.459Z",
+      "source": "chat 02 v0.1; text fetched, line endings normalized; not revalidation of original articles"
+    },
+    {
+      "title": "02_Matriz_diez_casos_v0.1",
+      "url": "https://docs.google.com/spreadsheets/d/1ZnkvtJpva-whNYGbtDGxZXvmpQvhXPE6M2cO5MpYjI0/edit",
+      "modified_time": "2026-11-05T14:36:47.849Z",
+      "source": "chat 02 v0.1; text fetched, line endings normalized; not revalidation of original articles"
+    },
+    {
+      "title": "02_Informe_literatura_y_evidencia_v0.1.html",
+      "url": "https://drive.google.com/file/d/1Qy5De2kSIVYZ6wTrvNXymrrF_IsgFgVe/view",
+      "modified_time": "2026-11-05T14:40:15.545Z",
+      "source": "chat 02 v0.1; text fetched, line endings normalized; not revalidation of original articles"
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+[
+  {
+    "case": 1,
+    "sheet": "1_Emprendi-innovador",
+    "reference_state": "B — cortes explícitos; serie pendiente",
+    "evidence_class": "B",
+    "phases": 4,
+    "cut_years": [
+      2007,
+      2013,
+      2019
+    ],
+    "published_intervals": [
+      {
+        "start": 2000,
+        "end": 2006,
+        "length": 7
+      },
+      {
+        "start": 2007,
+        "end": 2012,
+        "length": 6
+      },
+      {
+        "start": 2013,
+        "end": 2018,
+        "length": 6
+      },
+      {
+        "start": 2019,
+        "end": 2023,
+        "length": 5
+      }
+    ],
+    "full_input_coverage": true,
+    "provisional_concordance_eligible": true,
+    "exclusion_reasons": [],
+    "annual_series_verified": false,
+    "source": "https://doi.org/10.21676/23897848.5658",
+    "reference": "Cano-Vargas, A. A., & Osorio-Toro, C. A. (2024). Exploring the evolution and trends of innovative entrepreneurship: A bibliometric analysis. Clío América, 18(35), 34–51.",
+    "evidence_location": "Resultados > Bibliometric Analysis > Scientific production; Figura 1 y cuatro subtítulos.",
+    "evidence": "Tema y ventana coinciden. Texto: 2006=22, 2007=15, 2012=62; Excel coincide. Artículo dice 2000=3; Excel=2. No se cotejó toda la gráfica.",
+    "pending": "Britto: confirmar extracción; resolver diferencia de 8 documentos y primer año.",
+    "matrix_total": 1787,
+    "published_total": 1795,
+    "input_start": 2000,
+    "input_end": 2023,
+    "omitted_input_years": []
+  },
+  {
+    "case": 2,
+    "sheet": "2_TopicModeling",
+    "reference_state": "B — cortes explícitos; serie pendiente",
+    "evidence_class": "B",
+    "phases": 3,
+    "cut_years": [
+      2014,
+      2020
+    ],
+    "published_intervals": [
+      {
+        "start": 2004,
+        "end": 2013,
+        "length": 10
+      },
+      {
+        "start": 2014,
+        "end": 2019,
+        "length": 6
+      },
+      {
+        "start": 2020,
+        "end": 2021,
+        "length": 2
+      }
+    ],
+    "full_input_coverage": true,
+    "provisional_concordance_eligible": true,
+    "exclusion_reasons": [],
+    "annual_series_verified": false,
+    "source": "https://doi.org/10.1109/ACCESS.2022.3232939",
+    "reference": "Grisales A., A. M., Robledo, S., & Zuluaga, M. (2023). Topic modeling: Perspectives from a literature review. IEEE Access, 11, 4066–4078.",
+    "evidence_location": "III.A.1 Scientific production, p. 4068; Figura 1, p. 4069.",
+    "evidence": "Tema y serie 2004–2021 coinciden; corpus 1697 frente a Excel 1694. Subtotales publicados 227/1195/732 no coinciden con Excel 198/953/543.",
+    "pending": "Aclarar conteo único frente a suma de bases. Etapa final de 2 años incompatible con mínimo de 3. Online 28-12-2022; volumen 11=2023.",
+    "matrix_total": 1694,
+    "published_total": 1697,
+    "input_start": 2004,
+    "input_end": 2021,
+    "omitted_input_years": []
+  },
+  {
+    "case": 3,
+    "sheet": "3_VirtualTeaching",
+    "reference_state": "B — cortes explícitos; serie pendiente",
+    "evidence_class": "B",
+    "phases": 3,
+    "cut_years": [
+      2009,
+      2017
+    ],
+    "published_intervals": [
+      {
+        "start": 2000,
+        "end": 2008,
+        "length": 9
+      },
+      {
+        "start": 2009,
+        "end": 2016,
+        "length": 8
+      },
+      {
+        "start": 2017,
+        "end": 2022,
+        "length": 6
+      }
+    ],
+    "full_input_coverage": true,
+    "provisional_concordance_eligible": true,
+    "exclusion_reasons": [],
+    "annual_series_verified": false,
+    "source": "https://doi.org/10.5530/jscires.13.2.32",
+    "reference": "Vargas-Hernández, A., Robledo, S., & Rojas Quiceno, G. (2024). Virtual teaching for online learning from the perspective of higher education: A bibliometric analysis. Journal of Scientometric Research, 13(2), 406–418.",
+    "evidence_location": "Resultados > Scientific production, p. 409; Figura 2.",
+    "evidence": "Tema y ventana coinciden; total publicado 376 frente a Excel 368. Etapas publicadas 18/85/261; Excel 24/85/259; los subtotales del texto suman 364.",
+    "pending": "Resolver total y subtotales antes de validar. No corregir fechas ni cantidades originales por suposición.",
+    "matrix_total": 368,
+    "published_total": 376,
+    "input_start": 2000,
+    "input_end": 2022,
+    "omitted_input_years": []
+  },
+  {
+    "case": 4,
+    "sheet": "4_ProduccionCafe",
+    "reference_state": "B — cortes explícitos; serie pendiente",
+    "evidence_class": "B",
+    "phases": 3,
+    "cut_years": [
+      2011,
+      2017
+    ],
+    "published_intervals": [
+      {
+        "start": 2000,
+        "end": 2010,
+        "length": 11
+      },
+      {
+        "start": 2011,
+        "end": 2016,
+        "length": 6
+      },
+      {
+        "start": 2017,
+        "end": 2023,
+        "length": 7
+      }
+    ],
+    "full_input_coverage": true,
+    "provisional_concordance_eligible": true,
+    "exclusion_reasons": [],
+    "annual_series_verified": false,
+    "source": "https://doi.org/10.21676/23897848.5650",
+    "reference": "Gómez-Ortiz, M. M., & Vivares-Vergara, J. A. (2024). Organic coffee production: Mapping trends through bibliometric analysis. Clío América, 18(35), 14–33.",
+    "evidence_location": "Discusión: tres subtítulos de períodos; Figura 1, p. 17 en PDF editorial. PDF Dialnet presenta paginación interna diferente.",
+    "evidence": "Tema café orgánico y 2000–2023 coinciden; artículo=360, Excel=358. Correspondencia anual completa pendiente; otro candidato tecnológico (Interfaces 13408) difiere: 291, 2004–2024.",
+    "pending": "Resolver diferencia de 2 y cotejar gráfica; conservar DOI como identidad frente a diferencias de maquetación.",
+    "matrix_total": 358,
+    "published_total": 360,
+    "input_start": 2000,
+    "input_end": 2023,
+    "omitted_input_years": []
+  },
+  {
+    "case": 5,
+    "sheet": "5_IA-ID",
+    "reference_state": "A — vinculación fuerte y cortes explícitos",
+    "evidence_class": "A",
+    "phases": 3,
+    "cut_years": [
+      2012,
+      2018
+    ],
+    "published_intervals": [
+      {
+        "start": 2003,
+        "end": 2011,
+        "length": 9
+      },
+      {
+        "start": 2012,
+        "end": 2017,
+        "length": 6
+      },
+      {
+        "start": 2018,
+        "end": 2024,
+        "length": 7
+      }
+    ],
+    "full_input_coverage": true,
+    "provisional_concordance_eligible": true,
+    "exclusion_reasons": [],
+    "annual_series_verified": false,
+    "source": "https://revistas.unilibre.edu.co/index.php/interfaces/article/view/12714",
+    "reference": "Britto-Berrocal, A. J., & Cordoba-Rizo, D. M. (2024). Scientometric analysis of the relationship between artificial intelligence and data engineering: Trends, collaboration, and evolution. Revista de Ingenierías Interfaces, 7(2), 1–17.",
+    "evidence_location": "Resultados > Scientific production, pp. 5–6; Figura 2 y subtítulos Initiation / Early Growth / Consolidation.",
+    "evidence": "Coinciden tema, ventana, total=663 y los tres subtotales: 7, 30 y 626. Es la vinculación más fuerte; falta cotejo punto a punto de Figura 2.",
+    "pending": "No se localizó DOI. Año APA sigue volumen/PDF 2024; portal publicado 07-04-2025. Documentar 2024 parcial: consulta 05-10-2024.",
+    "matrix_total": 663,
+    "published_total": 663,
+    "input_start": 2003,
+    "input_end": 2024,
+    "omitted_input_years": []
+  },
+  {
+    "case": 6,
+    "sheet": "6_PotMicrobiano",
+    "reference_state": "B — cortes explícitos; cobertura incompleta",
+    "evidence_class": "B",
+    "phases": 3,
+    "cut_years": [
+      2011,
+      2018
+    ],
+    "published_intervals": [
+      {
+        "start": 2003,
+        "end": 2010,
+        "length": 8
+      },
+      {
+        "start": 2011,
+        "end": 2017,
+        "length": 7
+      },
+      {
+        "start": 2018,
+        "end": 2023,
+        "length": 6
+      }
+    ],
+    "full_input_coverage": false,
+    "provisional_concordance_eligible": false,
+    "exclusion_reasons": [
+      "published coverage does not cover full input window; do not extend last phase"
+    ],
+    "annual_series_verified": false,
+    "source": "https://revistas.unilibre.edu.co/index.php/interfaces/article/view/12712",
+    "reference": "Romero-Villareal, K. M., & Moscote Murgas, M. C. (2024). Antimicrobial potential of secondary metabolites: A scientometric review. Revista de Ingenierías Interfaces, 7(2), 1–27.",
+    "evidence_location": "Resultados > Scientific production; Figura 2 y tres subtítulos, pp. 6–7.",
+    "evidence": "Tema abreviado corresponde a potencial ANTI-microbiano; ventana 2003–2024 coincide. Tabla I=797, Excel=796.",
+    "pending": "Britto: resolver 797/796 y destino de 2024; no extender automáticamente último período. Sin DOI localizado. Portal 2025; volumen/PDF 2024.",
+    "matrix_total": 796,
+    "published_total": 797,
+    "input_start": 2003,
+    "input_end": 2024,
+    "omitted_input_years": [
+      2024
+    ]
+  },
+  {
+    "case": 7,
+    "sheet": "7_PerspCiencio",
+    "reference_state": "C — candidato; identificación pendiente",
+    "evidence_class": "C",
+    "phases": null,
+    "cut_years": null,
+    "published_intervals": [],
+    "full_input_coverage": false,
+    "provisional_concordance_eligible": false,
+    "exclusion_reasons": [
+      "no verified complete published partition / K unknown"
+    ],
+    "annual_series_verified": false,
+    "source": "https://doi.org/10.21676/23897848.5816",
+    "reference": "Martínez-Pinzón, C. A., & Duque-Hurtado, P. L. (2024). Scientometric insights into dynamic capabilities: Measuring academic impact and trends. Clío América, 18(35), 106–125.",
+    "evidence_location": "Introducción: total 330; conclusión menciona tres fases. Fechas de las fases pendientes.",
+    "evidence": "Título español comienza «Perspectivas cientométricas…», compatible con hoja. Artículo reporta 330 registros y 2000–2023; Excel 273 y 2000–2022. No basta para identificación firme.",
+    "pending": "Solicitar a Britto PDF exacto de 7_PerspCiencio y procedencia de serie; confirmar si es este artículo. Acceso al cuerpo intermitente (502).",
+    "matrix_total": 273,
+    "published_total": 330,
+    "input_start": 2000,
+    "input_end": 2022,
+    "omitted_input_years": []
+  },
+  {
+    "case": 8,
+    "sheet": "8_TenTurismoSos",
+    "reference_state": "B — cortes explícitos; serie pendiente",
+    "evidence_class": "B",
+    "phases": 3,
+    "cut_years": [
+      2009,
+      2017
+    ],
+    "published_intervals": [
+      {
+        "start": 2000,
+        "end": 2008,
+        "length": 9
+      },
+      {
+        "start": 2009,
+        "end": 2016,
+        "length": 8
+      },
+      {
+        "start": 2017,
+        "end": 2022,
+        "length": 6
+      }
+    ],
+    "full_input_coverage": true,
+    "provisional_concordance_eligible": true,
+    "exclusion_reasons": [],
+    "annual_series_verified": false,
+    "source": "https://doi.org/10.21676/23897848.5664",
+    "reference": "Carrillo-Acosta, N., Alarcón-Rivera, Z., & Valderrama-López, C. F. (2024). Sustainable tourism trends in heritage sites, a bibliometric analysis. Clío América, 18(35), 140–157.",
+    "evidence_location": "Resultados > Scientometric Analysis > Scientific production, pp. 142–143; Figura 1.",
+    "evidence": "Tema y serie 2000–2022 coinciden. Tabla 1=1064 (búsqueda hasta 2023); Excel=1004. Autores excluyen 2023 incompleto de gráfica; diferencia de 60 no reconciliada.",
+    "pending": "No atribuir los 60 documentos a 2023 sin conteo; pedir serie original. Candidato alternativo regional (empresa/a.11131) no coincide en alcance y fecha.",
+    "matrix_total": 1004,
+    "published_total": 1064,
+    "input_start": 2000,
+    "input_end": 2022,
+    "omitted_input_years": []
+  },
+  {
+    "case": 9,
+    "sheet": "9_AnaCiencLiderazgo",
+    "reference_state": "A — vinculación fuerte y cortes explícitos",
+    "evidence_class": "A",
+    "phases": 2,
+    "cut_years": [
+      2012
+    ],
+    "published_intervals": [
+      {
+        "start": 2000,
+        "end": 2011,
+        "length": 12
+      },
+      {
+        "start": 2012,
+        "end": 2022,
+        "length": 11
+      }
+    ],
+    "full_input_coverage": true,
+    "provisional_concordance_eligible": true,
+    "exclusion_reasons": [],
+    "annual_series_verified": false,
+    "source": "https://doi.org/10.21676/23897848.5669",
+    "reference": "Molina-Morán, R. O., Castañeda-Betancur, S., Ardila-Niño, G., & Villao-Santos, F. (2024). Scientometric analysis in e-leadership and competencies for its development. Clío América, 18(35), 70–86.",
+    "evidence_location": "Resultados > Scientific Production, p. 73; Figura 1 y dos fases.",
+    "evidence": "Serie 2000–2022 y subtotales 98+385=483 coinciden exactamente con Excel. Tabla 1 del artículo reporta 511 hasta 2023, diferencia 28 por reconciliar.",
+    "pending": "Reconciliar 511/483 y año 2023. Conservar dos fases; no imponer tres por conveniencia algorítmica.",
+    "matrix_total": 483,
+    "published_total": 511,
+    "input_start": 2000,
+    "input_end": 2022,
+    "omitted_input_years": []
+  },
+  {
+    "case": 10,
+    "sheet": "10_HumanGut",
+    "reference_state": "C — candidato; sin partición completa",
+    "evidence_class": "C",
+    "phases": null,
+    "cut_years": null,
+    "published_intervals": [],
+    "full_input_coverage": false,
+    "provisional_concordance_eligible": false,
+    "exclusion_reasons": [
+      "no verified complete published partition / K unknown"
+    ],
+    "annual_series_verified": false,
+    "source": "https://doi.org/10.3390/ijms26094112",
+    "reference": "Valencia, S., Zuluaga, M., Florian Pérez, M. C., Montoya-Quintero, K. F., Candamil-Cortés, M. S., & Robledo, S. (2025). Human gut microbiome: A connecting organ between nutrition, metabolism, and health. International Journal of Molecular Sciences, 26(9), Article 4112.",
+    "evidence_location": "Sección 3.1 Scientometric Analysis, primer párrafo y Figura 2; metodología §2.",
+    "evidence": "Título compatible con hoja. Fuente publicada abarca 1972–05-12-2024 y 2411 registros; Excel 2000–2023, 2165. Puede ser versión o recorte diferente; no demostrado.",
+    "pending": "Britto: PDF/versión exacta y origen de 2165. No convertir 2013 aproximado en frontera exacta ni fabricar segunda frontera.",
+    "matrix_total": 2165,
+    "published_total": 2411,
+    "input_start": 2000,
+    "input_end": 2023,
+    "omitted_input_years": []
+  }
+]

@@ -1,0 +1,11 @@
+case,sheet,source,source_window,source_total,analysis_window,analysis_total,K,reference_cuts,associations_match,annual_csv_and_frozen_drive_match
+1,1_Emprendi-innovador,https://doi.org/10.21676/23897848.5658,"[2000, 2023]",1787,"[2000, 2023]",1787,4,"[2007, 2013, 2019]",True,True
+2,2_TopicModeling,https://doi.org/10.1109/ACCESS.2022.3232939,"[2004, 2021]",1693,"[2004, 2021]",1693,3,"[2014, 2020]",True,True
+3,3_VirtualTeaching,https://doi.org/10.5530/jscires.13.2.32,"[2000, 2022]",368,"[2000, 2022]",368,3,"[2009, 2017]",True,True
+4,4_ProduccionCafe,https://doi.org/10.21676/23897848.5650,"[2000, 2023]",358,"[2000, 2023]",358,3,"[2011, 2017]",True,True
+5,5_IA-ID,https://revistas.unilibre.edu.co/index.php/interfaces/article/view/12714,"[2003, 2024]",663,"[2003, 2024]",663,3,"[2012, 2018]",True,True
+6,6_PotMicrobiano,https://revistas.unilibre.edu.co/index.php/interfaces/article/view/12712,"[2003, 2024]",796,"[2003, 2023]",712,3,"[2011, 2018]",True,True
+7,7_PerspCiencio,https://doi.org/10.21676/23897848.5816,"[2000, 2022]",273,"[2000, 2022]",273,3,"[2013, 2020]",True,True
+8,8_TenTurismoSos,https://doi.org/10.21676/23897848.5664,"[2000, 2022]",1004,"[2000, 2022]",1004,3,"[2009, 2017]",True,True
+9,9_AnaCiencLiderazgo,https://doi.org/10.21676/23897848.5669,"[2000, 2022]",483,"[2000, 2022]",483,2,[2012],True,True
+10,10_HumanGut,https://doi.org/10.3390/ijms26094112,"[2000, 2023]",2165,"[2000, 2023]",2165,,,True,True
