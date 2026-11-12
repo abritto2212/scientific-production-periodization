@@ -11,10 +11,10 @@ sys.path.insert(0, str(Path(__file__).parent / 'vendor'))
 from ruptures import Dynp
 
 
-def validate_series(years, values):
+def validate_series(years, values, *, min_years=3):
     x, y = np.asarray(years, dtype=float), np.asarray(values, dtype=float)
-    if x.ndim != 1 or y.ndim != 1 or len(x) != len(y) or len(x) < 3:
-        raise ValueError('Expected equally sized one-dimensional series, at least 3 years')
+    if x.ndim != 1 or y.ndim != 1 or len(x) != len(y) or len(x) < min_years:
+        raise ValueError(f'Expected equally sized one-dimensional series, at least {min_years} years')
     if not np.isfinite(x).all() or not np.isfinite(y).all():
         raise ValueError('Missing or nonfinite year/count; no zero imputation allowed')
     if (x != np.floor(x)).any() or (y != np.floor(y)).any() or (y < 0).any():

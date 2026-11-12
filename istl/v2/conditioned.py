@@ -13,12 +13,16 @@ from periodization import (validate_series, derivative_candidates, linear_sse,
                            intervals, Dynp)
 
 
+class InsufficientObservations(ValueError):
+    """A valid period count and minimum exceed the available observations."""
+
+
 def validate_condition(n, phases, min_len):
     for name, value, lower in [('phases', phases, 1), ('min_len', min_len, 2)]:
         if isinstance(value, bool) or not isinstance(value, (int, np.integer)) or value < lower:
             raise ValueError(f'{name} must be an integer >= {lower}')
-    if n < phases * min_len:
-        raise ValueError('Insufficient observations for K phases at this minimum')
+    if n < int(phases) * int(min_len):
+        raise InsufficientObservations('Insufficient observations for K phases at this minimum')
 
 
 def admissible_subsets(candidates, n, n_cuts, min_len):
