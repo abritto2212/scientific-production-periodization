@@ -1,0 +1,38 @@
+{
+  "base_commit": "f6035039618b6eec500a99bde633aedc1676053d",
+  "branch": "revision/istl",
+  "cases": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "min_period_length": 2,
+  "manuscript": "https://docs.google.com/document/d/1_nLm1OJWoDa7ZdUyaapyqc8u1h8QA3gIYhCWivcoy04/edit",
+  "reproduction_command": "python -m istl.run_table_d2",
+  "scope": "Archived boundaries for Derivative-K, Linear-K and Dynp L2-K. Equal-K is computed.",
+  "boundary_convention": "First year of the next period, matched in chronological order.",
+  "macro_mae_definition": "Unweighted arithmetic mean of the eight case MAEs.",
+  "input_sha256": {
+    "istl/v3/data/analysis_series.csv": "30b87e1c838290ee37fa0ba4409d699a43e32c9e2d6b7f5f6c2aad5c1a390a73",
+    "istl/v3/results/references_and_evidence.json": "f00cafd52c796eef3dbb20a62c0c5bdca87f36beb4699961c089790ca9eb439c",
+    "istl/v3/results/results.json": "36dbacb46872567912a27b496eb573acf0d280afdc35a48295cd16136b390113"
+  },
+  "code_sha256": {
+    "istl/run_table_d2.py": "75dadbb485d58e90fc09ab7e6cb3191c9afdcb062702b10f638c52c450208942",
+    "istl/equal_k.py": "4b0fe166f318917348dda03543a991f87b57b24c6ba283e0abe7edb4211758f7",
+    "istl/periodization.py": "243919f5162a0220481c0a9c9e51231115642eb919bb4486319d4131be2da71b",
+    "istl/v2/conditioned.py": "8552842d9a1b0e64526694167e169b98b2789126a82fccc8ac19871a08147cdd"
+  },
+  "output_sha256": {
+    "case_results.csv": "b00d763bcbac4f7101868d2a87b97bf892d9a62458f25da5d801968e9adf4304",
+    "case_results.json": "d67b194b503fee27184d402315100d4a448fe0db7ff490806e3f1aebe4f6e961",
+    "aggregates.csv": "948c61950e547623243511e28f46f95632559b0e998fc11503626d2be4023141",
+    "aggregates.json": "4e4fad80e892c06acba9483953b69330e8fbe6e85d3d6ee59f4420215972e786",
+    "table_d2.csv": "442e07121e9d1cc9f83d75de77edf0ffb9f22d13ca4f50c5f1e42899170160bd"
+  }
+}
